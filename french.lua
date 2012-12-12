@@ -950,7 +950,6 @@ L["Units Per Column"] = "Unités par colonne"
 L["Up"] = "Haut"
 L["Use the custom health backdrop color instead of a multiple of the main health color."] = "Utilise une couleur personnalisé pour colorer le fond de la barre de vie au lieu d'utiliser la couleur par défaut."
 L["Value must be a number"] = "La valeur doit être un nombre"
-L['Vengeance'] = "Vengeance";
 L["Vertical"] = "Verticale"
 L["Visibility"] = "Visibilité"
 L["What each frame should attach itself to, example setting it to TOP every unit will attach its top to the last point bottom."] = "Le point d'ancrage pour attacher les cadres entre eux, exemple: si le paramètre est sur TOP, tous les cadres d'unité se développeront vers le bas."

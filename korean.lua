@@ -957,7 +957,6 @@ L["Units Per Column"] = "열당 유닛 수"
 L["Up"] = "위로"
 L["Use the custom health backdrop color instead of a multiple of the main health color."] = "다양한 생명력 바 색상 대신에 임의로 지정한 생명력 배경 색상을 사용합니다."
 L["Value must be a number"] = true;
-L['Vengeance'] = true;
 L["Vertical"] = "세로" --Also used in bags section
 L["Visibility"] = "표시"
 L["What each frame should attach itself to, example setting it to TOP every unit will attach its top to the last point bottom."] = "프레임끼리 서로 붙입니다. 모든 유닛을 'TOP\"으로 설정할 경우 가장 마지막 프레임의 아래에 붙입니다."

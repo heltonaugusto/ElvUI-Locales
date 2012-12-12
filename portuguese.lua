@@ -950,7 +950,6 @@ L["Units Per Column"] = "Unidades por coluna";
 L["Up"] = "Para cima";
 L["Use the custom health backdrop color instead of a multiple of the main health color."] = "Usar a cor de fundo da vida personalizada em vez de um multiplo da cor de vida principal.";
 L["Value must be a number"] = "O valor tem de ser um número";
-L['Vengeance'] = true;
 L["Vertical"] = "Vertical"; --Also used in bags section
 L["Visibility"] = "Visibilidade";
 L["What each frame should attach itself to, example setting it to TOP every unit will attach its top to the last point bottom."] = "Em que cada quadro deve anexar-se, exemplo: definir para 'cima' fará com que todas as unidades anexem o seu topo ao último ponto de baixo.";

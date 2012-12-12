@@ -949,7 +949,6 @@ L["Units Per Column"] = "Einheiten pro Spalte"
 L["Up"] = "Hinauf"
 L["Use the custom health backdrop color instead of a multiple of the main health color."] = "Wähle eine eigene Hintergrundfarbe, andernfalls wird die aktuelle Gesundheitsleistenfabe verwendet."
 L["Value must be a number"] = "Der Wert muss eine Zahl sein"
-L['Vengeance'] = 'Rache'
 L["Vertical"] = "Vertikal" --Also used in bags section
 L["Visibility"] = "Sichtbarkeit"
 L["What each frame should attach itself to, example setting it to TOP every unit will attach its top to the last point bottom."] = "Woran sich jedes Fenster anheften soll; zB, wenn es auf OBEN eingestellt ist, wird sich jede Einheit mit ihrem oberen Bereich am unteren Bereich der letzten Einheit anheften."

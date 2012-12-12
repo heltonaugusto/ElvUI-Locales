@@ -941,7 +941,6 @@ L["Units Per Column"] = true;
 L["Up"] = true;
 L["Use the custom health backdrop color instead of a multiple of the main health color."] = true;
 L["Value must be a number"] = true;
-L['Vengeance'] = true;
 L["Vertical"] = true; --Also used in bags section
 L["Visibility"] = true;
 L["What each frame should attach itself to, example setting it to TOP every unit will attach its top to the last point bottom."] = true;
