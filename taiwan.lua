@@ -3,7 +3,7 @@ local L = AceLocale:NewLocale("ElvUI", "zhTW")
 if not L then return end
 
 --TEMP
-L["A taint has occured that is preventing you from using your talents/glyphs. Please reload your user interface and try again."] = true;
+L["A taint has occured that is preventing you from using your talents/glyphs. Please reload your user interface and try again."] = "發生一個錯誤導致你無法使用你的天賦/彫文,請重新加載你的用戶界面,然後再試一次."
 
 --ActionBars
 L[" |cff00ff00bound to |r"] = " |cff00ff00綁定到 |r"
