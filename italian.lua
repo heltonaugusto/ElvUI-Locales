@@ -522,7 +522,7 @@ L["Your version of ElvUI is out of date. You can download the latest version fro
 --NamePlates
 L["Add Name"] = true;
 L["All"] = true;
-L['Aura'] = = true;
+L['Aura'] = true;
 L["Auras"] = true;
 L['Background Multiplier'] = true;
 L["Bad Color"] = true;
