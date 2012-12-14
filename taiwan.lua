@@ -697,7 +697,6 @@ L["ElvUI has a dual spec feature which allows you to load different profiles bas
 L["For technical support visit us at http://www.tukui.org."] = "如需技術支援請至http://www.tukui.org."
 L["If you accidently remove a chat frame you can always go the in-game configuration menu, press install, go to the chat portion and reset them."] = "如果你不慎移除了聊天框, 你可以重新安裝一次重置他們."
 L["If you are experiencing issues with ElvUI try disabling all your addons except ElvUI, remember ElvUI is a full UI replacement addon, you cannot run two addons that do the same thing."] = "如果你遇到問題, ElvUI會嘗試禁用你除了ElvUI之外的插件. 請記住你不能用不同的插件實現同一功能."
-L["If you need to reset the gold datatext type /resetgold."] = "你可以通過輸入/resetgold 重置你的金幣信息."
 L["The buff panel to the right of minimap is a list of your consolidated buffs. You can disable it in Buffs and Debuffs options of ElvUI."] = "小地圖右側的光環條是你的整合Buff條, 你可以在你的ElvUI光環設定中關閉此功能."
 L["The focus unit can be set by typing /focus when you are targetting the unit you want to focus. It is recommended you make a macro to do this."] = "你可以通過/focus 命令設定焦點目標."
 L["To move abilities on the actionbars by default hold shift + drag. You can change the modifier key from the actionbar options menu."] = "你可以通過按住Shift拖動技能條中的按鍵. 你可以在Blizzard的快捷列設定中更改按鍵."
