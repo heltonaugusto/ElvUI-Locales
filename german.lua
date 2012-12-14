@@ -403,6 +403,7 @@ L["Offhand"] = "Schildhand"
 L['Orb Possessions'] = 'Erhaltene Kugeln'
 L["Panels"] = "Leisten"
 L["Profit:"] = "Gewinn:"
+L["Reset Data: Hold Shift + Right Click"] = true;
 L["right"] = "Rechts"
 L["RightChatDataPanel"] = "Rechter Chat"
 L["RightMiniPanel"] = "Minimap Rechts"

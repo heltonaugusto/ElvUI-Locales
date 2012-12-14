@@ -406,6 +406,7 @@ L["Offhand"] = "Mano Izquierda"
 L['Orb Possessions'] = "Orbes en Posesión";
 L["Panels"] = "Paneles"
 L["Profit:"] = "Ganancia:"
+L["Reset Data: Hold Shift + Right Click"] = true;
 L["right"] = "Derecha"
 L["RightChatDataPanel"] = "Panel de Chat Derecho"
 L["RightMiniPanel"] = "Panel Derecho del Minimapa"

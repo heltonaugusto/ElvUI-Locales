@@ -405,6 +405,7 @@ L["Offhand"] = "보조장비"
 L['Orb Possessions'] = true;
 L["Panels"] = "패널"
 L["Profit:"] = "이익:"
+L["Reset Data: Hold Shift + Right Click"] = true;
 L["right"] = "오른쪽"
 L["RightChatDataPanel"] = "오른쪽 대화창 패널"
 L["RightMiniPanel"] = "미니맵 오른쪽 하단 패널"

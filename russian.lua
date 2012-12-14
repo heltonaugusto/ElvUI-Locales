@@ -404,6 +404,7 @@ L["Offhand"] = "Левая рука"
 L['Orb Possessions'] = "Захваты сферы"
 L["Panels"] = "Панели"
 L["Profit:"] = "Прибыль:"
+L["Reset Data: Hold Shift + Right Click"] = true;
 L["right"] = "Справа"
 L["RightChatDataPanel"] = "Правая панель чата"
 L["RightMiniPanel"] = "Миникарта, справа"

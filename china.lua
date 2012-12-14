@@ -404,6 +404,7 @@ L["Offhand"] = "副手"
 L['Orb Possessions'] = "资源"
 L["Panels"] = "对话框"
 L["Profit:"] = "利润:"
+L["Reset Data: Hold Shift + Right Click"] = true;
 L["right"] = "右"
 L["RightChatDataPanel"] = "对话视窗右方"
 L["RightMiniPanel"] = "小地图右方"

@@ -404,6 +404,7 @@ L["Offhand"] = "Mão Secundária";
 L['Orb Possessions'] = "Posse de Orbes";
 L["Panels"] = "Painéis";
 L["Profit:"] = "Lucro:";
+L["Reset Data: Hold Shift + Right Click"] = true;
 L["right"] = "direita";
 L["RightChatDataPanel"] = "Bate-papo direito";
 L["RightMiniPanel"] = "Minimapa - direita";

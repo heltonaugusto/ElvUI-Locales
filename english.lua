@@ -395,6 +395,7 @@ L["Offhand"] = true;
 L['Orb Possessions'] = true;
 L["Panels"] = true;
 L["Profit:"] = true;
+L["Reset Data: Hold Shift + Right Click"] = true;
 L["right"] = "Right"
 L["RightChatDataPanel"] = "Right Chat"
 L["RightMiniPanel"] = "Minimap Right"
