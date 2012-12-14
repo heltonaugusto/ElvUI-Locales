@@ -4,7 +4,7 @@ local L = AceLocale:NewLocale("ElvUI", "deDE")
 if not L then return end
 
 --TEMP
-L["A taint has occured that is preventing you from using your talents/glyphs. Please reload your user interface and try again."] = true;
+L["A taint has occured that is preventing you from using your talents/glyphs. Please reload your user interface and try again."] = "Ein Fehler ist aufgetreten der dich daran hindert die Talente/Glyphen zu ändern. Bitte lade dein Benutzer Interface neu und versuche es nocheinmal."
 
 --ActionBars
 L[" |cff00ff00bound to |r"] = " |cff00ff00gebunden zu |r"
@@ -304,7 +304,7 @@ L["Please press the continue button to go onto the next step."] = "Bitte drücke
 L["Resolution Style Set"] = "Auflösungsart gesetzt"
 L["Resolution"] = "Auflösung"
 L["Run the installation process."] = "Startet den Installationsprozess."
-L["Select the type of aura system you want to use with ElvUI's unitframes. The integrated system utilizes both aura-bars and aura-icons. The icons only system will display only icons and aurabars won't be used. The classic system will configure your auras to be default."] = true;
+L["Select the type of aura system you want to use with ElvUI's unitframes. The integrated system utilizes both aura-bars and aura-icons. The icons only system will display only icons and aurabars won't be used. The classic system will configure your auras to be default."] = "Wähle einen Typ von Auren System den du mit den ElvUI Einheitenfenstern benutzen willst. Das Integrierte System nutzt beides Auren Leisten und Auren Symbole. Das Symbol System nutzt nur Symbole und keinerlei Aurenleisten. Das Klassische System wird deine Auren zum Standart konfigurieren."
 L["Setup Chat"] = "Chateinstellungen"
 L["Setup CVars"] = "Installiere CVars"
 L["Skip Process"] = "Schritt überspringen"
@@ -403,7 +403,7 @@ L["Offhand"] = "Schildhand"
 L['Orb Possessions'] = 'Erhaltene Kugeln'
 L["Panels"] = "Leisten"
 L["Profit:"] = "Gewinn:"
-L["Reset Data: Hold Shift + Right Click"] = true;
+L["Reset Data: Hold Shift + Right Click"] = "Daten zurücksetzen: Halte Shift + Rechts Klick"
 L["right"] = "Rechts"
 L["RightChatDataPanel"] = "Rechter Chat"
 L["RightMiniPanel"] = "Minimap Rechts"
@@ -734,9 +734,9 @@ L['Below'] = 'Unten'
 L["Blacklist"] = "Schwarze-Liste"
 L["Block Auras Without Duration"] = "Blocke Auren ohne Laufzeit"
 L["Block Blacklisted Auras"] = "Blocke Schwarze-Listen Auren"
-L['Block Non-Dispellable Auras'] = true;
-L["Block Non-Personal Auras"] = true;
-L["Block Non-Whitelisted Auras"] = true;
+L['Block Non-Dispellable Auras'] = 'Blocke Nicht-Entzauberbare Auren'
+L["Block Non-Personal Auras"] = "Blocke Nicht-Persönliche Auren"
+L["Block Non-Whitelisted Auras"] = "Blocke Nicht-Weißelisten Auren"
 L["Block Raid Buffs"] = "Blocke Schlachtzugs Stärkungszauber"
 L['Blood'] = 'Blut'
 L["Boss Frames"] = "Boss Fenster"
