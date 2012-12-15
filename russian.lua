@@ -3,7 +3,7 @@ local L = AceLocale:NewLocale("ElvUI", "ruRU")
 if not L then return; end
 
 --TEMP
-L["A taint has occured that is preventing you from using your talents/glyphs. Please reload your user interface and try again."] = true;
+L["A taint has occured that is preventing you from using your talents/glyphs. Please reload your user interface and try again."] = "Произошла ошибка, которая не позволит поменять таланты/символы. Пожалуйста, перезагрузите интерфейс и попробуйте снова"
 
 --ActionBars
 L[" |cff00ff00bound to |r"] = " |cff00ff00назначено для |r"
@@ -404,7 +404,7 @@ L["Offhand"] = "Левая рука"
 L['Orb Possessions'] = "Захваты сферы"
 L["Panels"] = "Панели"
 L["Profit:"] = "Прибыль:"
-L["Reset Data: Hold Shift + Right Click"] = true;
+L["Reset Data: Hold Shift + Right Click"] = "Сбросить нанные: Shift + ПКМ"
 L["right"] = "Справа"
 L["RightChatDataPanel"] = "Правая панель чата"
 L["RightMiniPanel"] = "Миникарта, справа"
