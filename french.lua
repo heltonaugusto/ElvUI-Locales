@@ -3,7 +3,7 @@ local L = AceLocale:NewLocale("ElvUI", "frFR");
 if not L then return; end
 
 --TEMP
-L["A taint has occured that is preventing you from using your talents/glyphs. Please reload your user interface and try again."] = true;
+L["A taint has occured that is preventing you from using your talents/glyphs. Please reload your user interface and try again."] = "Une Action s'est produite qui vous empêche d'utiliser vos talents / glyphes.S'il vous plait,veuillez recharger votre interface utilisateur et essayez à nouveau."
 
 --ActionBars
 L[" |cff00ff00bound to |r"] = "|cff00ff00assigné à |r"
