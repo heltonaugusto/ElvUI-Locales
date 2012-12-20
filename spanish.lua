@@ -2,8 +2,6 @@ local AceLocale = LibStub:GetLibrary("AceLocale-3.0")
 local L = AceLocale:NewLocale("ElvUI", "esES") or AceLocale:NewLocale("ElvUI", "esMX")
 if not L then return end
 
-
-
 --TEMP
 L["A taint has occured that is preventing you from using your talents/glyphs. Please reload your user interface and try again."] = true;
 
