@@ -400,7 +400,7 @@ L["Offhand"] = "Main gauche"
 L['Orb Possessions'] = "Orbes obtenues"
 L["Panels"] = "Fenêtre"
 L["Profit:"] = "Profit:"
-L["Reset Data: Hold Shift + Right Click"] = true;
+L["Reset Data: Hold Shift + Right Click"] = "Réinitialiser les données: maintenez la touche Shift + Clic droit"
 L["right"] = "Droite"
 L["RightChatDataPanel"] = "Fenêtre de Chat à Droite"
 L["RightMiniPanel"] = "Minimap à Droite"
@@ -429,7 +429,7 @@ L["Wrist"] = "Poignets"
 
 --DebugTools
 L["%s: %s tried to call the protected function '%s'."] = "%s: %s a essayé d'appeler la fonction protégée '%s'."
-L["INCOMPATIBLE_ADDON"] = "The addon %s is not compatible with ElvUI's %s module. Please select either the addon or the ElvUI module to disable."
+L["INCOMPATIBLE_ADDON"] = "L'addon %s  n'est pas compatible avec le module %s d'ElvUI . S'il vous plaît sélectionner soit l'addon ou le module d'ElvUI pour le désactiver."
 L["No locals to dump"] = "Aucunes données à vider";
 L['|cFFE30000Lua error recieved. You can view the error message when you exit combat.'] = "|cFFE30000Erreur Lua reçue. Vous pouvez voir ce message d'erreur quand vous sortez de combat."
 
