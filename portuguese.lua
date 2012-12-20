@@ -13,7 +13,6 @@ L["All keybindings cleared for |cff00ff00%s|r."] = "Todos os atalhos livres para
 L['Alpha'] = "Transparência";
 L["Anchor Point"] = "Ponto de Fixação" --also in unitframes
 L["Backdrop"] = "Fundo"
-L["Bar "] = "Barra"
 L["Binding"] = "Ligações"
 L["Binds Discarded"] = "Ligações Descartadas"
 L["Binds Saved"] = "Ligações Salvas"
