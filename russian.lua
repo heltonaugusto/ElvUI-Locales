@@ -529,6 +529,32 @@ L["Your items have been repaired for: "] = "Ваши предметы отрем
 L["Your items have been repaired using guild bank funds for: "] = "Ваши предметы отремонтированы за счет гильдии на: "
 L["Your version of ElvUI is out of date. You can download the latest version from http://www.tukui.org"] = "Ваша версия ElvUI устарела. Вы можете скачать последнюю версию на http://www.tukui.org"
 
+--Movers
+--L["Left Chat"] = "Левый чат" --Already in misc
+--L["Right Chat"] = "Правый чат" --Already in misc
+--L["Bar "] = "Панель " --Already in actionbars
+L["Boss Button"] = "Кнопка босса"
+--L["Micro Bar"] = "Микроменю" --Already in actionbars
+--L["Pet Bar"] = "Панель питомца" --Already in actionbars
+--L["Stance Bar"] = "Панель стоек" --Already in actionbars
+L["Auras Frame"] = "Ауры"
+L["Weapons"] = "Оружие"
+L["Loot / Alert Frames"] = "Розыгрыш/оповещения"
+L["Alternative Power"] = "Альтернативный ресурс"
+L["Loss Control Icon"] = "Иконка потери контроля"
+L["GM Ticket Frame"] = "Запрос ГМу"
+L["Vehicle Seat Frame"] = "Техника"
+L["Watch Frame"] = "Задания"
+L["Loot Frame"] = "Окно добычи"
+L["Totems"] = "Тотемы"
+L["BNet Frame"] = "Оповещения BNet"
+L["MA Frames"] = "Помощники"
+L["MT Frames"] = "Танки"
+L["Raid 1-"] = "Рейд 1-"
+L["Player Castbar"] = "Полоса заклинаний игрока"
+L["Target Castbar"] = "Полоса заклинаний цели"
+L["Focus Castbar"] = "Полоса заклинаний фокуса"
+
 --NamePlates
 L["Add Name"] = "Добавить имя"
 L["All"] = "Все"
