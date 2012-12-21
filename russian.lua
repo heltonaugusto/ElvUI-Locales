@@ -530,6 +530,7 @@ L["Bar "] = "Панель " --Also in ActionBars
 L["BNet Frame"] = "Оповещения BNet"
 L["Boss Button"] = "Кнопка босса"
 L["Focus Castbar"] = "Полоса заклинаний фокуса"
+L[' Frames'] = " " --Empty cause in ru that will need to be before actual "raid 1-" stuff
 L["GM Ticket Frame"] = "Запрос ГМу"
 L["Left Chat"] = "Левый чат"
 L["Loot / Alert Frames"] = "Розыгрыш/оповещения"
