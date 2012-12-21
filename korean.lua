@@ -527,6 +527,7 @@ L["Your items have been repaired using guild bank funds for: "] = "길드금고�
 L["Your version of ElvUI is out of date. You can download the latest version from http://www.tukui.org"] = "당신의 ElvUI 버전이 구버전입니다. 당신은 http://www.tukui.org에서 최신 버전을 다운로드하실 수 있습니다."
 
 --Movers
+L[' Frames'] = true;
 L["Alternative Power"] = true;
 L["Auras Frame"] = true;
 L["Bar "] = "바 " --Also in ActionBars
