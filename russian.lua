@@ -524,14 +524,13 @@ L["Your items have been repaired using guild bank funds for: "] = "Ваши пр
 L["Your version of ElvUI is out of date. You can download the latest version from http://www.tukui.org"] = "Ваша версия ElvUI устарела. Вы можете скачать последнюю версию на http://www.tukui.org"
 
 --Movers
-L[' Frames'] = true;
+L[' Frames'] = " " --Empty cause in ru that will need to be before actual "raid 1-" stuff
 L["Alternative Power"] = "Альтернативный ресурс"
 L["Auras Frame"] = "Ауры"
 L["Bar "] = "Панель " --Also in ActionBars
 L["BNet Frame"] = "Оповещения BNet"
 L["Boss Button"] = "Кнопка босса"
 L["Focus Castbar"] = "Полоса заклинаний фокуса"
-L[' Frames'] = " " --Empty cause in ru that will need to be before actual "raid 1-" stuff
 L["GM Ticket Frame"] = "Запрос ГМу"
 L["Left Chat"] = "Левый чат"
 L["Loot / Alert Frames"] = "Розыгрыш/оповещения"
