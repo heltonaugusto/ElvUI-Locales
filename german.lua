@@ -523,9 +523,9 @@ L["Your items have been repaired using guild bank funds for: "] = "Deine Gegenst
 L["Your version of ElvUI is out of date. You can download the latest version from http://www.tukui.org"] = "Deine Version von ElvUI ist veraltet. Du kannst die aktuelle Version von http://www.tukui.org laden" --core\core.lua
 
 --Movers
-L[' Frames'] = "Fenster";
+L[' Frames'] = " Fenster";
 L["Alternative Power"] = "Alternative Energie";
-L["Auras Frame"] = "";
+L["Auras Frame"] = "Aurenfenster";
 L["Bar "] = "Leiste " --Also in ActionBars
 L["BNet Frame"] = "BNet-Fenster";
 L["Boss Button"] = "Boss Button";
