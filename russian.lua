@@ -552,7 +552,7 @@ L["Weapons"] = "Оружие"
 
 --NamePlates
 L["Add Name"] = "Добавить имя"
-L["Adjust nameplate size on smaller mobs to scale down. This will only adjust the health bar width not the actual nameplate hitbox you click on."] = true;
+L["Adjust nameplate size on smaller mobs to scale down. This will only adjust the health bar width not the actual nameplate hitbox you click on."] = "Уменьшить размер индикаторов для маленьких мобов. Эта опуия изменит только ширину полосы здоровья, а не область, доступную для килков."
 L["All"] = "Все"
 L['Aura'] = "Аура."
 L["Auras"] = "Ауры"
@@ -601,7 +601,7 @@ L["Remove Name"] = "Удалить имя"
 L["Restoration"] = "Исцеление"
 L["Select a filter to use. These are imported from the unitframe aura filter."] = "Выберите фильтр для использования. Они задаются в разделе фильтров рамок юнитов."
 L["Set the scale of the nameplate."] = "Установите масштаб индикатора"
-L["Small Plates"] = true;
+L["Small Plates"] = "Маленькие индикаторы"
 L['The backdrop of the nameplates color is scaled to match the color of the nameplate by this percentage. Set to zero to have no color in the nameplate backdrop.'] = "Фоновый цвет индикатора будет соответствовать цвету индикатора на этот процент. Установите на нуль, чтобы отключить."
 L["This color is displayed when gaining/losing threat, for a tank it would be displayed when gaining threat, for a dps/healer it would be displayed when losing threat"] = "Этот цвет используется, когда Вы получаете/теряете угрозу. Для танка при увеличении угрозы, для дпс/лекаря при снижении."
 L["This color is displayed when gaining/losing threat, for a tank it would be displayed when losing threat, for a dps/healer it would be displayed when gaining threat"] = "Этот цвет используется, когда Вы получаете/теряете угрозу. Для танка при снижении угрозы, для дпс/лекаря при увеличении."
