@@ -552,6 +552,7 @@ L["Weapons"] = "Armas";
 
 --NamePlates
 L["Add Name"] = "Adicionar Nome";
+L["Adjust nameplate size on smaller mobs to scale down. This will only adjust the health bar width not the actual nameplate hitbox you click on."] = true;
 L["All"] = "Todos";
 L['Aura'] = "Aura";
 L["Auras"] = "Auras";
@@ -600,6 +601,7 @@ L["Remove Name"] = "Remover Nome";
 L["Restoration"] = "Restauração";
 L["Select a filter to use. These are imported from the unitframe aura filter."] = "Selecione um Filtro para usar. Estes são importados do filtro de auras dos quadros de unidades"; --This one is not visible in the GUI since desc is not used on select groups. Keep for dropdown based menus?
 L["Set the scale of the nameplate."] = "Define a escala de placa de identificação.";
+L["Small Plates"] = true;
 L['The backdrop of the nameplates color is scaled to match the color of the nameplate by this percentage. Set to zero to have no color in the nameplate backdrop.'] = "A cor do fundo da placa de identificação é definida por essa porcentagem relativa a cor da placa de identificação. Defina como zero para não ter uma cor de fundo.";
 L["This color is displayed when gaining/losing threat, for a tank it would be displayed when gaining threat, for a dps/healer it would be displayed when losing threat"] = "Esta cor é usada quando ganha/perde agro, para um tanque será exibida quando ganhar agro, para um dps/curandeiro será exibida quando perder agro.";
 L["This color is displayed when gaining/losing threat, for a tank it would be displayed when losing threat, for a dps/healer it would be displayed when gaining threat"] = "Esta cor é usada quando ganha/perde agro, para um tanque será exibida quando perder agro, para um dps/curandeiro será exibida quando ganhar agro.";
@@ -787,7 +789,6 @@ L["Color the unit healthbar if there is a debuff that can be dispelled by you."]
 L["Color"] = "Cor";
 L['Colored Icon'] = "Ícone Colorido";
 L["Column Point"] = "Ponto da Coluna";
-L["Column Spacing"] = "Espaçamento da Coluna";
 L["Combat Fade"] = "Desvanecer em Combate";
 L["Combobar"] = "Barra de Combos";
 L["Copy From"] = "Copiar de";
@@ -957,7 +958,6 @@ L["Text Toggle On NPC"] = "Texto ligado no PNJ";
 L['Text'] = "Texto";
 L['Textured Icon'] = "Ícone Texturizado";
 L["The alpha to set units that are out of range to."] = "A trasparência a definir para unidades que estão fora de alcance.";
-L["The amount of space (in pixels) between the columns."] = "A quantidade de espaço (em pixeis) entre colunas.";
 L["The anchor point for each new column. A value of LEFT will cause the columns to grow to the right."] = "O ponto de fixação para cada nova coluna. Um valor da Esquerda causará com que as colunas cresçam para a direita.";
 L["The following macro must be true in order for the group to be shown, in addition to any filter that may already be set."] = "A macro seguinte tem de ser verdadeira para que o grupo seja mostrado, em adição a qualquer outro filtro que possa já estar definido.";
 L["The font that the unitframes will use."] = "A fonte que os quadros de unidades usarão."

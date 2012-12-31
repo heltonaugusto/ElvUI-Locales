@@ -543,6 +543,7 @@ L["Weapons"] = true;
 
 --NamePlates
 L["Add Name"] = true;
+L["Adjust nameplate size on smaller mobs to scale down. This will only adjust the health bar width not the actual nameplate hitbox you click on."] = true;
 L["All"] = true;
 L['Aura'] = true;
 L["Auras"] = true;
@@ -591,6 +592,7 @@ L["Remove Name"] = true;
 L["Restoration"] = true;
 L["Select a filter to use. These are imported from the unitframe aura filter."] = true; --This one is not visible in the GUI since desc is not used on select groups. Keep for dropdown based menus?
 L["Set the scale of the nameplate."] = true;
+L["Small Plates"] = true;
 L['The backdrop of the nameplates color is scaled to match the color of the nameplate by this percentage. Set to zero to have no color in the nameplate backdrop.'] = true;
 L["This color is displayed when gaining/losing threat, for a tank it would be displayed when gaining threat, for a dps/healer it would be displayed when losing threat"] = true;
 L["This color is displayed when gaining/losing threat, for a tank it would be displayed when losing threat, for a dps/healer it would be displayed when gaining threat"] = true;
@@ -778,7 +780,6 @@ L["Color the unit healthbar if there is a debuff that can be dispelled by you."]
 L["Color"] = true;
 L['Colored Icon'] = true;
 L["Column Point"] = true;
-L["Column Spacing"] = true;
 L["Combat Fade"] = true;
 L["Combobar"] = true;
 L["Copy From"] = true;
@@ -948,7 +949,6 @@ L["Text Toggle On NPC"] = true;
 L['Text'] = true;
 L['Textured Icon'] = true;
 L["The alpha to set units that are out of range to."] = true;
-L["The amount of space (in pixels) between the columns."] = true;
 L["The anchor point for each new column. A value of LEFT will cause the columns to grow to the right."] = true;
 L["The following macro must be true in order for the group to be shown, in addition to any filter that may already be set."] = true;
 L["The font that the unitframes will use."] = true;

@@ -552,6 +552,7 @@ L["Weapons"] = true;
 
 --NamePlates
 L["Add Name"] = "Ajouter un nom"
+L["Adjust nameplate size on smaller mobs to scale down. This will only adjust the health bar width not the actual nameplate hitbox you click on."] = true;
 L["All"] = "Tout"
 L['Aura'] = "Aura";
 L["Auras"] = "Auras"
@@ -600,6 +601,7 @@ L["Remove Name"] = "Supprimer un nom"
 L["Restoration"] = "Restauration"
 L["Select a filter to use. These are imported from the unitframe aura filter."] = "Sélectionnez un filtre à utiliser. Ils sont importés depuis le filtre d'aura des cadres d'unités."
 L["Set the scale of the nameplate."] = "Configure l'échelle pour le cadre."
+L["Small Plates"] = true;
 L['The backdrop of the nameplates color is scaled to match the color of the nameplate by this percentage. Set to zero to have no color in the nameplate backdrop.'] = "La couleur de fond du cadre d'unité est redimensionnée pour correspondre à la couleur du nom d'unité de ce pourcentage. Mettre à zéro pour ne pas avoir de couleur dans le fond du cadre d'unité."
 L["This color is displayed when gaining/losing threat, for a tank it would be displayed when gaining threat, for a dps/healer it would be displayed when losing threat"] = "Couleur affichée quand vous gagnez de la menace en tank et que vous en perdez en tant que DPS/Heal."
 L["This color is displayed when gaining/losing threat, for a tank it would be displayed when losing threat, for a dps/healer it would be displayed when gaining threat"] = "Couleur affichée quand vous perdez de la menace en tank et que vous en gagnez en tant que DPS/Heal."
@@ -787,7 +789,6 @@ L["Color the unit healthbar if there is a debuff that can be dispelled by you."]
 L["Color"] = "Couleur"
 L['Colored Icon'] = "Icône coloré";
 L["Column Point"] = "Point de la colonne"
-L["Column Spacing"] = "Espace par colonne"
 L["Combat Fade"] = "Estomper hors combat"
 L["Combobar"] = "Barre des points de combo"
 L["Copy From"] = "Copier depuis"
@@ -957,7 +958,6 @@ L["Text Toggle On NPC"] = "Afficher le texte des PNJ"
 L['Text'] = "Texte";
 L['Textured Icon'] = "Icon texturé";
 L["The alpha to set units that are out of range to."] = "Règle la transparence des unités hors de portée."
-L["The amount of space (in pixels) between the columns."] = "Quantitée d'espace (en pixels) entre deux colonnes."
 L["The anchor point for each new column. A value of LEFT will cause the columns to grow to the right."] = "Le point d'ancrage pour chaque nouvelle colonne. Si la valeur est sur LEFT, les nouvelles colonnes se développeront sur la droite"
 L["The following macro must be true in order for the group to be shown, in addition to any filter that may already be set."] = "La macro suivante doit être cochée pour que le groupe soit affiché, en plus de la configuration des filtres."
 L["The font that the unitframes will use."] = "Police utilisée par défaut pour les cadres d'unités."
