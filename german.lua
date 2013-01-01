@@ -551,7 +551,7 @@ L["Weapons"] = "Waffen";
 
 --NamePlates
 L["Add Name"] = "Name hinzufügen"
-L["Adjust nameplate size on smaller mobs to scale down. This will only adjust the health bar width not the actual nameplate hitbox you click on."] = true;
+L["Adjust nameplate size on smaller mobs to scale down. This will only adjust the health bar width not the actual nameplate hitbox you click on."] = "Verkleinert die Namensplaketten bei kleineren Monstern. Dies verringert nur die sichtbare Breite der Gesundheitsleiste und nicht die Hitbox auf die du klickst.";
 L["All"] = "Alle"
 L['Aura'] = 'Aura'
 L["Auras"] = "Auren"
@@ -600,7 +600,7 @@ L["Remove Name"] = "Name entfernen"
 L["Restoration"] = "Wiederherstellung"
 L["Select a filter to use. These are imported from the unitframe aura filter."] = "Wähle einen Filter zur Nutzung. Diese werden aus den Einheitenfenster Aura Filter importiert." --This one is not visible in the GUI since desc is not used on select groups. Keep for dropdown based menus?
 L["Set the scale of the nameplate."] = "Bestimme die Skalierung der Namensplaketten."
-L["Small Plates"] = true;
+L["Small Plates"] = "Kleine Namensplaketten";
 L['The backdrop of the nameplates color is scaled to match the color of the nameplate by this percentage. Set to zero to have no color in the nameplate backdrop.'] = 'Der Hintergrund der Namensplaketten Farbe ist skaliert um mit den Prozent der Namensplaketten übereinzustimmen. Setze es auf Null um keine Farbe in dem Namensplaketten Hintergrund zu haben.'
 L["This color is displayed when gaining/losing threat, for a tank it would be displayed when gaining threat, for a dps/healer it would be displayed when losing threat"] = "Diese Farbe wird angezeigt, wenn du Bedrohung bekommst/verlierst, für einen Tank wird angezeigt wenn du Bedrohung bekommst, für DPS/Heiler wird angezeigt wenn sie Bedrohung verlieren"
 L["This color is displayed when gaining/losing threat, for a tank it would be displayed when losing threat, for a dps/healer it would be displayed when gaining threat"] = "Diese Farbe wird angezeigt, wenn du Bedrohung bekommst/verlierst, für einen Tank wird angezeigt wenn du Bedrohung verlierst, für DPS/Heiler wird angezeigt wenn sie Bedrohung gewinnen"
