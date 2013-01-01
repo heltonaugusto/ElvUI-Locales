@@ -555,6 +555,7 @@ L["Weapons"] = true;
 
 --NamePlates
 L["Add Name"] = "이름 추가"
+L["Adjust nameplate size on smaller mobs to scale down. This will only adjust the health bar width not the actual nameplate hitbox you click on."] = true;
 L["All"] = "모두"
 L['Aura'] = true;
 L["Auras"] = "오라"
@@ -604,6 +605,7 @@ L["Remove Name"] = "이름 제거"
 L["Restoration"] = "회복"
 L["Select a filter to use. These are imported from the unitframe aura filter."] = "사용할 필터를 선택하세요. 유닛프레임의 오라 필터로부터 불러옵니다."
 L["Set the scale of the nameplate."] = "이름표의 크기를 설정합니다."
+L["Small Plates"] = true;
 L['The backdrop of the nameplates color is scaled to match the color of the nameplate by this percentage. Set to zero to have no color in the nameplate backdrop.'] = true;
 L["This color is displayed when gaining/losing threat, for a tank it would be displayed when gaining threat, for a dps/healer it would be displayed when losing threat"] = [=[이 색상은 위협수치가 증가하거나 감소할 때 표시되는 색상입니다.
 방어전담의 경우 증가할 때 표시되고, 공격전담이나 치유전담의 경우 감소할 때 표시됩니다.]=]
@@ -793,7 +795,6 @@ L["Color the unit healthbar if there is a debuff that can be dispelled by you."]
 L["Color"] = "색상"
 L['Colored Icon'] = true;
 L["Column Point"] = "열 위치"
-L["Column Spacing"] = "열 간격"
 L["Combat Fade"] = "전투시 사라짐"
 L["Combobar"] = "연계점수 바"
 L["Copy From"] = "복사해오기"
@@ -964,7 +965,6 @@ L["Text Toggle On NPC"] = "NPC일 경우 문자 전환"
 L['Text'] = true;
 L['Textured Icon'] = true;
 L["The alpha to set units that are out of range to."] = "사거리 밖의 대상에 대한 투명도를 설정합니다."
-L["The amount of space (in pixels) between the columns."] = "열 사이의 간격을 설정하니다."
 L["The anchor point for each new column. A value of LEFT will cause the columns to grow to the right."] = "생성된 열의 기준점을 설정합니다. 'LEFT'일 경우 오른쪽으로 증감하게 됩니다."
 L["The following macro must be true in order for the group to be shown, in addition to any filter that may already be set."] = "체크시 그룹의 표시 설정이 설정됩니다. 필터를 추가해서 수정이 가능합니다."
 L["The font that the unitframes will use."] = "유닛프레임의 글꼴입니다."

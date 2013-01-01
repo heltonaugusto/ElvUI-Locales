@@ -230,9 +230,9 @@ L["Sticky Chat"] = "Discussion adhésif"
 L["Tab Font Outline"] = "Contour de la police d'écriture extérieure des onglets";
 L["Tab Font Size"] = "Taille de la police d'écriture des onglets"
 L["Tab Font"] = "Police d'écriture des onglets"
-L['Tab Panel'] = "Paneau de l'onglet"; --need review
+L['Tab Panel'] = "Onglet Panel"; --Not french ><
 L["Toggle showing of the left and right chat panels."] = "Afficher ou masquer le côté gauche / droit des panneaux de discussion."
-L['Toggle the chat tab panel backdrop.'] = "Afficher le fond du panneau de l'onglet."; --need review
+L['Toggle the chat tab panel backdrop.'] = "Affiche le fond de l'onglet du panneau de discussion.";
 L['Trade'] = "Métiers"
 L["URL Links"] = "Liens URL"
 L["When opening the Chat Editbox to type a message having this option set means it will retain the last channel you spoke in. If this option is turned off opening the Chat Editbox should always default to the SAY channel."] = "Permet de retenir les derniers messages sur le canal de discussion que vous avez utilisé . Si cette option est désactivé, le canal utilisé par défaut sera Dire."
@@ -251,7 +251,7 @@ Example: Interface\AddOns\ElvUI\media\textures\copy
 Or for most users it would be easier to simply put a tga file into your WoW folder, then type the name of the file here.]=] ] = [=[Indiquez un nom de fichier situé dans le répertoire World of Warcraft, le dossier des Textures que vous souhaitez utiliser en fond de panneau.
 
 Notez:
-La taille de l'image recommandée est 256x128 pixels
+La taille de l'image recommandée est de 256x128 pixels
 Vous devez redémarrer le jeu après avoir ajouté un fichier dans le dossier.
 Le format du fichier doit être en .tga
 
@@ -293,7 +293,7 @@ L['Low Resolution'] = "Basse résolution"
 L["low"] = "Faible"
 L["Movers unlocked. Move them now and click Lock when you are done."] = "Cadres déverrouillés. Déplacez-les et cliquez sur Verrouiller une fois terminé."
 L["Physical DPS"] = "DPS Physique"
-L["Pixel Perfect Set"] = "Installer le Pixel Parfait";
+L["Pixel Perfect Set"] = "Réglage Pixel Parfait";
 L['Pixel Perfect'] = "Pixel Parfait";
 L["Please click the button below so you can setup variables and ReloadUI."] = "Pour configurer les variables et recharger l'interface, cliquez sur le bouton ci-dessous."
 L["Please click the button below to setup your CVars."] = "Pour configurer les CVars, cliquez sur le bouton ci-dessous."
@@ -301,7 +301,7 @@ L["Please press the continue button to go onto the next step."] = "Pour passer �
 L["Resolution Style Set"] = "Paramètre de résolution configuré"
 L["Resolution"] = "Résolution"
 L["Run the installation process."] = "Démarrer le processus d'installation."
-L["Select the type of aura system you want to use with ElvUI's unitframes. The integrated system utilizes both aura-bars and aura-icons. The icons only system will display only icons and aurabars won't be used. The classic system will configure your auras to be default."] = true;
+L["Select the type of aura system you want to use with ElvUI's unitframes. The integrated system utilizes both aura-bars and aura-icons. The icons only system will display only icons and aurabars won't be used. The classic system will configure your auras to be default."] = "Sélectionnez le type de système aura que vous souhaitez utiliser avec UnitFrames ElvUI. Le système intégré utilise à la fois les barres d'Auras et les icônes d'Auras. Le systeme icône seul va afficher uniquement les icônes et barres d'auras ne sera pas utilisé. Le système classique permet de configurer vos Auras par défaut.";
 L["Setup Chat"] = "Configurer le Chat."
 L["Setup CVars"] = "Configurer les CVars"
 L["Skip Process"] = "Passer cette étape"
@@ -360,7 +360,7 @@ L['Datatext Panel (Left)'] = "Panneaux d'informations (Gauche)";
 L['Datatext Panel (Right)'] = "Panneaux d'informations (Droite)";
 L["DataTexts"] = "Textes d'informations"
 L["DATATEXT_DESC"] = "Affiche à l'écran des textes d'informations."
-L['Defeated'] = "Vaincu";
+L['Defeated'] = "Defaite";
 L["Deficit:"] = "Déficit: "
 L['Demolishers Destroyed'] = "Démolisseurs détruits"
 L['Display data panels below the chat, used for datatexts.'] = "Afficher les panneaux de données sous le Chat utilisés pour les textes d'informations";
@@ -429,7 +429,7 @@ L["Wrist"] = "Poignets"
 
 --DebugTools
 L["%s: %s tried to call the protected function '%s'."] = "%s: %s a essayé d'appeler la fonction protégée '%s'."
-L["INCOMPATIBLE_ADDON"] = "L'addon %s  n'est pas compatible avec le module %s d'ElvUI . S'il vous plaît sélectionner soit l'addon ou le module d'ElvUI pour le désactiver."
+L["INCOMPATIBLE_ADDON"] = "L'addon %s n'est pas compatible avec le module %s d'ElvUI. S'il vous plait, selectionnez soit l'addon ou le module d'ElvUI pour le désactiver."
 L["No locals to dump"] = "Aucunes données à vider";
 L['|cFFE30000Lua error recieved. You can view the error message when you exit combat.'] = "|cFFE30000Erreur Lua reçue. Vous pouvez voir ce message d'erreur quand vous sortez de combat."
 
@@ -552,6 +552,7 @@ L["Weapons"] = true;
 
 --NamePlates
 L["Add Name"] = "Ajouter un nom"
+L["Adjust nameplate size on smaller mobs to scale down. This will only adjust the health bar width not the actual nameplate hitbox you click on."] = true;
 L["All"] = "Tout"
 L['Aura'] = "Aura";
 L["Auras"] = "Auras"
@@ -600,6 +601,7 @@ L["Remove Name"] = "Supprimer un nom"
 L["Restoration"] = "Restauration"
 L["Select a filter to use. These are imported from the unitframe aura filter."] = "Sélectionnez un filtre à utiliser. Ils sont importés depuis le filtre d'aura des cadres d'unités."
 L["Set the scale of the nameplate."] = "Configure l'échelle pour le cadre."
+L["Small Plates"] = true;
 L['The backdrop of the nameplates color is scaled to match the color of the nameplate by this percentage. Set to zero to have no color in the nameplate backdrop.'] = "La couleur de fond du cadre d'unité est redimensionnée pour correspondre à la couleur du nom d'unité de ce pourcentage. Mettre à zéro pour ne pas avoir de couleur dans le fond du cadre d'unité."
 L["This color is displayed when gaining/losing threat, for a tank it would be displayed when gaining threat, for a dps/healer it would be displayed when losing threat"] = "Couleur affichée quand vous gagnez de la menace en tank et que vous en perdez en tant que DPS/Heal."
 L["This color is displayed when gaining/losing threat, for a tank it would be displayed when losing threat, for a dps/healer it would be displayed when gaining threat"] = "Couleur affichée quand vous perdez de la menace en tank et que vous en gagnez en tant que DPS/Heal."
@@ -677,7 +679,7 @@ L["Are you sure you want to reset every mover back to it's default position?"] =
 L["Because of the mass confusion caused by the new aura system I've implemented a new step to the installation process. This is optional. If you like how your auras are setup go to the last step and click finished to not be prompted again. If for some reason you are prompted repeatedly please restart your game."] = "En raison de la confusion générale provoquée par le nouveau système d'aura, j'ai mis en place une nouvelle étape dans le processus d'installation. Cette option est facultative. Si vous aimez la façon dont vos auras sont configurés allez à la dernière étape et cliquez sur Terminé pour ne pas être averti à nouveau.  Si, pour une raison quelconque, vous êtes averti de nouveau, relancez complètement le jeu."
 L["Can't buy anymore slots!"] = "Impossible d'acheter plus emplacements !"
 L['Disable Warning'] = "Désactiver l'alerte";
-L['Do you swear not to post in technical support about something not working without first disabling the addon/module combination first?'] = "Jurez-vous de ne pas poster dans le support technique à propos de quelque chose qui ne fonctionne pas avant d'avoir désactivé les add-on / module en premier ?";
+L['Do you swear not to post in technical support about something not working without first disabling the addon/module combination first?'] = "Jurez-vous de ne pas avoir posté sur le support technique du forum sur quelquechose qui ne fonctionne pas sans avoir desactivé en premier la combinaison Addon/Module?";
 L["Hover your mouse over any actionbutton or spellbook button to bind it. Press the escape key or right click to clear the current actionbutton's keybinding."] = "Passez votre souris sur n'importe quel bouton d'action ou bouton du grimoire pour lui attribuer un raccourcis. Appuyez sur la touche Echap ou le clic droit pour effacer le raccourci en cours."
 L['I Swear'] = "Je le jure"; --dafuq ?
 L["One or more of the changes you have made require a ReloadUI."] = "Une ou plusieurs modifications que vous avez effectuées necessitent un rechargement de l'interface."
@@ -785,9 +787,8 @@ L["Color power by classcolor or reaction."] = "Colore l'énergie de la classe pa
 L["Color the health backdrop by class or reaction."] = "Colore l'arrière-plan de la barre de vie par la couleur de la classe ou par l'aggro."
 L["Color the unit healthbar if there is a debuff that can be dispelled by you."] = "Colore la barre de vie de l'unité qui peut être dissipé par vous-même."
 L["Color"] = "Couleur"
-L['Colored Icon'] = "Icône coloré";
+L['Colored Icon'] = "Icône Coloré";
 L["Column Point"] = "Point de la colonne"
-L["Column Spacing"] = "Espace par colonne"
 L["Combat Fade"] = "Estomper hors combat"
 L["Combobar"] = "Barre des points de combo"
 L["Copy From"] = "Copier depuis"
@@ -889,7 +890,7 @@ L["Per Row"] = "par ligne"
 L["Percent"] = "Pourcent"
 L["Pet Frame"] = "Cadre du familier"
 L["PetTarget Frame"] = "Cadre de la cible du familier"
-L['Player Frame Aura Bars'] = "Barre d'Aura du cadre joueur"
+L['Player Frame Aura Bars'] = "Fenêtre de la barre d'Aura du joueur"
 L["Player Frame"] = "Cadre du joueur"
 L["Portrait"] = "Portrait"
 L["Position"] = "Position"
@@ -927,12 +928,12 @@ L['Set the type of auras to show when a unit is friendly.'] = "Définir le type 
 L["Sets the font instance's horizontal text alignment style."] = "Réglages de l'alignement horizontal du texte de la police d'écriture."
 L['Shadow Orbs'] = "Orbres d'ombre";
 L["Show a incomming heal prediction bar on the unitframe. Also display a slightly different colored bar for incoming overheals."] = "Affiche une barre sur la prédiction des soins à venir sur le cadre d'unité. Ainsi qu'une barre de couleur légèrement différente pour les soins entrants excédants."
-L["Show Aura From Other Players"] = true;
+L["Show Aura From Other Players"] = "N'importe quelle unité"
 L['Show Auras'] = "Afficher les auras"
 L["Show Party"] = "Afficher le groupe"
 L["Show Raid"] = "Afficher le Raid"
 L["Show Solo"] = "Afficher seul"
-L["Show When Not Active"] = true;
+L["Show When Not Active"] = "Afficher les manquants"
 L["Size of the indicator icon."] = "Taille de l'indicateur de l'icône."
 L['Size Override'] = "Forcer la taille"
 L["Size"] = "Taille"
@@ -955,9 +956,8 @@ L["TargetTarget Frame"] = "Cadre de la cible de votre cible"
 L["Text Format"] = "Format du texte"
 L["Text Toggle On NPC"] = "Afficher le texte des PNJ"
 L['Text'] = "Texte";
-L['Textured Icon'] = "Icon texturé";
+L['Textured Icon'] = "Texture de l'icône"; --Need review
 L["The alpha to set units that are out of range to."] = "Règle la transparence des unités hors de portée."
-L["The amount of space (in pixels) between the columns."] = "Quantitée d'espace (en pixels) entre deux colonnes."
 L["The anchor point for each new column. A value of LEFT will cause the columns to grow to the right."] = "Le point d'ancrage pour chaque nouvelle colonne. Si la valeur est sur LEFT, les nouvelles colonnes se développeront sur la droite"
 L["The following macro must be true in order for the group to be shown, in addition to any filter that may already be set."] = "La macro suivante doit être cochée pour que le groupe soit affiché, en plus de la configuration des filtres."
 L["The font that the unitframes will use."] = "Police utilisée par défaut pour les cadres d'unités."

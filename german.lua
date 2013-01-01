@@ -523,9 +523,9 @@ L["Your items have been repaired using guild bank funds for: "] = "Deine Gegenst
 L["Your version of ElvUI is out of date. You can download the latest version from http://www.tukui.org"] = "Deine Version von ElvUI ist veraltet. Du kannst die aktuelle Version von http://www.tukui.org laden" --core\core.lua
 
 --Movers
-L[' Frames'] = "Fenster";
+L[' Frames'] = " Fenster";
 L["Alternative Power"] = "Alternative Energie";
-L["Auras Frame"] = "";
+L["Auras Frame"] = "Aurenfenster";
 L["Bar "] = "Leiste " --Also in ActionBars
 L["BNet Frame"] = "BNet-Fenster";
 L["Boss Button"] = "Boss Button";
@@ -551,6 +551,7 @@ L["Weapons"] = "Waffen";
 
 --NamePlates
 L["Add Name"] = "Name hinzufügen"
+L["Adjust nameplate size on smaller mobs to scale down. This will only adjust the health bar width not the actual nameplate hitbox you click on."] = true;
 L["All"] = "Alle"
 L['Aura'] = 'Aura'
 L["Auras"] = "Auren"
@@ -599,6 +600,7 @@ L["Remove Name"] = "Name entfernen"
 L["Restoration"] = "Wiederherstellung"
 L["Select a filter to use. These are imported from the unitframe aura filter."] = "Wähle einen Filter zur Nutzung. Diese werden aus den Einheitenfenster Aura Filter importiert." --This one is not visible in the GUI since desc is not used on select groups. Keep for dropdown based menus?
 L["Set the scale of the nameplate."] = "Bestimme die Skalierung der Namensplaketten."
+L["Small Plates"] = true;
 L['The backdrop of the nameplates color is scaled to match the color of the nameplate by this percentage. Set to zero to have no color in the nameplate backdrop.'] = 'Der Hintergrund der Namensplaketten Farbe ist skaliert um mit den Prozent der Namensplaketten übereinzustimmen. Setze es auf Null um keine Farbe in dem Namensplaketten Hintergrund zu haben.'
 L["This color is displayed when gaining/losing threat, for a tank it would be displayed when gaining threat, for a dps/healer it would be displayed when losing threat"] = "Diese Farbe wird angezeigt, wenn du Bedrohung bekommst/verlierst, für einen Tank wird angezeigt wenn du Bedrohung bekommst, für DPS/Heiler wird angezeigt wenn sie Bedrohung verlieren"
 L["This color is displayed when gaining/losing threat, for a tank it would be displayed when losing threat, for a dps/healer it would be displayed when gaining threat"] = "Diese Farbe wird angezeigt, wenn du Bedrohung bekommst/verlierst, für einen Tank wird angezeigt wenn du Bedrohung verlierst, für DPS/Heiler wird angezeigt wenn sie Bedrohung gewinnen"
@@ -786,7 +788,6 @@ L["Color the unit healthbar if there is a debuff that can be dispelled by you."]
 L["Color"] = "Farbe"
 L['Colored Icon'] = 'Buntes Symbol'
 L["Column Point"] = "Spalten Punkt"
-L["Column Spacing"] = "Spaltenabstand"
 L["Combat Fade"] = "Im Kampf ausblenden"
 L["Combobar"] = "Kombopunkte Leiste"
 L["Copy From"] = "Kopieren von"
@@ -956,7 +957,6 @@ L["Text Toggle On NPC"] = "Textumschalter auf NPCs"
 L['Text'] = 'Text'
 L['Textured Icon'] = 'Texturiertes Symbol'
 L["The alpha to set units that are out of range to."] = "Setzt den Alphabereich für Einheiten, die ausserhalb deiner Reichweite sind."
-L["The amount of space (in pixels) between the columns."] = "Die Größe des Abstandes (in Pixel) zwischen den Spalten."
 L["The anchor point for each new column. A value of LEFT will cause the columns to grow to the right."] = "Der Ankerpunkt für jede neue Spalte. Ein LINKS-Wert verursacht ein Anwachsen der Spalten nach rechts."
 L["The following macro must be true in order for the group to be shown, in addition to any filter that may already be set."] = "Das folgende Makro muss wahr sein um die Gruppe anzuzeigen. Dies gilt zusätzlich zu jeglichem Filter der möglicherweise bereits eingestellt ist."
 L["The font that the unitframes will use."] = "Die Schriftart, welche die Einheitenfenster benutzen sollen."
