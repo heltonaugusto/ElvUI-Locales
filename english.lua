@@ -557,6 +557,7 @@ L['Color the border of the nameplate yellow when it reaches the threshold point 
 L['Color the border of the nameplate yellow when it reaches this point, it will be colored red when it reaches half this value.'] = true;
 L["Color the nameplate's healthbar by your current threat, Example: good threat color is used if your a tank when you have threat, opposite for DPS."] = true;
 L["Combat Toggle"] = true;
+L["Combo Points"] = true;
 L["Controls the height of the nameplate"] = true;
 L["Controls the height of the nameplate's castbar"] = true;
 L["Controls the width of the nameplate"] = true;
@@ -566,6 +567,7 @@ L["Disable threat coloring for this plate and use the custom color."] = true;
 L["Discipline"] = true;
 L["Display a class icon on nameplates."] = true;
 L["Display a healer icon over known healers inside battlegrounds."] = true;
+L["Display combo points on nameplates."] = true;
 L["Display level text on nameplate for nameplates that belong to units that aren't your level."] = true;
 L["Display your personal debuffs over the nameplate."] = true;
 L["Enemy"] = true; --Also used in UnitFrames

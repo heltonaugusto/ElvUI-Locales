@@ -566,6 +566,7 @@ L['Color the border of the nameplate yellow when it reaches the threshold point 
 L['Color the border of the nameplate yellow when it reaches this point, it will be colored red when it reaches half this value.'] = "Colore la bordure des cadres d'unités en jaune quand il atteint le point, il sera de couleur rouge quand il atteindra la moitié de cette valeur."
 L["Color the nameplate's healthbar by your current threat, Example: good threat color is used if your a tank when you have threat, opposite for DPS."] = "Colore la barre de l'unité avec votre menace actuelle. Exemple: La couleur Bonne menace est utilisé si vous êtes un tank qui avez de la menace, inversement pour les DPS."
 L["Combat Toggle"] = "Cacher hors combat"
+L["Combo Points"] = true;
 L["Controls the height of the nameplate"] = "Contrôle la hauteur de la barre des noms d'unités"
 L["Controls the height of the nameplate's castbar"] = "Contrôle la hauteur de la barre de sort"
 L["Controls the width of the nameplate"] = "Contrôle la largeur de la barre des noms d'unités"
@@ -575,6 +576,7 @@ L["Disable threat coloring for this plate and use the custom color."] = "Désact
 L["Discipline"] = "Discipline"
 L["Display a class icon on nameplates."] = true;
 L["Display a healer icon over known healers inside battlegrounds."] = "Affiche une icône de soigneur sur les soigneurs connus dans un champ de battaille."
+L["Display combo points on nameplates."] = true;
 L["Display level text on nameplate for nameplates that belong to units that aren't your level."] = "Affiche le niveau sur le cadre d'unité qui ne devrait normalement pas apparaitre (tête de mort)."
 L["Display your personal debuffs over the nameplate."] = "Affiche vos affaiblissements sur le nom d'unité."
 L["Enemy"] = "Ennemi" --Also used in UnitFrames

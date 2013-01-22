@@ -566,6 +566,7 @@ L['Color the border of the nameplate yellow when it reaches the threshold point 
 L['Color the border of the nameplate yellow when it reaches this point, it will be colored red when it reaches half this value.'] = "Окрашивать границу индикатора желтым, когда уровень здоровья достигает этого значения. Окраска сменится на красную при достижении половины этого значения."
 L["Color the nameplate's healthbar by your current threat, Example: good threat color is used if your a tank when you have threat, opposite for DPS."] = 'Окрашивать индикатор, основываясь на текущем уровне угрозы. Например: "хороший" цвет используется, когда Вы танк с наивысшим уровнем угрозы, наоборот для дпс/лекаря.'
 L["Combat Toggle"] = "Только в бою"
+L["Combo Points"] = true;
 L["Controls the height of the nameplate"] = "Контролирует высоту индикатора"
 L["Controls the height of the nameplate's castbar"] = "Контролирует высоту полосы заклинаний на индикаторе здоровья"
 L["Controls the width of the nameplate"] = "Контролирует ширину индикатора"
@@ -575,6 +576,7 @@ L["Disable threat coloring for this plate and use the custom color."] = "Отк�
 L["Discipline"] = "Послушание"
 L["Display a class icon on nameplates."] = "Отображать иконку класса на индикаторе"
 L["Display a healer icon over known healers inside battlegrounds."] = "Отображать иконку над известными лекарями на полях боя."
+L["Display combo points on nameplates."] = true;
 L["Display level text on nameplate for nameplates that belong to units that aren't your level."] = "Отображать уровень на индикаторе, если уровень этого юнита отличен от Вашего."
 L["Display your personal debuffs over the nameplate."] = "Отображение дебаффов, наложенных вами, над индикаторами."
 L["Enemy"] = "Враг" --Also used in UnitFrames

@@ -570,6 +570,7 @@ L['Color the border of the nameplate yellow when it reaches this point, it will 
 L["Color the nameplate's healthbar by your current threat, Example: good threat color is used if your a tank when you have threat, opposite for DPS."] = [=[현재 위협수치에 따라 이름표의 생명력 바 색상이 변경됩니다.
 ex) 방어전담일 때 위협수치가 높으면 보통 색상으로 표시되고, 공격전담일 때에는 반대로 표시됩니다.]=]
 L["Combat Toggle"] = "전투시 전환"
+L["Combo Points"] = true;
 L["Controls the height of the nameplate"] = "이름표의 높이를 설정합니다."
 L["Controls the height of the nameplate's castbar"] = "이름표에 있는 시전바의 높이를 설정합니다."
 L["Controls the width of the nameplate"] = "이름표의 너비를 설정합니다."
@@ -579,6 +580,7 @@ L["Disable threat coloring for this plate and use the custom color."] = "현재 
 L["Discipline"] = "수양"
 L["Display a class icon on nameplates."] = true;
 L["Display a healer icon over known healers inside battlegrounds."] = "전장안에서 확인된 힐러들의 위에 힐러 아이콘을 표시합니다."
+L["Display combo points on nameplates."] = true;
 L["Display level text on nameplate for nameplates that belong to units that aren't your level."] = true;
 L["Display your personal debuffs over the nameplate."] = "이름표에 직접 시전한 디버프를 표시합니다."
 L["Enemy"] = "적" --Also used in UnitFrames

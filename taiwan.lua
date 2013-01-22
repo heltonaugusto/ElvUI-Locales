@@ -566,6 +566,7 @@ L["Color the border of the nameplate yellow when it reaches the threshold point 
 L["Color the border of the nameplate yellow when it reaches this point, it will be colored red when it reaches half this value."] = "當到達此數值時, 姓名面板的邊框將被上色為黃色. 當到達此數值一半時, 姓名面板的邊框將被上色為紅色."
 L["Color the nameplate's healthbar by your current threat, Example: good threat color is used if your a tank when you have threat, opposite for DPS."] = "根據天賦改變血條生命條的顏色來提醒仇恨狀態."
 L["Combat Toggle"] = "戰鬥顯示"
+L["Combo Points"] = true;
 L["Controls the height of the nameplate"] = "血條的高度設定"
 L["Controls the height of the nameplate's castbar"] = "血條施法條的高度設定"
 L["Controls the width of the nameplate"] = "血條的寬度設定"
@@ -575,6 +576,7 @@ L["Disable threat coloring for this plate and use the custom color."] = "對特�
 L["Discipline"] = "戒律"
 L["Display a class icon on nameplates."] = true;
 L["Display a healer icon over known healers inside battlegrounds."] = "戰場隊伍中，為已確認為補職的玩家標上補職圖示."
+L["Display combo points on nameplates."] = true;
 L["Display level text on nameplate for nameplates that belong to units that aren't your level."] = "若單位目標等級不同於己，在血條上顯示其等級"
 L["Display your personal debuffs over the nameplate."] = "在目標血條上顯示自己施放的減益光環"
 L["Enemy"] = "敵對"
