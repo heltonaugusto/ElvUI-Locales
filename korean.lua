@@ -566,10 +566,8 @@ L["Bad Scale"] = "위협적일 때 크기"
 L["Bad Transition Color"] = "위협적일 때 색상 전환"
 L["Castbar Height"] = "시전바 높이"
 L["Class Icons"] = true;
-L["Color mobs that are currently being tanked. If you are a tank then this will only happen to nameplates being tanked by someone other than you. This is not 100% accurate and should only be used as a referance."] = true;
-L["Color of a nameplate that is currently being tanked by another tank in the group."] = true;
 L["Color of a nameplate that is tagged by another person."] = true;
-L["Color Tanked"] = true;
+L["Color Tanked/Loose"] = true;
 L['Color the border of the nameplate yellow when it reaches the threshold point on these types of frames.'] = true;
 L['Color the border of the nameplate yellow when it reaches this point, it will be colored red when it reaches half this value.'] = true;
 L["Color the nameplate's healthbar by your current threat, Example: good threat color is used if your a tank when you have threat, opposite for DPS."] = [=[현재 위협수치에 따라 이름표의 생명력 바 색상이 변경됩니다.
@@ -581,6 +579,8 @@ L["Controls the height of the nameplate's castbar"] = "이름표에 있는 시�
 L["Controls the width of the nameplate"] = "이름표의 너비를 설정합니다."
 L["Custom Color"] = "사용자 정의 색상"
 L["Custom Scale"] = "임의 크기"
+L["Depending on your role. If you are a tank then it will color mobs being tanked by the offtank. If you are not a tank then it will color mobs not being tanked. This is not 100% accurate and should only be used as a referance."] = true;
+L["Depending on your role. If you are a tank then its the color of mobs being tanked not by you by an actual tank. If you are not a tank then it is the color of mobs that are not currently being tanked."] = true;
 L["Disable threat coloring for this plate and use the custom color."] = "현재 이름표의 위협수치에 따른 색상을 비활성화하고 임의로 설정된 색상을 사용합니다."
 L["Discipline"] = "수양"
 L["Display a class icon on nameplates."] = true;
@@ -613,7 +613,7 @@ L["Select a filter to use. These are imported from the unitframe aura filter."] 
 L["Set the scale of the nameplate."] = "이름표의 크기를 설정합니다."
 L["Small Plates"] = true;
 L["Tagged Color"] = true;
-L["Tanked Color"] = true;
+L["Tanked/Loose Color"] = true;
 L['The backdrop of the nameplates color is scaled to match the color of the nameplate by this percentage. Set to zero to have no color in the nameplate backdrop.'] = true;
 L["This color is displayed when gaining/losing threat, for a tank it would be displayed when gaining threat, for a dps/healer it would be displayed when losing threat"] = [=[이 색상은 위협수치가 증가하거나 감소할 때 표시되는 색상입니다.
 방어전담의 경우 증가할 때 표시되고, 공격전담이나 치유전담의 경우 감소할 때 표시됩니다.]=]
