@@ -530,6 +530,7 @@ L["Auras Frame"] = "Fenêtre des Auras";
 L["Bar "] = "Barre " --Also in ActionBars
 L["BNet Frame"] = "Fenetre BNet";
 L["Boss Button"] = "Bouton du Boss";
+L["Experience Bar"] = true;
 L["Focus Castbar"] = "Barre d'incantation du Focus";
 L["GM Ticket Frame"] = "Fenêtre du ticket MJ";
 L["Left Chat"] = "Chat de gauche"
@@ -537,13 +538,13 @@ L["Loot / Alert Frames"] = "Butin / Fenêtre d'alerte";
 L["Loot Frame"] = "Fenêtre du butin";
 L["Loss Control Icon"] = "Icône de la perte de contrôle";
 L["MA Frames"] = "Fenêtre du second Tank";
-
 L["Micro Bar"] = "Micro Barre" --Also in ActionBars
+L['Minimap'] = true;
 L["MT Frames"] = "Fenêtre du Tank";
 L["Pet Bar"] = "Barre de familier" --Also in ActionBars
 L["Player Castbar"] = "Barre d'incantation du joueur";
 L["Raid 1-"] = "Raid 1-"; --need precision or review thx
-
+L["Reputation Bar"] = true;
 L["Right Chat"] = "Chat de droite"
 L["Stance Bar"] = "Barre de posture" --Also in ActionBars
 L["Target Castbar"] = "Barre d'incantation de la cible";
