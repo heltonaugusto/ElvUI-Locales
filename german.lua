@@ -80,9 +80,9 @@ L['Trigger'] = 'Auslöser'
 L["Visibility State"] = "Sichbarkeitszustand"
 L["Width Multiplier"] = "Breitenmultiplikator"
 L[ [=[This works like a macro, you can run different situations to get the actionbar to page differently.
- Example: '[combat] 2;']=] ] = "Dies funktioniert wie ein Makro. Du kannst verschiedene Situationen haben um die Aktionsleiste anzuzeigen und zu verbergen.\\n Beispiel: '[combat] show;hide'"
+Example: '[combat] 2;']=] ] = "Dies funktioniert wie ein Makro. Du kannst verschiedene Situationen haben um die Aktionsleiste anzuzeigen und zu verbergen.\\n Beispiel: '[combat] show;hide'"
 L[ [=[This works like a macro, you can run different situations to get the actionbar to show/hide differently.
- Example: '[combat] show;hide']=] ] = "Dies funktioniert wie ein Makro, du kannst verschiedene Situationen haben um die Aktionsleiste zu ändern.\\n Beispiel: '[combat] 2;'"
+Example: '[combat] show;hide']=] ] = "Dies funktioniert wie ein Makro, du kannst verschiedene Situationen haben um die Aktionsleiste zu ändern.\\n Beispiel: '[combat] 2;'"
 
 --Bags
 L['Adjust the width of the bag frame.'] = 'Passe die Breite des Taschenfensters an.'
@@ -112,7 +112,7 @@ L["goldabbrev"] = "|cffffd700g|r" --Also used in gold datatext
 L['Hold Control + Right Click:'] = 'Halte Steuerung + Rechtsklick:'
 L['Hold Shift + Drag:'] = 'Halte Shift + Bewege die Maus:'
 L["Hold Shift:"] = "Halte Shift"
-L["Icons and Text"] = "Symbole und Text" 
+L["Icons and Text"] = "Symbole und Text"
 L["No gray items to delete."] = "Es sind keine grauen Gegenstände zum Löschen vorhanden."
 L["No gray items to sell."] = "Keine grauen Gegenstände zum Verkaufen vorhanden."
 L['Panel Width (Bags)'] = 'Leistenbreite (Taschen)'
@@ -260,7 +260,7 @@ Zum Beispiel: Interface\AddOns\ElvUI\media\textures\copy
 Für die meisten Anwender ist es allerdigns einfacher, eine tga-Datei in ihren WoW-Ordner abzulegen. Anschließend kann man den Namen der Datei hier eingeben.]=]
 
 --Config / Install
-L["Auras Set"] = "Auren gesetzt" 
+L["Auras Set"] = "Auren gesetzt"
 L["Auras System"] = "Auren System"
 L["Caster DPS"] = "Fernkampf DD"
 L["Chat Set"] = "Chat gesetzt"
@@ -373,7 +373,7 @@ L["Feet"] = "Füße"
 L['Flags Captured'] = 'Flaggen eingenommen'
 L['Flags Returned'] = 'Flaggen zurückgeholt'
 L["Friends List"] = "Freundesliste"
-L['Galleon'] = Galeone;
+L['Galleon'] = 'Galeone';
 L['Gates Destroyed'] = 'Tore zerstört'
 L['Graveyards Assaulted'] = 'Friedhöfe angegriffen'
 L['Graveyards Defended'] = 'Friedhöfe verteidigt'
@@ -383,7 +383,7 @@ L["Hit"] = "Hit"
 L["Home Latency:"] = "Standort Latenz"
 L["HP"] = "HP"
 L["HPS"] = "HPS"
-L["If not set to true then the server time will be displayed instead."] = "Wenn  nicht ausgewählt, wird stattdessen die Serverzeit angezeigt."
+L["If not set to true then the server time will be displayed instead."] = "Wenn nicht ausgewählt, wird stattdessen die Serverzeit angezeigt."
 L["left"] = "Links"
 L["LeftChatDataPanel"] = "Linker Chat"
 L["LeftMiniPanel"] = "Minimap Links"
@@ -472,7 +472,7 @@ L['Bottom Panel'] = 'Untere Leiste'
 L["Chat Bubbles"] = "Chat Sprechblasen"
 L["Controls what the transparency of the worldmap will be set to when you are moving."] = "Legt fest, welche Transparenz die Weltkarte haben soll, wenn du dich bewegst."
 L["Disband Group"] = "Gruppe auflösen"
-L['Display a panel across the bottom of the screen. This is for cosmetic only.'] = 'Zeige eine Leiste am unterem Bildschirmrand. Das ist rein kosmetisch.' 
+L['Display a panel across the bottom of the screen. This is for cosmetic only.'] = 'Zeige eine Leiste am unterem Bildschirmrand. Das ist rein kosmetisch.'
 L['Display a panel across the top of the screen. This is for cosmetic only.'] = 'Zeige eine Leiste am oberen Bildschirmrand. Das ist rein kosmetisch.'
 L['Display emotion icons in chat.'] = 'Zeige Emoticons im Chat.'
 L["Don't scale the large world map to block out sides of the screen."] = "Skaliere nicht die große Weltkarte, damit sie nicht außerhalb des Bildschirmrandes steht."
@@ -485,7 +485,7 @@ L["General"] = "Allgemein"
 L['Left'] = 'Links'
 L["Log Taints"] = "Log Fehler"
 L["Login Message"] = "Login Nachricht"
-L["LOGIN_MSG"] =  "Willkommen zu %sElvUI|r Version %s%s|r, Tippe /ec um das Konfigurationsmenü aufzurufen. Für technische Hilfe, besuche das Supportforum unter http://www.tukui.org"
+L["LOGIN_MSG"] = "Willkommen zu %sElvUI|r Version %s%s|r, Tippe /ec um das Konfigurationsmenü aufzurufen. Für technische Hilfe, besuche das Supportforum unter http://www.tukui.org"
 L["Loot Roll"] = "Würfelfenster"
 L["Loot"] = "Beute"
 L["Map Alpha While Moving"] = "Kartentransparenz während der Bewegung"
@@ -637,7 +637,7 @@ L["Tanked/Loose Color"] = "Tankend/Verlorene Farbe"
 L['The backdrop of the nameplates color is scaled to match the color of the nameplate by this percentage. Set to zero to have no color in the nameplate backdrop.'] = 'Der Hintergrund der Namensplaketten Farbe ist skaliert um mit den Prozent der Namensplaketten übereinzustimmen. Setze es auf Null um keine Farbe in dem Namensplaketten Hintergrund zu haben.'
 L["This color is displayed when gaining/losing threat, for a tank it would be displayed when gaining threat, for a dps/healer it would be displayed when losing threat"] = "Diese Farbe wird angezeigt, wenn du Bedrohung bekommst/verlierst, für einen Tank wird angezeigt wenn du Bedrohung bekommst, für DPS/Heiler wird angezeigt wenn sie Bedrohung verlieren"
 L["This color is displayed when gaining/losing threat, for a tank it would be displayed when losing threat, for a dps/healer it would be displayed when gaining threat"] = "Diese Farbe wird angezeigt, wenn du Bedrohung bekommst/verlierst, für einen Tank wird angezeigt wenn du Bedrohung verlierst, für DPS/Heiler wird angezeigt wenn sie Bedrohung gewinnen"
-L["This is displayed when you don't have threat as a tank, if you do have threat it is displayed as a DPS/Healer"] = "Dies wird angezeigt, wenn du als Tank die Bedrohung  nicht hast. Wenn du die Bedrohung hast, wird es wie DPS/Heiler angezeigt"
+L["This is displayed when you don't have threat as a tank, if you do have threat it is displayed as a DPS/Healer"] = "Dies wird angezeigt, wenn du als Tank die Bedrohung nicht hast. Wenn du die Bedrohung hast, wird es wie DPS/Heiler angezeigt"
 L["This is displayed when you have threat as a tank, if you don't have threat it is displayed as a DPS/Healer"] = "Dies wird angezeigt, wenn du als Tank die Bedrohung hast, wenn du die Bedrohung nicht hast wird es wie DPS/Heiler angezeigt"
 L["Threat"] = "Bedrohung"
 L["Toggles the nameplates off when not in combat."] = "Schaltet die Namensplaketten aus, wenn du nicht im Kampf bist."
@@ -652,7 +652,7 @@ L["Auction Frame"] = "Auktionsfenster"
 L["Barbershop Frame"] = "Barbier Fenster"
 L["BG Map"] = "Schlachtfeldkarte"
 L["BG Score"] = "Schlachtfeldpunkte"
-L['Black Market AH'] = 'Schwarzmarkt Auktionshaus' 
+L['Black Market AH'] = 'Schwarzmarkt Auktionshaus'
 L["Calendar Frame"] = "Kalender Fenster"
 L["Character Frame"] = "Charakterfenster"
 L["Debug Tools"] = "Debug Tools"
@@ -753,11 +753,11 @@ L["When in a raid group display if anyone in your raid is targeting the current 
 L["Who's targeting who?"] = "Wer hat was im Ziel?"
 
 --Tutorials
-L['A raid marker feature is available by pressing Escape -> Keybinds scroll to the bottom under ElvUI and setting a keybind for the raid marker.'] = 'Ein Feature für  Schlachtzugsmarkierung ist verfügbar, wenn du Escape drückst und Tastaturbelegung wählst, scrolle anschließend bis unter die Kategorie ElvUI und wähle eine Tastenbelegung für die Schlachtzugsmarkierung.'
+L['A raid marker feature is available by pressing Escape -> Keybinds scroll to the bottom under ElvUI and setting a keybind for the raid marker.'] = 'Ein Feature für Schlachtzugsmarkierung ist verfügbar, wenn du Escape drückst und Tastaturbelegung wählst, scrolle anschließend bis unter die Kategorie ElvUI und wähle eine Tastenbelegung für die Schlachtzugsmarkierung.'
 L['ElvUI has a dual spec feature which allows you to load different profiles based on your current spec on the fly. You can enable this from the profiles tab.'] = 'ElvUI hat ein Feature für Dualspezialisierungen, welches dich abhängig von deiner momentanen Spezialisierung verschiedene Profile laden lässt. Dieses Feature kannst du im Abschnitt Profil aktivieren.'
 L['For technical support visit us at http://www.tukui.org.'] = 'Für technische Hilfe besuche uns unter http://www.tukui.org.'
 L['If you accidently remove a chat frame you can always go the in-game configuration menu, press install, go to the chat portion and reset them.'] = 'Wenn du ausversehen das Chatfenster entfernen solltest, kannst du ganz einfach in die Ingame-Konfiguration gehen und den Installationsprozess erneut aufrufen. Drücke Installieren und gehe zu den Chateinstellungen und setze diese zurück.'
-L['If you are experiencing issues with ElvUI try disabling all your addons except ElvUI, remember ElvUI is a full UI replacement addon, you cannot run two addons that do the same thing.'] = 'Wenn du Probleme mit ElvUI hast, deaktiviere alle Addons außer ElvUI. Denke auch daran, dass  ElvUI die komplette Benutzeroberfläche ersetzt, d.h. du kannst kein  Addon verwenden, welches die gleichen Funktionen wie ElvUI nutzt.'
+L['If you are experiencing issues with ElvUI try disabling all your addons except ElvUI, remember ElvUI is a full UI replacement addon, you cannot run two addons that do the same thing.'] = 'Wenn du Probleme mit ElvUI hast, deaktiviere alle Addons außer ElvUI. Denke auch daran, dass ElvUI die komplette Benutzeroberfläche ersetzt, d.h. du kannst kein Addon verwenden, welches die gleichen Funktionen wie ElvUI nutzt.'
 L['The buff panel to the right of minimap is a list of your consolidated buffs. You can disable it in Buffs and Debuffs options of ElvUI.'] = 'Die Stärkungszauberleiste rechts neben der Minimap ist eine Liste der zusammengefassten Stärkungszauber. Du kannst diese in den Stärkungs- und Schwachungszauber-Optionen in ElvUI deaktivieren.'
 L['The focus unit can be set by typing /focus when you are targeting the unit you want to focus. It is recommended you make a macro to do this.'] = 'Du kannst, während du ein Ziel hast, das Fokusfenster durch die Eingabe von /fokus setzen. Es wird empfohlen ein Makro dafür zu nutzen.'
 L['To move abilities on the actionbars by default hold shift + drag. You can change the modifier key from the actionbar options menu.'] = 'Um Fähigkeiten auf der Aktionsleiste zu verschieben nutze Shift und bewege zeitgleich die Maus. Du kannst die Modifier-Taste im Aktionsleistenmenü umstellen.'
@@ -773,7 +773,7 @@ L['You can use the /resetui command to reset all of your movers. You can also us
 L['ABOVE_THREAT_FORMAT'] = '%s: %.0f%% [%.0f%% above |cff%02x%02x%02x%s|r]'
 
 --UnitFrames
-L["%s frame(s) has a conflicting anchor point, please change either the buff or debuff anchor point so they are not attached to each other. Forcing the debuffs to be attached to the main unitframe until fixed."] = "Es liegt ein Konflikt bei den Ankerpunkten des Rahmens %s vor. Bitte ändere entweder den Ankerpunkt des Stärkungs- oder  Schwächungszaubers,  damit diese nicht länger mit einander verbunden sind. Verbinde die Schwächungszauber mit dem Hauptrahmen, damit dieses Problem behoben wird."
+L["%s frame(s) has a conflicting anchor point, please change either the buff or debuff anchor point so they are not attached to each other. Forcing the debuffs to be attached to the main unitframe until fixed."] = "Es liegt ein Konflikt bei den Ankerpunkten des Rahmens %s vor. Bitte ändere entweder den Ankerpunkt des Stärkungs- oder Schwächungszaubers, damit diese nicht länger mit einander verbunden sind. Verbinde die Schwächungszauber mit dem Hauptrahmen, damit dieses Problem behoben wird."
 L['2D'] = '2D'
 L['3D'] = '3D'
 L['Above'] = 'Oben'
@@ -916,7 +916,7 @@ L['Icon: TOP'] = 'Symbol: OBEN'
 L['Icon: TOPLEFT'] = 'Symbol: OBENLINKS'
 L['Icon: TOPRIGHT'] = 'Symbol: OBENRECHTS'
 L["If no other filter options are being used then it will block anything not on the 'Whitelist' filter, otherwise it will simply add auras on the whitelist in addition to any other filter settings."] = "Wenn du keine anderen Filteroptionen verwendest werden alle Filter blockiert die nicht im 'Weisenfilter' stehen, sonst füge einfach Auren der Weisenliste hinzu zusätzlich zu den anderen Filter Einstellungen."
-L['If not set to 0 then override the size of the aura icon to this.'] = 'Wenn dieser Wert nicht auf 0 gesetzt wird, dann  überschreibt dieser die größe des Aurensymbols.'
+L['If not set to 0 then override the size of the aura icon to this.'] = 'Wenn dieser Wert nicht auf 0 gesetzt wird, dann überschreibt dieser die größe des Aurensymbols.'
 L["If the unit is an enemy to you."] = "Wenn die Einheit feindlich zu dir ist."
 L["If the unit is friendly to you."] = "Wenn die Einheit freundlich zu dir ist."
 L['Ignore mouse events.'] = 'Ignoriere Maus Events.'
@@ -990,7 +990,7 @@ L['Select the display method of the portrait.'] = 'Wähle das Anzeigemethode fü
 L["Set the filter type, blacklisted filters hide any aura on the like and show all else, whitelisted filters show any aura on the filter and hide all else."] = "Stelle den Filtertypus ein; Filter \"Schwarze Liste\" zeigt alle Auren und versteckt jene, die explizit im Filter angegeben wurden; im Gegensatz dazu verbirgt der Filter \"Weiße Liste\" alle Auren und zeigt nur jene an, die explizit im Filter angegeben wurden."
 L["Set the font size for unitframes."] = "Wähle die Schriftart für die Einheitenfenster."
 L["Set the order that the group will sort."] = "Wähle die Richtung in welche die Gruppe sortiert werden soll."
-L["Set the priority order of the spell, please note that prioritys are only used for the raid debuff module, not the standard buff/debuff module. If you want to disable set to zero."] = "Wähle die Priorität des Zaubers. Bitte beachte,  dass sich die Priorität nur auf das Schlachtzugsschwächungszauber-Modul auswirkt und nicht auf das Standart-Stärkungs/Schwächungszauber-Modul. Möchtest du es deaktivieren, dann setze es auf 0."
+L["Set the priority order of the spell, please note that prioritys are only used for the raid debuff module, not the standard buff/debuff module. If you want to disable set to zero."] = "Wähle die Priorität des Zaubers. Bitte beachte, dass sich die Priorität nur auf das Schlachtzugsschwächungszauber-Modul auswirkt und nicht auf das Standart-Stärkungs/Schwächungszauber-Modul. Möchtest du es deaktivieren, dann setze es auf 0."
 L['Set the type of auras to show when a unit is a foe.'] = 'Wähle den Aurentyp, der angezeigt werden soll, wenn das Ziel feindlich ist.'
 L['Set the type of auras to show when a unit is friendly.'] = 'Wähle den Aurentyp, der angezeigt werden soll, wenn das Ziel freundlich ist.'
 L["Sets the font instance's horizontal text alignment style."] = "Wähle die Schriftart Instanz horizontal zur Ausrichtung des Textes Stils."
@@ -1036,7 +1036,7 @@ L["The maximum number of columns that the header will create."] = "Die maximale 
 L["The maximum number of units that will be displayed in a single column."] = "Die maximale Anzahl von Einheiten, die in einer Spalte angezeigt werden."
 L['The name you have selected is already in use by another element.'] = 'Den Namen den du ausgewählt hast, wird bereits von einem anderem Element benutzt.'
 L['The object you want to attach to.'] = "Das Objekt, das du anhängen willst"
-L['The point of which you are anchoring to in relation to the attach to object.'] = 'Der Punkt, den du verankern willst,  widerspricht sich mit dem angehefteten Objekt.'
+L['The point of which you are anchoring to in relation to the attach to object.'] = 'Der Punkt, den du verankern willst, widerspricht sich mit dem angehefteten Objekt.'
 L['The spell "%s" has been added to the Blacklist unitframe aura filter.'] = 'Der Zauber "%s" wurde zur schwarzen Liste der Einheitenfenster hinzugefügt.'
 L['This filter is used for both aura bars and aura icons no matter what. Its purpose is to block out specific spellids from being shown. For example a paladin can have two sacred shield buffs at once, we block out the short one.'] = 'Dieser Filter wird für Aurenleisten und Aurensymbole verwendet. Sein Zweck besteht darin spezifische Zauber IDs zu blockieren, bevor diese angezeigt werden. Ein Beispiel für einen Paladin ist, dass du zwei Geheiligter Schild Stärkungszauber auf einmal hast. Es wird dann der Kürzere blockiert.'
 L['This will determine how the party/raid group will grow out when the group is not full. For example setting this to BOTTOMLEFT would cause the first raid frame to spawn from the BOTTOMLEFT corner of where the mover is positioned.'] = 'Es wird festgelegt wie eine Gruppe/Schlachtzugsgruppe wächst wenn die Gruppe nicht voll ist. Zum Beispiel stellst du es auf UNTENLINKS ein wird das erste Schlachtzugsfenster UNTENLINKS in der Ecke erscheinen wo auch der verschieber positioniert ist.'
@@ -1083,7 +1083,7 @@ Leben / Kraft Formate:
 'percent' - Prozentualer Wert
 'current-max' - Aktueller Wert gefolgt von dem maximalen Wert. Es wird nur der Maximale Wert anzeigt, wenn der aktuelle Wert auch das Maximum ist
 'current-percent' - Aktueller Wert gefolgt von dem prozentualen Wert. Es wird nur der maximale Wert angezeigt, wenn der aktuelle Wert auch das Maximum ist
-'current-max-percent' - Aktueller Wert, Maximaler Wert, gefolgt von dem prozentualen Wert. Es wird nur der maximale Wert  angezeigt, wenn der aktuelle Wert auch das Maximum ist
+'current-max-percent' - Aktueller Wert, Maximaler Wert, gefolgt von dem prozentualen Wert. Es wird nur der maximale Wert angezeigt, wenn der aktuelle Wert auch das Maximum ist
 'deficit' - Zeigt das Defizit. Es wird nichts angezeigt, wenn kein Defizit vorhanden ist
 
 Namensformate:
