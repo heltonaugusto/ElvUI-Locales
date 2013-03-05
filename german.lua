@@ -1057,7 +1057,7 @@ L['The point of which you are anchoring to in relation to the attach to object.'
 L['The spell "%s" has been added to the Blacklist unitframe aura filter.'] = 'Der Zauber "%s" wurde zur schwarzen Liste der Einheitenfenster hinzugefügt.'
 L['This filter is used for both aura bars and aura icons no matter what. Its purpose is to block out specific spellids from being shown. For example a paladin can have two sacred shield buffs at once, we block out the short one.'] = 'Dieser Filter wird für Aurenleisten und Aurensymbole verwendet. Sein Zweck besteht darin spezifische Zauber IDs zu blockieren, bevor diese angezeigt werden. Ein Beispiel für einen Paladin ist, dass du zwei Geheiligter Schild Stärkungszauber auf einmal hast. Es wird dann der Kürzere blockiert.'
 L['This will determine how the party/raid group will grow out when the group is not full. For example setting this to BOTTOMLEFT would cause the first raid frame to spawn from the BOTTOMLEFT corner of where the mover is positioned.'] = 'Es wird festgelegt wie eine Gruppe/Schlachtzugsgruppe wächst wenn die Gruppe nicht voll ist. Zum Beispiel stellst du es auf UNTENLINKS ein wird das erste Schlachtzugsfenster UNTENLINKS in der Ecke erscheinen wo auch der verschieber positioniert ist.'
-L['Threat Display Mode'] = true;
+L['Threat Display Mode'] = 'Bedrohungs Anzeige Modus'
 L["Ticks"] = "Ticks"
 L['Time Remaining Reverse'] = 'Zeit verbleibend umkehren'
 L['Time Remaining'] = 'Zeit verbleibend'
