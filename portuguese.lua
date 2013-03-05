@@ -1058,6 +1058,7 @@ L['The point of which you are anchoring to in relation to the attach to object.'
 L['The spell "%s" has been added to the Blacklist unitframe aura filter.'] = 'O feitiço "%s" foi adicionado à Lista Negra dos filtros das auras de unidades.';
 L['This filter is used for both aura bars and aura icons no matter what. Its purpose is to block out specific spellids from being shown. For example a paladin can have two sacred shield buffs at once, we block out the short one.'] = "Este filtro é usado para ambos ícones e barras de auras, não importa qual. Seu propósito é bloquear a exibição de spellids específicos. Por exempo, um Paladino pode ter dois bônus de Escudo Sagrado ao mesmo tempo, nós bloqueamos o de menos duração.";
 L['This will determine how the party/raid group will grow out when the group is not full. For example setting this to BOTTOMLEFT would cause the first raid frame to spawn from the BOTTOMLEFT corner of where the mover is positioned.'] = true;
+L['Threat Display Mode'] = true;
 L["Ticks"] = "Ticks";
 L['Time Remaining Reverse'] = true;
 L['Time Remaining'] = true;

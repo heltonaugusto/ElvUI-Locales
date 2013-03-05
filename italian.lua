@@ -1049,6 +1049,7 @@ L['The point of which you are anchoring to in relation to the attach to object.'
 L['The spell "%s" has been added to the Blacklist unitframe aura filter.'] = true;
 L['This filter is used for both aura bars and aura icons no matter what. Its purpose is to block out specific spellids from being shown. For example a paladin can have two sacred shield buffs at once, we block out the short one.'] = true;
 L['This will determine how the party/raid group will grow out when the group is not full. For example setting this to BOTTOMLEFT would cause the first raid frame to spawn from the BOTTOMLEFT corner of where the mover is positioned.'] = true;
+L['Threat Display Mode'] = true;
 L["Ticks"] = true;
 L['Time Remaining Reverse'] = true;
 L['Time Remaining'] = true;

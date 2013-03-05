@@ -1058,6 +1058,7 @@ L['The point of which you are anchoring to in relation to the attach to object.'
 L['The spell "%s" has been added to the Blacklist unitframe aura filter.'] = '法術"%s"已經被添加到單位框架的光環過濾器中.'
 L['This filter is used for both aura bars and aura icons no matter what. Its purpose is to block out specific spellids from being shown. For example a paladin can have two sacred shield buffs at once, we block out the short one.'] = '這個篩檢程式作用於光環條和光環圖示,不管是什麼,其目的是為了用阻止特定技能ID的技能被顯示. 例如: 聖騎士可以一次有兩個神聖之盾BUFF, 我們阻止了時間短的那個顯示.'
 L['This will determine how the party/raid group will grow out when the group is not full. For example setting this to BOTTOMLEFT would cause the first raid frame to spawn from the BOTTOMLEFT corner of where the mover is positioned.'] = true;
+L['Threat Display Mode'] = true;
 L["Ticks"] = "週期傷害"
 L['Time Remaining Reverse'] = true;
 L['Time Remaining'] = true;
