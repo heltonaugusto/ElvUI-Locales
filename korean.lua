@@ -883,7 +883,7 @@ L["Don't display auras that cannot be purged or dispelled by your class."] = tru
 L["Don't display auras that have no duration."] = true;
 L["Don't display raid buffs such as Blessing of Kings or Mark of the Wild."] = true;
 L["Down"] = "아래로"
-L['Down'] = true;
+
 L['Duration Reverse'] = true;
 L['Duration'] = true;
 L['Enemy Aura Type'] = true;
@@ -1068,7 +1068,6 @@ L['Turtle Color'] = true;
 L['Unholy'] = true;
 L["UnitFrames"] = "유닛프레임"
 L["Up"] = "위로"
-L['Up'] = true;
 L["Use the custom health backdrop color instead of a multiple of the main health color."] = "다양한 생명력 바 색상 대신에 임의로 지정한 생명력 배경 색상을 사용합니다."
 L["Value must be a number"] = true;
 L['Vertical Spacing'] = true;
