@@ -286,6 +286,7 @@ L["Lock"] = true;
 L['Low Resolution'] = true;
 L["low"] = true;
 L["Movers unlocked. Move them now and click Lock when you are done."] = true;
+L['Nudge'] = true;
 L["Physical DPS"] = true;
 L["Pixel Perfect Set"] = true;
 L['Pixel Perfect'] = true;

@@ -295,6 +295,7 @@ L["Lock"] = "Travar"
 L['Low Resolution'] = "Baixa Resolução";
 L["low"] = "baixo"
 L["Movers unlocked. Move them now and click Lock when you are done."] = "Movedores destravados. Mova-os agora e clique Travar quando acabar.";
+L['Nudge'] = true;
 L["Physical DPS"] = "DPS Físico";
 L["Pixel Perfect Set"] = "Perfeição em Pixel Configurado";
 L['Pixel Perfect'] = "Perfeição em Píxel";

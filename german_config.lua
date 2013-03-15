@@ -294,6 +294,7 @@ L["Lock"] = "Sperren"
 L['Low Resolution'] = 'Niedrige Auflösung'
 L["low"] = "niedrig"
 L["Movers unlocked. Move them now and click Lock when you are done."] = "Ankerpunkte entriegelt. Bewege die Ankerpunkte und klicke 'sperren', wenn du fertig bist."
+L['Nudge'] = true;
 L["Physical DPS"] = "Physische DPS"
 L["Pixel Perfect Set"] = "Pixel Perfekt aktivieren"
 L['Pixel Perfect'] = 'Pixel Perfekt'

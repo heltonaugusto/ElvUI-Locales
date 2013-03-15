@@ -295,6 +295,7 @@ L["Lock"] = "잠금"
 L['Low Resolution'] = true;
 L["low"] = "낮은"
 L["Movers unlocked. Move them now and click Lock when you are done."] = "이동이 가능합니다. 클릭하면 다시 이동이 불가능합니다."
+L['Nudge'] = true;
 L["Physical DPS"] = "근접 DPS"
 L["Pixel Perfect Set"] = true;
 L['Pixel Perfect'] = true;

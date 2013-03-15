@@ -295,6 +295,7 @@ L["Lock"] = "Bloquear"
 L['Low Resolution'] = "Baja Resolución";
 L["low"] = "baja"
 L["Movers unlocked. Move them now and click Lock when you are done."] = "Fijadores desbloqueados. Muévelos ahora y haz click en Bloquear cuando termines."
+L['Nudge'] = true;
 L["Physical DPS"] = "DPS Físico"
 L["Pixel Perfect Set"] = true;
 L['Pixel Perfect'] = 'Perfección por Pixel';

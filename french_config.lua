@@ -295,6 +295,7 @@ L["Lock"] = "Verrouiller"
 L['Low Resolution'] = "Basse résolution"
 L["low"] = "Faible"
 L["Movers unlocked. Move them now and click Lock when you are done."] = "Cadres déverrouillés. Déplacez-les et cliquez sur Verrouiller une fois terminé."
+L['Nudge'] = true;
 L["Physical DPS"] = "DPS Physique"
 L["Pixel Perfect Set"] = "Réglage Pixel Parfait";
 L['Pixel Perfect'] = "Pixel Parfait";

@@ -295,6 +295,7 @@ L["Lock"] = "Закрепить"
 L['Low Resolution'] = "Низкое разрешение"
 L["low"] = "низким"
 L["Movers unlocked. Move them now and click Lock when you are done."] = "Блокировка отключена. Передвиньте фреймы и нажмите 'Закрепить', когда закончите."
+L['Nudge'] = true;
 L["Physical DPS"] = "Физический урон"
 L["Pixel Perfect Set"] = "Pixel Perfect установлен"
 L['Pixel Perfect'] = 'Pixel Perfect'

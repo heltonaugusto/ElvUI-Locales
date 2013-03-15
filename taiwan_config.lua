@@ -295,6 +295,7 @@ L["Lock"] = "鎖定"
 L['Low Resolution'] = "低解析度"
 L["low"] = "低"
 L["Movers unlocked. Move them now and click Lock when you are done."] = "解除框架移動鎖定. 現在可以移動它們, 移好後請點擊「鎖定」."
+L['Nudge'] = true;
 L["Physical DPS"] = "物理輸出"
 L["Pixel Perfect Set"] = "像素設置"
 L['Pixel Perfect'] = "像素完美"
