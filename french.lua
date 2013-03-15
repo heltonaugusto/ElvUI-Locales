@@ -3,7 +3,7 @@ local L = AceLocale:NewLocale("ElvUI", "frFR");
 if not L then return; end
 
 --TEMP
-L["A taint has occured that is preventing you from using your talents/glyphs. Please reload your user interface and try again."] = "Une Action s'est produite qui vous empêche d'utiliser vos talents / glyphes.S'il vous plait,veuillez recharger votre interface utilisateur et essayez à nouveau."
+L["A taint has occured that is preventing you from using the queue system. Please reload your user interface and try again."] = true;
 
 --ActionBars
 L[" |cff00ff00bound to |r"] = "|cff00ff00assigné à |r"
@@ -720,6 +720,7 @@ L['Disable Warning'] = "Désactiver l'alerte";
 L['Do you swear not to post in technical support about something not working without first disabling the addon/module combination first?'] = "Jurez-vous de ne pas avoir posté sur le support technique du forum sur quelquechose qui ne fonctionne pas sans avoir desactivé en premier la combinaison Addon/Module?";
 L["Hover your mouse over any actionbutton or spellbook button to bind it. Press the escape key or right click to clear the current actionbutton's keybinding."] = "Passez votre souris sur n'importe quel bouton d'action ou bouton du grimoire pour lui attribuer un raccourcis. Appuyez sur la touche Echap ou le clic droit pour effacer le raccourci en cours."
 L['I Swear'] = "Je le jure"; --dafuq ?
+L['Oh lord, you have got ElvUI and Tukui both enabled at the same time. Select an addon to disable.'] = true;
 L["One or more of the changes you have made require a ReloadUI."] = "Une ou plusieurs modifications que vous avez effectuées necessitent un rechargement de l'interface."
 L["One or more of the changes you have made will effect all characters using this addon. You will have to reload the user interface to see the changes you have made."] = "Un ou plusieurs changement(s) que vous avez effectués a une incidence sur tous les personnages qui utilise cet addon. Vous devriez recharger l'interface utilisateur pour voir le(s) changement(s) apporté(s)."
 L["Save"] = "Sauvegarder"
@@ -779,6 +780,7 @@ L['You can use the /resetui command to reset all of your . You can also use the 
 L['ABOVE_THREAT_FORMAT'] = '%s: %.0f%% [%.0f%% above |cff%02x%02x%02x%s|r]'
 
 --UnitFrames
+L['%s and then %s'] = true;
 L["%s frame(s) has a conflicting anchor point, please change either the buff or debuff anchor point so they are not attached to each other. Forcing the debuffs to be attached to the main unitframe until fixed."] = "% du (des) cadre(s) à un point d'ancrage contradictoire(s), merci de changer le point d'ancrage des améliorations ou des affaiblissements de sorte qu'ils ne soint pas attachés les uns aux autres. Forcer les affaiblissement à être attaché au cadre d'unité principale jusqu'à ce qu'ils soient fixés."
 L['2D'] = "2D"
 L['3D'] = "3D"
@@ -873,8 +875,10 @@ L["Display a spark texture at the end of the castbar statusbar to help show the 
 L['Display Frames'] = "Afficher les cadres"
 L['Display icon on arena frame indicating the units talent specialization or the units faction if inside a battleground.'] = "Afficher une icône sur les cadres d'arènes indiquant la spécialisation des unités ou leurs factions si vous êtes dans un champs de bataille."
 L["Display Player"] = "Afficher le joueur"
+L['Display Target'] = true;
 L['Display Text'] = "Afficher le texte";
 L["Display the rested icon on the unitframe."] = "Afficher l'icône reposé sur le portrait d'unité"
+L['Display the target of your current cast. Useful for mouseover casts.'] = true; 
 L["Display tick marks on the castbar for channelled spells. This will adjust automatically for spells like Drain Soul and add additional ticks based on haste."] = "Affichage des marques de graduation (ticks) sur la barre de lancement de sort. Cela s'ajustera automatiquement pour les sorts comme Drain d'âme qui est basé sur la Hâte."
 L["Don't display any auras found on the 'Blacklist' filter."] = "Ne pas afficher les auras trouvés dans la 'Liste noire' du filtre.";
 L["Don't display auras that are not yours."] = "Ne pas afficher les auras qui ne sont pas les votres.";
@@ -882,6 +886,7 @@ L["Don't display auras that cannot be purged or dispelled by your class."] = "Ne
 L["Don't display auras that have no duration."] = "Ne pas afficher les auras qui n'ont pas de durée.";
 L["Don't display raid buffs such as Blessing of Kings or Mark of the Wild."] = "Ne pas afficher les améliorations de raid comme la Bénédiction des Rois ou La Marque du Fauve.";
 L["Down"] = "En bas"
+L['Down'] = true;
 L['Duration Reverse'] = "Durée inversée";
 L['Duration'] = "Durée";
 L['Enemy Aura Type'] = "Type d'Aura inamical";
@@ -905,6 +910,8 @@ L['Glow'] = "Lueur";
 L["Good"] = "Bonne"
 L["Group By"] = "Groupe par"
 L["Group Point"] = "Point du groupe"
+L['Group Size'] = true;
+L['Growth direction from the first unitframe.'] = true;
 L['Growth Direction'] = "Direction de la croissance"
 L['Harmony'] = "Harmonie";
 L["Heal Prediction"] = "Soin prévisionnel"
@@ -915,6 +922,7 @@ L["Health Text"] = "Afficher la vie"
 L["Health"] = "Vie"
 L["Height"] = "Hauteur"
 L['Holy Power'] = "Puissance sacrée";
+L['Horizontal Spacing'] = true;
 L["Horizontal"] = "Horizontale" --Also used in bags module
 L["How far away the portrait is from the camera."] = "Configure la distance de la caméra par rapport au portrait."
 L["Icon"] = "Icône"
@@ -943,6 +951,7 @@ L["Match Frame Width"] = "Accorder à la largeur du cadre"
 L["Max Columns"] = "Colonnes maximum"
 L['Middle Click - Set Focus'] = "Clic milieu - Reglage du Focus";
 L['Middle clicking the unit frame will cause your focus to match the unit.'] = "Bouton du milieu sur la fenetre d'unité devellopera votre focus en unité" --need review;
+L['Model Rotation'] = true; 
 L['Mouseover'] = "Survol de la sourie";
 L["Name"] = "Nom" --Also used in Buffs and Debuffs
 L["Neutral"] = "Neutre"
@@ -950,6 +959,8 @@ L['Non-Interruptable'] = "Non-interruptible";
 L["None"] = "Aucun"
 L["Not valid spell id"] = "ID du sort invalide"
 L["Num Rows"] = "Nbre de lignes"
+L['Number of Groups'] = true;
+L['Number of units in a group.'] = true;
 L["Offline"] = "Déconnecté"
 L["Offset of the powerbar to the healthbar, set to 0 to disable."] = "Decalage de la barre de pouvoir à la barre de vie, mettre 0 pour désactiver."
 L['Offset position for text.'] = "Décalage de la position du texte.";
@@ -1028,6 +1039,7 @@ L['Spec Icon'] = 'Icône de spécialisation'
 L["Spell not found in list."] = "Sort non trouvé dans la liste."
 L['Spells'] = "Sorts";
 L['Stagger Bar'] = "Barre de Report" --stagger = monk spell
+L['Start from Center'] = true;
 L["StatusBar Texture"] = "Texture de la barre d'état."
 L['Style'] = "Style" --Need review
 L["Tank Frames"] = "Cadre des Tanks"
@@ -1050,6 +1062,7 @@ L["The alpha to set units that are out of range to."] = "Règle la transparence 
 L["The anchor point for each new column. A value of LEFT will cause the columns to grow to the right."] = "Le point d'ancrage pour chaque nouvelle colonne. Si la valeur est sur LEFT, les nouvelles colonnes se développeront sur la droite"
 L["The following macro must be true in order for the group to be shown, in addition to any filter that may already be set."] = "La macro suivante doit être cochée pour que le groupe soit affiché, en plus de la configuration des filtres."
 L["The font that the unitframes will use."] = "Police utilisée par défaut pour les cadres d'unités."
+L['The initial group will start near the center and grow out. Corrosponding groups will behave normally.'] = true;
 L["The maximum number of columns that the header will create."] = "Nombre maximum de colonne que l'en-tête va créer."
 L["The maximum number of units that will be displayed in a single column."] = "Nombre Maximum d'unités affichées dans une seule colonne"
 L['The name you have selected is already in use by another element.'] = "Le nom que vous avez sélectionné est déjà utilisé par un autre élément."
@@ -1069,8 +1082,10 @@ L['Unholy'] = "Sacré";
 L["UnitFrames"] = "Cadre d'unité"
 L["Units Per Column"] = "Unités par colonne"
 L["Up"] = "Haut"
+L['Up'] = true;
 L["Use the custom health backdrop color instead of a multiple of the main health color."] = "Utilise une couleur personnalisé pour colorer le fond de la barre de vie au lieu d'utiliser la couleur par défaut."
 L["Value must be a number"] = "La valeur doit être un nombre"
+L['Vertical Spacing'] = true;
 L["Vertical"] = "Verticale"
 L["Visibility"] = "Visibilité"
 L["What each frame should attach itself to. For example setting it to TOP every unit will attach its top to the last point bottom."] = "Le point d'ancrage pour attacher les cadres entre eux, exemple: si le paramètre est sur HAUT, tous les cadres d'unités se développeront à partir du point vers le bas."; --Need review
