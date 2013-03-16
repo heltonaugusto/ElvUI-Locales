@@ -32,6 +32,7 @@ L['Delete Grays'] = true;
 L['Hold Control + Right Click:'] = true;
 L['Hold Shift + Drag:'] = true;
 L['Hold Shift:'] = true;
+L['Purchase'] = true;
 L['Reset Position'] = true;
 L['Sort Bags'] = true;
 L['Sort Tab'] = true; --Not used, yet?

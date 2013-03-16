@@ -83,7 +83,6 @@ L['Ignore Items'] = true;
 L['List of items to ignore when sorting. If you wish to add multiple items you must seperate the word with a comma.'] = true;
 L['Panel Width (Bags)'] = true;
 L['Panel Width (Bank)'] = true;
-L['Purchase'] = true;
 L["Set the size of your bag buttons."] = true;
 L["silverabbrev"] = "|cffc7c7cfs|r" --Also used in gold datatext
 L["Sort Direction"] = true; --Also used in Buffs and Debuffs
@@ -102,7 +101,6 @@ L["Top to Bottom"] = true;
 L["X Offset"] = true;
 L["Y Offset"] = true;
 L['You must be at a bank.'] = true;
-
 
 --Buffs and Debuffs
 L['AURAS_DESC'] = 'Configure the aura icons that appear near the minimap.';
