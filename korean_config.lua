@@ -885,7 +885,6 @@ L["Don't display raid buffs such as Blessing of Kings or Mark of the Wild."] = t
 L["Down"] = "아래로"
 L['Duration Reverse'] = true;
 L['Duration'] = true;
-
 L['Enemy Aura Type'] = true;
 L["Fade the unitframe when out of combat, not casting, no target exists."] = "전투중/시전중이 아니거나 대상이 없을 때 유닛프레임을 감춥니다."
 L["Fill"] = "채우기"
