@@ -784,6 +784,7 @@ L["%s frame(s) has a conflicting anchor point, please change either the buff or 
 L['2D'] = true;
 L['3D'] = true;
 L['Above'] = true;
+L["Absorbs"] = true;
 L["Add a spell to the filter."] = "필터에 주문을 추가."
 L["Add Spell"] = "주문 추가"
 L["Add SpellID"] = "주문 ID 추가"
@@ -882,9 +883,9 @@ L["Don't display auras that cannot be purged or dispelled by your class."] = tru
 L["Don't display auras that have no duration."] = true;
 L["Don't display raid buffs such as Blessing of Kings or Mark of the Wild."] = true;
 L["Down"] = "아래로"
-
 L['Duration Reverse'] = true;
 L['Duration'] = true;
+
 L['Enemy Aura Type'] = true;
 L["Fade the unitframe when out of combat, not casting, no target exists."] = "전투중/시전중이 아니거나 대상이 없을 때 유닛프레임을 감춥니다."
 L["Fill"] = "채우기"
@@ -963,6 +964,7 @@ L['Only show when the unit is not in range.'] = true;
 L['Only show when you are mousing over a frame.'] = true;
 L["OOR Alpha"] = "사거리 밖 투명도"
 L["Orientation"] = "방향"
+L["Others"] = true;
 L["Overlay the healthbar"] = "프레임 내부에 표시"
 L["Overlay"] = "오버레이"
 L["Override any custom visibility setting in certain situations, EX: Only show groups 1 and 2 inside a 10 man instance."] = "상황에 따라 표시를 제한합니다.\n ex: 10인 공격대에서는 1파티와 2파티만 표시됩니다."
@@ -971,6 +973,7 @@ L["Party Pets"] = "파티원 소환수"
 L["Party Targets"] = "파티원의 대상"
 L["Per Row"] = "한 열당 표시되는 수"
 L["Percent"] = "비율"
+L["Personal"] = true;
 L["Pet Frame"] = "소환수 프레임"
 L["PetTarget Frame"] = "소환수 대상 프레임"
 L['Player Frame Aura Bars'] = true;
