@@ -530,6 +530,7 @@ L["This texture will get used on objects like chat windows and dropdown menus."]
 L["Value Color"] = "색상 값"
 
 --Misc
+L['Calendar'] = true;
 L["Can't Roll"] = "주사위를 굴릴 수 없습니다."
 L["Empty Slot"] = "빈 슬롯"
 L["Enable"] = "사용" --Doesn't fit a section since it's used a lot of places

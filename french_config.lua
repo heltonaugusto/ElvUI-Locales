@@ -530,6 +530,7 @@ L["This texture will get used on objects like chat windows and dropdown menus."]
 L["Value Color"] = "Couleur des Textes d'informations"
 
 --Misc
+L['Calendar'] = true;
 L["Can't Roll"] = "Ne peut pas jeter les dés"
 L["Empty Slot"] = "Emplacement libre"
 L["Enable"] = "Activer" --Doesn't fit a section since it's used a lot of places

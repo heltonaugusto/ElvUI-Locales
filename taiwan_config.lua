@@ -530,6 +530,7 @@ L["This texture will get used on objects like chat windows and dropdown menus."]
 L["Value Color"] = "數值顏色"
 
 --Misc
+L['Calendar'] = true;
 L["Can't Roll"] = "無法需求此裝備"
 L["Empty Slot"] = "空欄位"
 L["Enable"] = "啟用"

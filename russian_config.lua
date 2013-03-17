@@ -530,6 +530,7 @@ L["This texture will get used on objects like chat windows and dropdown menus."]
 L["Value Color"] = "Цвет значений"
 
 --Misc
+L['Calendar'] = true;
 L["Can't Roll"] = "Не могу бросить кости"
 L["Empty Slot"] = "Пустой слот"
 L["Enable"] = "Включить" --Doesn't fit a section since it's used a lot of places
