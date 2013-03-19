@@ -293,7 +293,7 @@ L["Lock"] = "Закрепить"
 L['Low Resolution'] = "Низкое разрешение"
 L["low"] = "низким"
 L["Movers unlocked. Move them now and click Lock when you are done."] = "Блокировка отключена. Передвиньте фреймы и нажмите 'Закрепить', когда закончите."
-L['Nudge'] = true;
+L['Nudge'] = "Сдвиг"
 L["Physical DPS"] = "Физический урон"
 L["Pixel Perfect Set"] = "Pixel Perfect установлен"
 L['Pixel Perfect'] = 'Pixel Perfect'
@@ -530,7 +530,7 @@ L["This texture will get used on objects like chat windows and dropdown menus."]
 L["Value Color"] = "Цвет значений"
 
 --Misc
-L['Calendar'] = true;
+L['Calendar'] = "Календарь"
 L["Can't Roll"] = "Не могу бросить кости"
 L["Empty Slot"] = "Пустой слот"
 L["Enable"] = "Включить" --Doesn't fit a section since it's used a lot of places
@@ -785,7 +785,7 @@ L["%s frame(s) has a conflicting anchor point, please change either the buff or 
 L['2D'] = '2D'
 L['3D'] = '3D'
 L['Above'] = "Сверху"
-L["Absorbs"] = true;
+L["Absorbs"] = "Поглощения"
 L["Add a spell to the filter."] = "Добавить заклинание в фильтр"
 L["Add Spell"] = "Добавить заклинание"
 L["Add SpellID"] = "Добавить ID заклинания"
@@ -964,7 +964,7 @@ L['Only show when the unit is not in range.'] = "Отображать тольк
 L['Only show when you are mousing over a frame.'] = "Отображать только при наведении курсора на фрейм."
 L["OOR Alpha"] = "Прозрачность вне радиуса"
 L["Orientation"] = "Ориентация"
-L["Others"] = true;
+L["Others"] = "Свое"
 L["Overlay the healthbar"] = "Отображение портрета на полосе здоровья."
 L["Overlay"] = "Наложение"
 L["Override any custom visibility setting in certain situations, EX: Only show groups 1 and 2 inside a 10 man instance."] = "Игнорировать пользовательские настройки отображения в определенных ситуациях. Пример: показывать только группы 1 и 2 в подземелье на 10 человек."
@@ -973,7 +973,7 @@ L["Party Pets"] = "Питомцы группы"
 L["Party Targets"] = "Цели группы"
 L["Per Row"] = "Кол-во в ряду"
 L["Percent"] = "Процент"
-L["Personal"] = true;
+L["Personal"] = "Чужое"
 L["Pet Frame"] = "Питомец"
 L["PetTarget Frame"] = "Цель питомца"
 L['Player Frame Aura Bars'] = "Полосы аур игрока"
