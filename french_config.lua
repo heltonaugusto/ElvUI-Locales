@@ -179,7 +179,6 @@ L["AFK"] = "ABS" --Also used in datatexts and tooltip
 L["Attempt to create URL links inside the chat."] = "Tentative pour créer un lien URL dans les fenêtres de discussion."
 L['Attempt to lock the left and right chat frame positions. Disabling this option will allow you to move the main chat frame anywhere you wish.'] = "Tentative pour verrouiller les positions gauche et droite du cadre de discussion. La désactivation de cette option vous permet de déplacer la fenêtre de discussion principal où vous le souhaitez.";
 L['Below Chat'] = "En-dessous du Chat";
-L["BN:"] = "BN:"
 L['Chat EditBox Position'] = "Postitoin de la fenêtre de saisie du Chat";
 L['Chat History'] = "historique de la discussion";
 L["Chat"] = "Discussion"

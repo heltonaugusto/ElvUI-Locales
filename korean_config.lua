@@ -179,7 +179,6 @@ L["AFK"] = "자리비움" --Also used in datatexts and tooltip
 L["Attempt to create URL links inside the chat."] = "대화창에 URL 주소를 생성합니다."
 L['Attempt to lock the left and right chat frame positions. Disabling this option will allow you to move the main chat frame anywhere you wish.'] = true;
 L['Below Chat'] = true;
-L["BN:"] = "BN:"
 L['Chat EditBox Position'] = true;
 L['Chat History'] = true;
 L["Chat"] = "대화창"

@@ -179,7 +179,6 @@ L["AFK"] = "离开"
 L["Attempt to create URL links inside the chat."] = "在对话框中创建超链结"
 L['Attempt to lock the left and right chat frame positions. Disabling this option will allow you to move the main chat frame anywhere you wish.'] = "锁定左右对话框架的位置.禁用此选项将允许你移动对话框架到任意位置."
 L['Below Chat'] = '对话框下方'
-L["BN:"] = "战网："
 L['Chat EditBox Position'] = '对话輸入框位置'
 L['Chat History'] = '对话历史'
 L["Chat"] = "对话设定"
