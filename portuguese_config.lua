@@ -714,6 +714,7 @@ L['Void Storage'] = "Cofre Etéreo";
 L["World Map"] = "Mapa-múndi";
 
 --Static Popups
+L["Are you sure you want to reset all the settings on this profile?"] = true;
 L["A setting you have changed will change an option for this character only. This setting that you have changed will be uneffected by changing user profiles. Changing this setting requires that you reload your User Interface."] = "A definição que você alterou afetará apenas este personagem. Esta definição que você alterou não será afetada por mudanças de perfil. Alterar esta difinição requer que você recarregue a sua interface.";
 L["Are you sure you want to delete all your gray items?"] = "Tem a certeza de que deseja destruir todos os seus itens cinzentos?";
 L["Are you sure you want to disband the group?"] = "Tem a certeza de que quer dissolver o grupo?";

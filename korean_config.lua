@@ -714,6 +714,7 @@ L['Void Storage'] = true;
 L["World Map"] = "세계지도"
 
 --Static Popups
+L["Are you sure you want to reset all the settings on this profile?"] = true;
 L["A setting you have changed will change an option for this character only. This setting that you have changed will be uneffected by changing user profiles. Changing this setting requires that you reload your User Interface."] = true;
 L["Are you sure you want to delete all your gray items?"] = "모든 회색 아이템을 삭제하시겠습니까?"
 L["Are you sure you want to disband the group?"] = "당신은 그룹을 해체 하시겠습니까?"

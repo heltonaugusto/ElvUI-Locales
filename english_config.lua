@@ -439,6 +439,9 @@ L['Transmogrify Frame'] = true;
 L['Void Storage'] = true;
 L["World Map"] = true;
 
+--Static Popups
+L["Are you sure you want to reset all the settings on this profile?"] = true;
+
 --Tooltip
 L['Always Hide'] = true;
 L["Anchor Mode"] = true;
