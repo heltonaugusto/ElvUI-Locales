@@ -88,7 +88,6 @@ L["silverabbrev"] = "|cffc7c7cfs|r" --Also used in gold datatext
 L["Sort Direction"] = true; --Also used in Buffs and Debuffs
 L['Sort Inverted'] = true;
 L["Sort Special"] = true;
-L['Stack Bank to Bags'] = true;
 L["Stack Special"] = true;
 L["The direction that the bag frames be (Horizontal or Vertical)."] = true;
 L["The direction that the bag frames will grow from the anchor."] = true;

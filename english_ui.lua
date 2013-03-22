@@ -37,6 +37,7 @@ L['Reset Position'] = true;
 L['Sort Bags'] = true;
 L['Sort Tab'] = true; --Not used, yet?
 L['Stack Bags to Bank'] = true;
+L['Stack Bank to Bags'] = true;
 L['Stack Items'] = true;
 L['Temporary Move'] = true;
 L['Toggle Bags'] = true;
