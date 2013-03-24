@@ -69,24 +69,20 @@ L["Bottom to Top"] = true;
 L['Button Size (Bag)'] = true;
 L['Button Size (Bank)'] = true;
 L["Click to search.."] = true;
-L["copperabbrev"] = "|cffeda55fc|r" --Also used in gold datatext
 L['Currency Format'] = true;
 L["Descending"] = true;
 L["Direction the bag sorting will use to allocate the items."] = true;
 L["Enable/Disable the all-in-one bag."] = true;
 L["Enable/Disable the Bag-Bar."] = true;
-L["goldabbrev"] = "|cffffd700g|r" --Also used in gold datatext
 L["Icons and Text"] = true;
 L['Ignore Items'] = true;
 L['List of items to ignore when sorting. If you wish to add multiple items you must seperate the word with a comma.'] = true;
 L['Panel Width (Bags)'] = true;
 L['Panel Width (Bank)'] = true;
 L["Set the size of your bag buttons."] = true;
-L["silverabbrev"] = "|cffc7c7cfs|r" --Also used in gold datatext
 L["Sort Direction"] = true; --Also used in Buffs and Debuffs
 L['Sort Inverted'] = true;
 L["Sort Special"] = true;
-L['Stack Bank to Bags'] = true;
 L["Stack Special"] = true;
 L["The direction that the bag frames be (Horizontal or Vertical)."] = true;
 L["The direction that the bag frames will grow from the anchor."] = true;
@@ -222,15 +218,12 @@ L['When inside a battleground display personal scoreboard information on the mai
 
 --Distributor
 L["Must be in group with the player if he isn't on the same server as you."] = true;
-L['Profile request sent. Waiting for response from player.'] = true;
-L['Request was denied by user.'] = true;
 L["Sends your current profile to your target."] = true;
 L["Sends your filter settings to your target."] = true;
 L["Share Current Profile"] = true;
 L["Share Filters"] = true;
 L["This feature will allow you to transfer, settings to other characters."] = true;
 L["You must be targeting a player."] = true;
-L['Your profile was successfully recieved by the player.'] = true;
 
 --General
 L["Accept Invites"] = true;
@@ -268,7 +261,7 @@ L["Loot Roll"] = true;
 L["Loot"] = true;
 L["Map Alpha While Moving"] = true;
 L["Name Font"] = true;
-L['Remove Backdrop'] = true;
+L['Remove Backdrop'] = true; 
 L["Reset all frames to their original positions."] = true;
 L["Reset Anchors"] = true;
 L['Right'] = true;
