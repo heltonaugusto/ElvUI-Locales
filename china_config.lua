@@ -71,20 +71,17 @@ L["Bottom to Top"] = '底部到顶部'
 L['Button Size (Bag)'] = '背包格子尺寸'
 L['Button Size (Bank)'] = '银行背包格子尺寸'
 L["Click to search.."] = "按一下以搜寻.."
-L["copperabbrev"] = "|cffeda55f铜|r"
 L['Currency Format'] = "货币格式"
 L["Descending"] = "降序"
 L["Direction the bag sorting will use to allocate the items."] = '整理背包时物品排序方向.'
 L["Enable/Disable the all-in-one bag."] = "开/关整合背包。"
 L["Enable/Disable the Bag-Bar."] = "启用/禁用 背包条."
-L["goldabbrev"] = "|cffffd700金|r"
 L["Icons and Text"] = "图标和文字"
 L['Ignore Items'] = "忽略项目"
 L['List of items to ignore when sorting. If you wish to add multiple items you must seperate the word with a comma.'] = "忽略清单中的项目，如果你想添加多个项目，你必须用逗号将它们分开."
 L['Panel Width (Bags)'] = '背包面板宽度'
 L['Panel Width (Bank)'] = '银行面板宽度'
 L["Set the size of your bag buttons."] = "设置背包按钮尺寸."
-L["silverabbrev"] = "|cffc7c7cf银|r"
 L["Sort Direction"] = "排列方向"
 L['Sort Inverted'] = "倒序"
 L["Sort Special"] = "整理特殊背包"
@@ -232,15 +229,12 @@ L['When inside a battleground display personal scoreboard information on the mai
 
 --Distributor
 L["Must be in group with the player if he isn't on the same server as you."] = "如果不是同一服务器, 那他必须和你在同一队伍中."
-L['Profile request sent. Waiting for response from player.'] = "已发送文件请求. 等待对方响应."
-L['Request was denied by user.'] = "请求被对方拒绝."
 L["Sends your current profile to your target."] = "发送你的配置文件到当前目标."
 L["Sends your filter settings to your target."] = "发送你的过滤器配置到当前目标."
 L["Share Current Profile"] = "分享当前配置文件"
 L["Share Filters"] = "分享过滤器配置"
 L["This feature will allow you to transfer, settings to other characters."] = "此功能将使你设置转移给他角色."
 L["You must be targeting a player."] = "你必须以一名玩家为目标."
-L['Your profile was successfully recieved by the player.'] = "你的配置文件已被其他玩家成功接收."
 
 --General
 L["Accept Invites"] = "接受邀请"
