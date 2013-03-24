@@ -3,7 +3,7 @@ local L = AceLocale:NewLocale("ElvUI", "zhCN")
 if not L then return end
 
 --TEMP
-L["A taint has occured that is preventing you from using the queue system. Please reload your user interface and try again."] = true;
+L["A taint has occured that is preventing you from using the queue system. Please reload your user interface and try again."] = "发生一个错误导致你无法使用队列系统,请重新加载你的用户界面,然后再试一次."
 
 --ActionBars
 L["Binding"] = "绑定"
@@ -33,7 +33,7 @@ L['Hold Shift:'] = "按住 Shift:"
 L['Purchase'] = "购买"
 L['Reset Position'] = "重设位置"
 L['Sort Bags'] = "背包整理"
-L['Sort Tab'] = true; --Not used, yet?
+L['Sort Tab'] = "选项排列" --Not used, yet?
 L['Stack Bags to Bank'] = "堆叠背包到银行"
 L['Stack Bank to Bags'] = "堆叠银行到背包"
 L['Stack Items'] = "堆叠物品"
@@ -168,7 +168,7 @@ L["Lock"] = "锁定"
 L['Low Resolution'] = "低分辨率"
 L["low"] = "低"
 L["Movers unlocked. Move them now and click Lock when you are done."] = "解除框架移动锁定. 现在可以移动它们, 移好后请点击「锁定」."
-L['Nudge'] = true;
+L['Nudge'] = "微调"
 L['Physical DPS'] = "物理输出"
 L["Pixel Perfect Set"] = "像素完美設置"
 L["Pixel Perfect"] = "像素完美"
@@ -177,7 +177,7 @@ L["Please click the button below to setup your CVars."] = "请按下方按钮设
 L["Please press the continue button to go onto the next step."] = "请按继续按钮到下一步"
 L["Resolution Style Set"] = "分辨率样式设置"
 L["Resolution"] = "分辨率"
-L["Select the type of aura system you want to use with ElvUI's unitframes. The integrated system utilizes both aura-bars and aura-icons. The icons only system will display only icons and aurabars won't be used."] = '选择你要显示在单位框体上的光环系统, "综合"将显示图标和光环条, "图标"将只显示图标,不显示光环条.'
+L["Select the type of aura system you want to use with ElvUI's unitframes. The integrated system utilizes both aura-bars and aura-icons. The icons only system will display only icons and aurabars won't be used."] = '选择你要显示在单位框架上的光环系统, "综合"将显示图标和光环条, "图标"将只显示图标,不显示光环条.'
 L["Setup Chat"] = "设定对话视窗"
 L["Setup CVars"] = "设定参数"
 L["Skip Process"] = "略过"
@@ -207,7 +207,7 @@ L["Your current resolution is %s, this is considered a %s resolution."] = "你�
 
 --Misc
 L['Bars'] = "条"
-L['Calendar'] = true;
+L['Calendar'] = "日历"
 L["Can't Roll"] = "无法需求此装备"
 L['Disband Group'] = "解散队伍"
 L['Empty Slot'] = "空栏位"
@@ -227,7 +227,7 @@ L["You don't have permission to mark targets."] = "你没有标记目标的权�
 L['ABOVE_THREAT_FORMAT'] = '%s: %.0f%% [%.0f%% 以上 |cff%02x%02x%02x%s|r]'
 
 --Movers
-L[' Frames'] = "框体"
+L[' Frames'] = "框架"
 L['Alternative Power'] = "特殊能量条"
 L['Arena Frames'] = "竞技场框架"
 L["Auras Frame"] = "BUFF/DEBUFF 框"
@@ -287,7 +287,7 @@ L['Confused.. Try Again!'] = '请再试一次！'
 L["Deleted %d gray items. Total Worth: %s"] = "已删除 %d 个灰色物品. 总价值: "
 L["No gray items to delete."] = "没有要删除的灰色物品"
 L["No gray items to sell."] = "无灰色物品出售."
-L['The spell "%s" has been added to the Blacklist unitframe aura filter.'] = '法术"%s"已经被添加到单位框体的光环过滤器中.'
+L['The spell "%s" has been added to the Blacklist unitframe aura filter.'] = '法术"%s"已经被添加到单位框架的光环过滤器中.'
 L["Vendored gray items for:"] = "已出售灰色物品:"
 L["You don't have enough money to repair."] = "没有足够的资金来修复."
 L["You must be at a vendor."] = "你必需以商人为目标."
@@ -301,7 +301,7 @@ L["LOGIN_MSG"] = "欢迎使用 %sElvUI|r %s%s|r 版，请输入 /ec 进入设定
 L["A setting you have changed will change an option for this character only. This setting that you have changed will be uneffected by changing user profiles. Changing this setting requires that you reload your User Interface."] = "你所做的改动只会影响到使用这个插件的本角色, 你需要重新加载界面才能使改动生效."
 L["Are you sure you want to delete all your gray items?"] = "确定需要摧毁你的灰色物品?"
 L["Are you sure you want to disband the group?"] = "确定要解散队伍?"
-L["Are you sure you want to reset every mover back to it's default position?"] = "确定需要重置所有框体至默认位置?"
+L["Are you sure you want to reset every mover back to it's default position?"] = "确定需要重置所有框架至默认位置?"
 L["Because of the mass confusion caused by the new aura system I've implemented a new step to the installation process. This is optional. If you like how your auras are setup go to the last step and click finished to not be prompted again. If for some reason you are prompted repeatedly please restart your game."] = "由于大量的改动导致光环系统需要一个新的安装过程. 这是可选的, 最后一步将设置你的光环样式. 点击「完成」将不再提示. 如果由于某些原因反复提示, 请重新开启游戏."
 L["Can't buy anymore slots!"] = "银行背包栏位已达最大值"
 L['Disable Warning'] = '停用警告'
@@ -309,7 +309,7 @@ L["Discard"] = "取消"
 L['Do you swear not to post in technical support about something not working without first disabling the addon/module combination first?'] = true;
 L["Hover your mouse over any actionbutton or spellbook button to bind it. Press the escape key or right click to clear the current actionbutton's keybinding."] = "移动滑鼠到快捷列或技能书按钮上绑定快捷键. 按ESC或滑鼠右键取消目前快捷键"
 L['I Swear'] = '我承诺'
-L['Oh lord, you have got ElvUI and Tukui both enabled at the same time. Select an addon to disable.'] = true;
+L['Oh lord, you have got ElvUI and Tukui both enabled at the same time. Select an addon to disable.'] = "你不能同时使用Elvui和Tukui， 请选择一个禁用."
 L["One or more of the changes you have made require a ReloadUI."] = "已变更一或多个设定，需重载介面."
 L["One or more of the changes you have made will effect all characters using this addon. You will have to reload the user interface to see the changes you have made."] = "你所做的改动可能会影响到使用这个插件的所有角色，你需要重新加载界面才能使改动生效。"
 L["Save"] = "储存"
@@ -337,7 +337,7 @@ L['You can access copy chat and chat menu functions by mouse over the top right 
 L['You can see someones average item level of their gear by holding shift and mousing over them. It should appear inside the tooltip.'] = "你可以通过按住Shift并将鼠标滑过目标看到目标的装备等级, 这将显示在你的鼠标提示框内."
 L['You can set your keybinds quickly by typing /kb.'] = "你可以通过输入 /kb 快速绑定按键."
 L['You can toggle the microbar by using your middle mouse button on the minimap you can also accomplish this by enabling the actual microbar located in the actionbar settings.'] = "你可以通过鼠标中键点击小地图或在快捷列设置内选择打开微型系统栏."
-L['You can use the /resetui command to reset all of your movers. You can also use the command to reset a specific mover, /resetui <mover name>.\nExample: /resetui Player Frame'] = "使用 /resetui 命令可以重置你的所有框体位置. 你也可以通过命令 /resetui <框体名称> 单独重置某个框体.\n例如: /resetui Player Frame"
+L['You can use the /resetui command to reset all of your movers. You can also use the command to reset a specific mover, /resetui <mover name>.\nExample: /resetui Player Frame'] = "使用 /resetui 命令可以重置你的所有框架位置. 你也可以通过命令 /resetui <框架名称> 单独重置某个框架.\n例如: /resetui Player Frame"
 
 --UnitFrames
 L["Ghost"] = "鬼魂"
