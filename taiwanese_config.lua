@@ -193,13 +193,6 @@ Or for most users it would be easier to simply put a tga file into your WoW fold
 
 對多數玩家來說, 較簡易的方式是將 tga 檔放入 WoW 資料夾中, 然後在此處輸入檔案名稱.]=]
 
---Install
-L["Install"] = "安裝"
-L["Run the installation process."] = "執行安裝程序"
-L["Toggle Anchors"] = "解鎖元件定位"
-L["Unlock various elements of the UI to be repositioned."] = "解鎖介面上的各種元件, 以便更改位置."
-L["Version"] = "版本"
-
 --Credits
 L["Coding:"] = "編碼:"
 L["Credits"] = "嗚謝"
@@ -315,6 +308,13 @@ L["The font that the core of the UI will use."] = "核心UI 所使用的字體."
 L["The texture that will be used mainly for statusbars."] = "此材質主用於狀態列上."
 L["This texture will get used on objects like chat windows and dropdown menus."] = "主要用於對話視窗及下拉選單等物件的材質."
 L["Value Color"] = "數值顏色"
+
+--Misc
+L["Install"] = "安裝"
+L["Run the installation process."] = "執行安裝程序"
+L["Toggle Anchors"] = "解鎖元件定位"
+L["Unlock various elements of the UI to be repositioned."] = "解鎖介面上的各種元件, 以便更改位置."
+L["Version"] = "版本"
 
 --NamePlates
 L["Add Name"] = "添加名稱"
