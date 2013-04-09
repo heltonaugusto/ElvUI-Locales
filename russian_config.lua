@@ -729,22 +729,6 @@ L["UF Hide"] = "Скрывать для рамок"
 L["When in a raid group display if anyone in your raid is targeting the current tooltip unit."] = "В рейдовой группе отображать выбравших в цель юнит, для которого показана подсказка"
 L["Who's targeting who?"] = "Кто кого выбрал?"
 
---Tutorials
-L['A raid marker feature is available by pressing Escape -> Keybinds scroll to the bottom under ElvUI and setting a keybind for the raid marker.'] = 
-L['ElvUI has a dual spec feature which allows you to load different profiles based on your current spec on the fly. You can enable this from the profiles tab.'] = 
-L['For technical support visit us at http://www.tukui.org.'] = 
-L['If you accidently remove a chat frame you can always go the in-game configuration menu, press install, go to the chat portion and reset them.'] = 'Если Вы случайно удалили вкладку чата, всегда можно сделать следующее: зайти в конфигурацию, запустить установку, дойти до шага настроек чата и сбросить их.'
-L['If you are experiencing issues with ElvUI try disabling all your addons except ElvUI, remember ElvUI is a full UI replacement addon, you cannot run two addons that do the same thing.'] = 'Если Вы испытываете проблемы с ElvUI, попробуйте отключить все аддоны, кроме самого ElvUI. Помните, ElvUI это аддон, полностью заменяющий интерфейс, Вы не можете одновременно использовать два аддона, выполняющих одинаковые функции.';
-L['The buff panel to the right of minimap is a list of your consolidated buffs. You can disable it in Buffs and Debuffs options of ElvUI.'] = 'Панель с баффами справа от миникарты это список Ваших объединенных баффов. Вы можете отключить ее в разделе эффектов и аур в настройках ElvUI.';
-L['The focus unit can be set by typing /focus when you are targeting the unit you want to focus. It is recommended you make a macro to do this.'] = 'Запомненную цель (фокус) можно установить командой /focus при взятии нужного врага в цель. Для этого рекомендуется сделать макрос.';
-L['To move abilities on the actionbars by default hold shift + drag. You can change the modifier key from the actionbar options menu.'] = 'Для перемещения способностей по панелям команд нужно перемещать их с зажатой клавишей shift. Вы можете поменять модификатор в опциях панелей команд.';
-L['To setup which channels appear in which chat frame, right click the chat tab and go to settings.'] = 'Для настройки отображения каналов в чате кликните правой кнопкой мыши на закладке нужного чата и выберите пункт "параметры".';
-L['Using the /farmmode <size> command will spawn a larger minimap on your screen that can be moved around, very useful when farming.'] = 'Использование команды /farmmode <размер> откроет миникарту большего размера, которую можно свободно перемещать по экрану. Очень полезно при фарме.';
-L['You can access copy chat and chat menu functions by mouse over the top right corner of chat panel and left/right click on the button that will appear.'] = 'Вы можете получить доступ к функциям копирования чата и меню чата, наведя курсор на верхний правый угол панели чата и кликнув левой/правой кнопкой мыши на появившейся кнопке.';
-L['You can see someones average item level of their gear by holding shift and mousing over them. It should appear inside the tooltip.'] = "Вы можете узнать средний уровень предметов игрока, зажав shift и наведя на них курсор. Информация будет отражена в подсказке.";
-L['You can set your keybinds quickly by typing /kb.'] = "Вы можете быстро назначать клавиши, введя команду /kb.";
-L['You can toggle the microbar by using your middle mouse button on the minimap you can also accomplish this by enabling the actual microbar located in the actionbar settings.'] = "Вы можете получить доступ к микроменю, кликнув средней кнопкой мыши на миникарте. Также Вы можете включить обычное микроменю в настройках панелей команд"
-L['You can use the /resetui command to reset all of your movers. You can also use the command to reset a specific mover, /resetui <mover name>.\nExample: /resetui Player Frame'] = 'Вы можете использовать команду /resetui чтобы сбросить положения всех фиксаторов. Вы также можете использовать команду /resetui <имя фиксатора> для сброса определенного фиксатора.\nПример: /resetui Player Frame';
 
 --UnitFrames
 L['%s and then %s'] = "%s, а затем %s"
@@ -872,7 +856,7 @@ L['Friendlies: Show Debuffs'] = "Дружественные: дебаффы"
 L['Friendly Aura Type'] = "Тип аур друга"
 L['Friendly'] = "Дружественный"
 L['Frost'] = "Лед"
-L["Ghost"] = "Призрак"
+L["Ghost"] = 
 L['Glow'] = "Свечение"
 L["Good"] = "Хорошее"
 L["Group By"] = "Группировать по"
@@ -929,7 +913,7 @@ L["Not valid spell id"] = "Неверный ID заклинания"
 L["Num Rows"] = "Рядов"
 L['Number of Groups'] = "Количество групп"
 L['Number of units in a group.'] = "Количество юнитов в группе." 
-L["Offline"] = "Не в сети"
+L["Offline"] = 
 L["Offset of the powerbar to the healthbar, set to 0 to disable."] = "Смещение полосы ресурсов относительно полосы здоровья. Установите на 0 для отключения."
 L['Offset position for text.'] = "Отступ для текста."
 L["Offset"] = "Смещение"
