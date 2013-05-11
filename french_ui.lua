@@ -306,46 +306,46 @@ L['LOGIN_MSG'] = "Bienvenue sur %sElvUI|r version %s%s|r, tapez /ec afin d'accé
 
 --Static Popups
 L["A setting you have changed will change an option for this character only. This setting that you have changed will be uneffected by changing user profiles. Changing this setting requires that you reload your User Interface."] = "Un réglage que vous avez modifié ne s'appliquera que pour ce personnage. La modification de ce réglage ne sera pas affecté par un changement de profil. Changer ce réglage requiert de relancer l'interface."
-L["Are you sure you want to delete all your gray items?"] = true;
-L["Are you sure you want to disband the group?"] = true;
-L["Are you sure you want to reset every mover back to it's default position?"] = true;
-L["Because of the mass confusion caused by the new aura system I've implemented a new step to the installation process. This is optional. If you like how your auras are setup go to the last step and click finished to not be prompted again. If for some reason you are prompted repeatedly please restart your game."] = true;
-L["Can't buy anymore slots!"] = true;
-L['Disable Warning'] = true;
-L['Discard'] = true;
-L['Do you swear not to post in technical support about something not working without first disabling the addon/module combination first?'] = true;
-L["Hover your mouse over any actionbutton or spellbook button to bind it. Press the escape key or right click to clear the current actionbutton's keybinding."] = true;
-L['I Swear'] = true;
-L['Oh lord, you have got ElvUI and Tukui both enabled at the same time. Select an addon to disable.'] = true;
-L["One or more of the changes you have made require a ReloadUI."] = true;
-L["One or more of the changes you have made will effect all characters using this addon. You will have to reload the user interface to see the changes you have made."] = true;
-L['Save'] = true;
-L["You have changed the pixel perfect option. You will have to complete the installation process to remove any graphical bugs."] = true;
-L['You have changed your UIScale, however you still have the AutoScale option enabled in ElvUI. Press accept if you would like to disable the Auto Scale option.'] = true;
-L['You must purchase a bank slot first!'] = true;
-L["INCOMPATIBLE_ADDON"] = "The addon %s is not compatible with ElvUI's %s module. Please select either the addon or the ElvUI module to disable."
+L["Are you sure you want to delete all your gray items?"] = "Êtes-vous sûr de vouloir détruire tous vos Objets Gris ?"
+L["Are you sure you want to disband the group?"] = "Êtes-vous sûr de vouloir dissoudre le groupe ? "
+L["Are you sure you want to reset every mover back to it's default position?"] = "Êtes-vous sûre de vouloir réinitialiser tous les cadres à leur position par défaut ?"
+L["Because of the mass confusion caused by the new aura system I've implemented a new step to the installation process. This is optional. If you like how your auras are setup go to the last step and click finished to not be prompted again. If for some reason you are prompted repeatedly please restart your game."] = "En raison de la confusion générale provoquée par le nouveau système d'aura, j'ai mis en place une nouvelle étape dans le processus d'installation. Cette option est facultative. Si vous aimez la façon dont vos auras sont configurés allez à la dernière étape et cliquez sur Terminé pour ne pas être averti à nouveau.  Si, pour une raison quelconque, vous êtes averti de nouveau, relancez complètement le jeu."
+L["Can't buy anymore slots!"] = "Impossible d'acheter plus emplacements !"
+L["Disable Warning"] = "Désactiver l'alerte"
+L["Discard"] = "Annuler"
+L["Do you swear not to post in technical support about something not working without first disabling the addon/module combination first?"] = "Jurez-vous de ne pas avoir posté sur le support technique du forum sur quelquechose qui ne fonctionne pas sans avoir desactivé en premier la combinaison Addon/Module?"
+L["Hover your mouse over any actionbutton or spellbook button to bind it. Press the escape key or right click to clear the current actionbutton's keybinding."] = "Passez votre souris sur n'importe quel bouton d'action ou bouton du grimoire pour lui attribuer un raccourcis. Appuyez sur la touche Echap ou le clic droit pour effacer le raccourci en cours."
+L["I Swear"] = "Je le jure"
+L["Oh lord, you have got ElvUI and Tukui both enabled at the same time. Select an addon to disable."] = "Oh seigneur, vous avez ElvUI et Tukui d'activé en même temps. Selectionnez un add-on à désactiver."
+L["One or more of the changes you have made require a ReloadUI."] = "Une ou plusieurs modifications que vous avez effectuées necessitent un rechargement de l'interface."
+L["One or more of the changes you have made will effect all characters using this addon. You will have to reload the user interface to see the changes you have made."] = "Un ou plusieurs changement(s) que vous avez effectués a une incidence sur tous les personnages qui utilise cet addon. Vous devriez recharger l'interface utilisateur pour voir le(s) changement(s) apporté(s)."
+L["Save"] = "Sauvegarder"
+L["You have changed the pixel perfect option. You will have to complete the installation process to remove any graphical bugs."] = "Vous avez modifié l'option Pixel Parfait. Vous devrez compléter le processus d'installation pour éliminer les bugs graphiques."
+L["You have changed your UIScale, however you still have the AutoScale option enabled in ElvUI. Press accept if you would like to disable the Auto Scale option."] = "Vous venez de changer l'échelle de votre interface, alors que votre option d'échelle automatique est encore activée dans ElvUI. Cliquer sur accepter si vous voulez désactiver l'option d'échelle automatique."
+L["You must purchase a bank slot first!"] = "Vous devez d'abord acheter un emplacement de banque !"
+L["INCOMPATIBLE_ADDON"] = "L'addon %s n'est pas compatible avec le module %s d'ElvUI. S'il vous plait, selectionnez soit l'addon ou le module d'ElvUI pour le désactiver."
 
 --Tooltip
-L['Count'] = true;
-L['Targeted By:'] = true;
+L["Count"] = "Nombre:"
+L["Targeted By:"] = "Ciblé par:"
 
 --Tutorials
-L['A raid marker feature is available by pressing Escape -> Keybinds scroll to the bottom under ElvUI and setting a keybind for the raid marker.'] = true;
-L['ElvUI has a dual spec feature which allows you to load different profiles based on your current spec on the fly. You can enable this from the profiles tab.'] = true;
-L['For technical support visit us at http://www.tukui.org.'] = true;
-L['If you accidently remove a chat frame you can always go the in-game configuration menu, press install, go to the chat portion and reset them.'] = true
-L['If you are experiencing issues with ElvUI try disabling all your addons except ElvUI, remember ElvUI is a full UI replacement addon, you cannot run two addons that do the same thing.'] = true;
-L['The buff panel to the right of minimap is a list of your consolidated buffs. You can disable it in Buffs and Debuffs options of ElvUI.'] = true;
-L['The focus unit can be set by typing /focus when you are targeting the unit you want to focus. It is recommended you make a macro to do this.'] = true;
-L['To move abilities on the actionbars by default hold shift + drag. You can change the modifier key from the actionbar options menu.'] = true;
-L['To setup which channels appear in which chat frame, right click the chat tab and go to settings.'] = true;
-L['Using the /farmmode <size> command will spawn a larger minimap on your screen that can be moved around, very useful when farming.'] = true;
-L['You can access copy chat and chat menu functions by mouse over the top right corner of chat panel and left/right click on the button that will appear.'] = true;
-L['You can see someones average item level of their gear by holding shift and mousing over them. It should appear inside the tooltip.'] = true;
-L['You can set your keybinds quickly by typing /kb.'] = true;
-L['You can toggle the microbar by using your middle mouse button on the minimap you can also accomplish this by enabling the actual microbar located in the actionbar settings.'] = true;
-L['You can use the /resetui command to reset all of your movers. You can also use the command to reset a specific mover, /resetui <mover name>.\nExample: /resetui Player Frame'] = true;
+L["A raid marker feature is available by pressing Escape -> Keybinds scroll to the bottom under ElvUI and setting a keybind for the raid marker."] = "Une fonction marqueur de raid est disponible en appuyant sur Echap -> Raccourcis, défilez en bas d'ElvUI et paramétrez le raccourcis pour le marqueur de raid."
+L["ElvUI has a dual spec feature which allows you to load different profiles based on your current spec on the fly. You can enable this from the profiles tab."] = "ElvUI dispose d'une fonction double spécialisation qui vous permet de charger à la volée des profils différents en fonction de votre specialisation actuelle."
+L["For technical support visit us at http://www.tukui.org."] = "Pour tout support technique, merci de nous visiter à http://www.tukui.org."
+L["If you accidently remove a chat frame you can always go the in-game configuration menu, press install, go to the chat portion and reset them."] = "Si vous supprimez accidentellement un cadre de discussion, vous pouvez toujours aller dans le menu de configuration d'ElvUI. Cliquez ensuite sur Installation puis passez à l'étape concernant les fenêtres de discussion pour remettre à zero les paramètres."
+L["If you are experiencing issues with ElvUI try disabling all your addons except ElvUI, remember ElvUI is a full UI replacement addon, you cannot run two addons that do the same thing."] = "Si vous rencontrez des problèmes avec ElvUI, essayez de désactiver tous vos addons sauf ElvUI. Rappelez-vous que'ElvUi est une interface utilisateur complète et que vous ne pouvez pas exécuter deux addons qui font la même chose."
+L["The buff panel to the right of minimap is a list of your consolidated buffs. You can disable it in Buffs and Debuffs options of ElvUI."] = "Le panneau d'améliorations à droite de la minicarte est une liste de vos améliorations groupées. Vous pouvez la désactiver dans la section Améliorations et Affaiblissement d'ElvUI."
+L["The focus unit can be set by typing /focus when you are targeting the unit you want to focus. It is recommended you make a macro to do this."] = "La cadre de focus peut être défini en tapent /focus quand vous êtes en train de cibler une unité que vous voulez focus. Il est recommandé de faire une macro pour cela."
+L["To move abilities on the actionbars by default hold shift + drag. You can change the modifier key from the actionbar options menu."] = "Pour déplacer par défaut les capacités des barres d'actions, maintenant MAJ + déplacer. Vous pouvez modifier la touche de modification dans le menu des barres d'actions."
+L["To setup which channels appear in which chat frame, right click the chat tab and go to settings."] = "Pour configurer quels canaux de discussions doivent apparaitre de les fenêtres de Chat, faites un clic droit sur l'onglet de Chat et allez dans les paramètres."
+L["Using the /farmmode <size> command will spawn a larger minimap on your screen that can be moved around, very useful when farming."] = "En utilisant la commande /farmmode <taille>, vous pouvez afficher une minicarte plus grande qui peut être déplacée. Très utile pour les métiers de récolte."
+L["You can access copy chat and chat menu functions by mouse over the top right corner of chat panel and left/right click on the button that will appear."] = "Vous pouvez accéder à une copie du Chat et des fonctions du Chat en survolant avec votre souris le coin haut droit de la fenêtre de discussion. Cliquez ensuite sur le bouton."
+L["You can see someones average item level of their gear by holding shift and mousing over them. It should appear inside the tooltip."] = "Vous pouvez voir le niveau d'objet moyen de n'importe qui en maintenant la touche MAJ enfoncée puis en passant votre souris sur un joueur. Le score apparaitra dans la bulle d'information."
+L["You can set your keybinds quickly by typing /kb."] = "Vous pouvez assignez rapidement vos raccourcis en tapant /kb."
+L["You can toggle the microbar by using your middle mouse button on the minimap you can also accomplish this by enabling the actual microbar located in the actionbar settings."] = "Vous pouvez afficher la microbar en utilisant le bouton central de votre souris sur la minicarte. Vous pouvez aussi l'afficher via les réglages des Barres d'actions"
+L["You can use the /resetui command to reset all of your movers. You can also use the command to reset a specific mover, /resetui <mover name>.\nExample: /resetui Player Frame"] = "Vous pouvez utiliser la commande /resetui pour réinitialiser l'ensemble de vos cadres. Vous pouvez aussi utiliser la commande /resetui <nom du cadre> pour réinitialiser un cadre spécifique.\nExemple: /resetui Player Frame"
 
 --UnitFrames
-L['Ghost'] = true;
-L['Offline'] = true;
+L['Ghost'] = "Fantôme"
+L['Offline'] = "Déconnecté"
