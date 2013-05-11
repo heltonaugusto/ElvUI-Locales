@@ -299,7 +299,6 @@ L["DataTexts"] = "Infotexte"
 L["DATATEXT_DESC"] = "Bearbeite die Anzeige der Infotexte."
 L['Display data panels below the chat, used for datatexts.'] = 'Zeige die Infoleisten unter dem Chat, benutzt für Infotexte.'
 L['Display minimap panels below the minimap, used for datatexts.'] = 'Zeige Minimap Leisten unter der Minimap, benutzt für Infotexte.'
-L['Gates Destroyed'] =
 L["If not set to true then the server time will be displayed instead."] = "Wenn nicht ausgewählt, wird stattdessen die Serverzeit angezeigt."
 L["left"] = "Links"
 L["LeftChatDataPanel"] = "Linker Chat"
