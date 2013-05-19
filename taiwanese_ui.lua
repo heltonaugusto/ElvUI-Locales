@@ -171,7 +171,7 @@ L["high"] = "高"
 L['Icons Only'] = "圖示" --Also used in Bags
 L["If you have an icon or aurabar that you don't want to display simply hold down shift and right click the icon for it to disapear."] = "如果你有不想顯示的圖示或光環條, 你可以簡單的通過按住Shift右鍵點擊使它隱藏."
 L["Importance: |cff07D400High|r"] = "重要性: |cff07D400高|r"
-L["Importance: |cffD3CF00Medium|r"] "重要性: |cffD3CF00中|r"
+L["Importance: |cffD3CF00Medium|r"] = "重要性: |cffD3CF00中|r"
 L["Importance: |cffFF0000Low|r"] = "重要性: |cffFF0000低|r"
 L["Installation Complete"] = "安裝完畢"
 L['Integrated'] = "整合"

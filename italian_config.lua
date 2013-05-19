@@ -4,7 +4,7 @@ local L = AceLocale:NewLocale("ElvUI", "itIT");
 if not L then return; end
 
 -- *_DESC locales
-L['AURAS_DESC'] = 'Configure the aura icons that appear near the minimap.';
+L['AURAS_DESC'] = 'Configure the aura icons that appear near the minimap.'
 L["BAGS_DESC"] = "Adjust bag settings for ElvUI."
 L["CHAT_DESC"] = "Adjust chat settings for ElvUI."
 L["DATATEXT_DESC"] = "Setup the on-screen display of info-texts."
