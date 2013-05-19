@@ -6,6 +6,12 @@ if not L then return; end
 --TEMP
 L["A taint has occured that is preventing you from using the queue system. Please reload your user interface and try again."] = true;
 
+--*_ADDON locales
+L["INCOMPATIBLE_ADDON"] = "The addon %s is not compatible with ElvUI's %s module. Please select either the addon or the ElvUI module to disable."
+
+--*_MSG locales
+L['LOGIN_MSG'] = "Welcome to %sElvUI|r version %s%s|r, type /ec to access the in-game configuration menu. If you are in need of technical support you can visit us at http://www.tukui.org"
+
 --ActionBars
 L["Binding"] = true;
 L["Key"] = true;
@@ -203,7 +209,6 @@ L["This resolution doesn't require that you change settings for the UI to fit on
 L["This resolution requires that you change some settings to get everything to fit on your screen."] = true;
 L["This will change the layout of your unitframes, raidframes, and datatexts."] = true;
 L['Trade'] = true;
-L['Using the healer layout it is highly recommended you download the addon Clique to work side by side with ElvUI.'] = true;
 L['Using this option will cause your borders around frames to be 1 pixel wide instead of 3 pixel. You may have to finish the installation to notice a differance. By default this is enabled.'] = true;
 L["Welcome to ElvUI version %s!"] = true;
 L["You are now finished with the installation process. If you are in need of technical support please visit us at http://www.tukui.org."] = true;
@@ -302,7 +307,6 @@ L['Your items have been repaired for: '] = true;
 L['Your items have been repaired using guild bank funds for: '] = true;
 L["Your version of ElvUI is out of date. You can download the latest version from http://www.tukui.org"] = true;
 L['|cFFE30000Lua error recieved. You can view the error message when you exit combat.'] = true;
-L['LOGIN_MSG'] = "Welcome to %sElvUI|r version %s%s|r, type /ec to access the in-game configuration menu. If you are in need of technical support you can visit us at http://www.tukui.org"
 
 --Static Popups
 L["A setting you have changed will change an option for this character only. This setting that you have changed will be uneffected by changing user profiles. Changing this setting requires that you reload your User Interface."] = true;
@@ -320,10 +324,10 @@ L['Oh lord, you have got ElvUI and Tukui both enabled at the same time. Select a
 L["One or more of the changes you have made require a ReloadUI."] = true;
 L["One or more of the changes you have made will effect all characters using this addon. You will have to reload the user interface to see the changes you have made."] = true;
 L['Save'] = true;
+L["Using the healer layout it is highly recommended you download the addon Clique if you wish to have the click-to-heal function."] = true;
 L["You have changed the pixel perfect option. You will have to complete the installation process to remove any graphical bugs."] = true;
 L['You have changed your UIScale, however you still have the AutoScale option enabled in ElvUI. Press accept if you would like to disable the Auto Scale option.'] = true;
 L['You must purchase a bank slot first!'] = true;
-L["INCOMPATIBLE_ADDON"] = "The addon %s is not compatible with ElvUI's %s module. Please select either the addon or the ElvUI module to disable."
 
 --Tooltip
 L['Count'] = true;
