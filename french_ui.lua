@@ -6,6 +6,12 @@ if not L then return; end
 --TEMP
 L["A taint has occured that is preventing you from using the queue system. Please reload your user interface and try again."] = "Une alteration s'est produite et vous empêche d'utiliser la file d'attente. Veuillez recharger votre interface utilisateur et essayer à nouveau."
 
+--*_ADDON locales
+L["INCOMPATIBLE_ADDON"] = "L'addon %s n'est pas compatible avec le module %s d'ElvUI. S'il vous plait, selectionnez soit l'addon ou le module d'ElvUI pour le désactiver."
+
+--*_MSG locales
+L['LOGIN_MSG'] = "Bienvenue sur %sElvUI|r version %s%s|r, tapez /ec afin d'accéder au menu de configuration en jeu. Si vous avez besoin d'un support technique, vous pouvez nous rejoindre sur http://www.tukui.org"
+
 --ActionBars
 L["Binding"] = "Raccourcis"
 L["Key"] = "Touche"
@@ -203,7 +209,6 @@ L["This resolution doesn't require that you change settings for the UI to fit on
 L["This resolution requires that you change some settings to get everything to fit on your screen."] = "Cette résolution nécessite que vous modifiez les paramètres de l'interface utilisateur pour s'adapter sur votre écran."
 L["This will change the layout of your unitframes, raidframes, and datatexts."] = "Ceci changera la disposition des cadres d'unités, des cadres de Raid et des Textes d'informations."
 L['Trade'] = "Métiers"
-L['Using the healer layout it is highly recommended you download the addon Clique to work side by side with ElvUI.'] = "Il est hautement recommandé de télécharger l'addon Clique si vous utilisez l'interface de soigneur d'ElvUI."
 L['Using this option will cause your borders around frames to be 1 pixel wide instead of 3 pixel. You may have to finish the installation to notice a differance. By default this is enabled.'] = "L'utilisation de cette option modifiera vos bordures d'images à 1 pixel de large au lieu de 3 pixels. Vous devez terminer l'installation pour constater une différence. Par défaut cette option est activée."
 L["Welcome to ElvUI version %s!"] = "Bienvenue sur la version %s d'ElvUI!"
 L["You are now finished with the installation process. If you are in need of technical support please visit us at http://www.tukui.org."] = "Vous avez maintenant terminé le processus d'installation. Si vous avez besoin d'un support technique, merci de vous rendre sur http://www.tukui.org"
@@ -302,7 +307,6 @@ L['Your items have been repaired for: '] = "Votre équipement a été réparé p
 L['Your items have been repaired using guild bank funds for: '] = "Votre équipement a été réparé avec l'argent de la banque de guilde pour: "
 L["Your version of ElvUI is out of date. You can download the latest version from http://www.tukui.org"] = "Votre version d'ElvUI n'est pas à jour. Vous pouvez télécharger la dernière version sur http://www.tukui.org"
 L['|cFFE30000Lua error recieved. You can view the error message when you exit combat.'] = "|cFFE30000Erreur Lua reçue. Vous pouvez voir ce message d'erreur quand vous sortez de combat."
-L['LOGIN_MSG'] = "Bienvenue sur %sElvUI|r version %s%s|r, tapez /ec afin d'accéder au menu de configuration en jeu. Si vous avez besoin d'un support technique, vous pouvez nous rejoindre sur http://www.tukui.org"
 
 --Static Popups
 L["A setting you have changed will change an option for this character only. This setting that you have changed will be uneffected by changing user profiles. Changing this setting requires that you reload your User Interface."] = "Un réglage que vous avez modifié ne s'appliquera que pour ce personnage. La modification de ce réglage ne sera pas affecté par un changement de profil. Changer ce réglage requiert de relancer l'interface."
@@ -320,10 +324,10 @@ L["Oh lord, you have got ElvUI and Tukui both enabled at the same time. Select a
 L["One or more of the changes you have made require a ReloadUI."] = "Une ou plusieurs modifications que vous avez effectuées necessitent un rechargement de l'interface."
 L["One or more of the changes you have made will effect all characters using this addon. You will have to reload the user interface to see the changes you have made."] = "Un ou plusieurs changement(s) que vous avez effectués a une incidence sur tous les personnages qui utilise cet addon. Vous devriez recharger l'interface utilisateur pour voir le(s) changement(s) apporté(s)."
 L["Save"] = "Sauvegarder"
+L["Using the healer layout it is highly recommended you download the addon Clique if you wish to have the click-to-heal function."] = true;
 L["You have changed the pixel perfect option. You will have to complete the installation process to remove any graphical bugs."] = "Vous avez modifié l'option Pixel Parfait. Vous devrez compléter le processus d'installation pour éliminer les bugs graphiques."
 L["You have changed your UIScale, however you still have the AutoScale option enabled in ElvUI. Press accept if you would like to disable the Auto Scale option."] = "Vous venez de changer l'échelle de votre interface, alors que votre option d'échelle automatique est encore activée dans ElvUI. Cliquer sur accepter si vous voulez désactiver l'option d'échelle automatique."
 L["You must purchase a bank slot first!"] = "Vous devez d'abord acheter un emplacement de banque !"
-L["INCOMPATIBLE_ADDON"] = "L'addon %s n'est pas compatible avec le module %s d'ElvUI. S'il vous plait, selectionnez soit l'addon ou le module d'ElvUI pour le désactiver."
 
 --Tooltip
 L["Count"] = "Nombre:"

@@ -3,6 +3,39 @@ local AceLocale = LibStub:GetLibrary("AceLocale-3.0")
 local L = AceLocale:NewLocale("ElvUI", "koKR")
 if not L then return end
 
+-- *_DESC locales
+L["AURAS_DESC"] = "Configure the aura icons that appear near the minimap."
+L["BAGS_DESC"] = "ElvUI 위해 가방 설정을 조정합니다."
+L["CHAT_DESC"] = "ElvUI의 대화창을 설정합니다."
+L["DATATEXT_DESC"] = "정보문자를 설정합니다."
+L["ELVUI_DESC"] = "ElvUI는 WoW의 애드온을 대신하는 완전한 애드온입니다."
+L["NAMEPLATE_DESC"] = "이름표의 설정을 수정합니다."
+L["PANEL_DESC"] = "좌우 패널의 너비를 조절합니다. 이 값에 따라 대화창과 가방의 크기가 변경됩니다."
+L["SKINS_DESC"] = "애드온이나 프레임의 스킨을 설정합니다."
+L["TOGGLESKIN_DESC"] = "스킨 사용/중지"
+L["TOOLTIP_DESC"] = "툴팁을 설정합니다."
+L['TEXT_FORMAT_DESC'] = [=[Provide a string to change the text format.
+
+Examples:
+[namecolor][name] [difficultycolor][smartlevel] [shortclassification]
+[healthcolor][health:current-max]
+[powercolor][power:current]
+
+Health / Power Formats:
+'current' - current amount
+'percent' - percentage amount
+'current-max' - current amount followed by maximum amount, will display only max is current is equal to max
+'current-percent' - current amount followed by percentage amount, will display only max is current is equal to max
+'current-max-percent' - current amount, max amount, followed by percentage amount, will display only max if current is equal to max
+'deficit' - display the deficit value, will display nothing if there is no deficit
+
+Name Formats:
+'name-short' - Name restricted to 10 characters
+'name-medium' - Name restricted to 15 characters
+'name-long' - Name restricted to 20 characters
+
+To disable leave the field blank, if you need more information visit http://www.tukui.org]=];
+
 --ActionBars
 L["Action Paging"] = "행동단축바 페이지 전환"
 L["ActionBars"] = "행동단축바"
@@ -66,7 +99,6 @@ L["Align the width of the bag frame to fit inside the chat box."] = true
 L["Align To Chat"] = true
 L["Ascending"] = true
 L["Bag-Bar"] = true
-L["BAGS_DESC"] = "ElvUI 위해 가방 설정을 조정합니다."
 L["Bar Direction"] = true
 L["Bottom to Top"] = "상단 아래쪽으로 이동"
 L["Button Size (Bag)"] = true
@@ -98,7 +130,6 @@ L["Y Offset"] = "Y 축 기준 좌표"
 L["You must be at a bank."] = true
 
 --Buffs and Debuffs
-L["AURAS_DESC"] = "Configure the aura icons that appear near the minimap."
 L["Begin a new row or column after this many auras."] = true
 L["Consolidated Buffs"] = true
 L["Defines how the group is sorted."] = true
@@ -129,7 +160,6 @@ L["Attempt to lock the left and right chat frame positions. Disabling this optio
 L["Below Chat"] = true
 L["Chat EditBox Position"] = true
 L["Chat History"] = true
-L["CHAT_DESC"] = "ElvUI의 대화창을 설정합니다."
 L["Copy Text"] = "텍스트 복사"
 L["Display the hyperlink tooltip while hovering over a hyperlink."] = "하이퍼링크에 마우스를 올려놓으면 링크의 툴팁을 표시합니다."
 L["Fade Chat"] = true
@@ -150,7 +180,6 @@ L["Panel Height"] = true
 L["Panel Texture (Left)"] = "패널 텍스쳐 (왼쪽)"
 L["Panel Texture (Right)"] = "패널 텍스쳐 (오른쪽)"
 L["Panel Width"] = "패널 너비"
-L["PANEL_DESC"] = "좌우 패널의 너비를 조절합니다. 이 값에 따라 대화창과 가방의 크기가 변경됩니다."
 L["Position of the Chat EditBox, if datatexts are disabled this will be forced to be above chat."] = true
 L["Prevent the same messages from displaying in chat more than once within this set amount of seconds, set to zero to disable."] = "똑같은 메시지는 정해진 시간 내 한번 이상 표시되지 않도록 막습니다. 0으로 설정하면 이 기능을 끕니다."
 L["Right Only"] = "오른쪽 만"
@@ -206,7 +235,6 @@ L["Change settings for the display of the location text that is on the minimap."
 L["Datatext Panel (Left)"] = true
 L["Datatext Panel (Right)"] = true
 L["DataTexts"] = "정보문자"
-L["DATATEXT_DESC"] = "정보문자를 설정합니다."
 L["Display data panels below the chat, used for datatexts."] = true
 L["Display minimap panels below the minimap, used for datatexts."] = true
 L["If not set to true then the server time will be displayed instead."] = "만약 'TRUE'값으로 설정하지 않을경우 대신 서버시간이 표시 될겁니다."
@@ -250,13 +278,12 @@ L["Automatically scale the User Interface based on your screen resolution"] = "�
 L["Automatically select greed or disenchant (when available) on green quality items. This will only work if you are the max level."] = true
 L["Automatically vendor gray items when visiting a vendor."] = true
 L["Bottom Panel"] = true
-L["Chat Bubbles"] = "말풍선 대화"
+L['Chat Bubbles Style'] = true;
 L["Controls what the transparency of the worldmap will be set to when you are moving."] = "캐릭터 이동시 전체지도의 투명 상태를 설정합니다."
 L["Display a panel across the bottom of the screen. This is for cosmetic only."] = true
 L["Display a panel across the top of the screen. This is for cosmetic only."] = true
 L["Display emotion icons in chat."] = true
 L["Don't scale the large world map to block out sides of the screen."] = true
-L["ELVUI_DESC"] = "ElvUI는 WoW의 애드온을 대신하는 완전한 애드온입니다."
 L["Emotion Icons"] = true
 L["Enable/Disable the loot frame."] = "전리품 획득창 사용/중지"
 L["Enable/Disable the loot roll frame."] = "주사위 창 사용/중지"
@@ -364,7 +391,6 @@ L["Name Alignment"] = true
 L["Name X-Offset"] = true
 L["Name Y-Offset"] = true
 L["NamePlates"] = "이름표"
-L["NAMEPLATE_DESC"] = "이름표의 설정을 수정합니다."
 L["Personal Auras"] = true
 L["Players"] = true
 L["Prevent any nameplate with this unit name from showing."] = "이름표에 유닛이름 표시를 금지합니다."
@@ -426,7 +452,6 @@ L["Quest Frames"] = "퀘스트 프레임"
 L["Raid Frame"] = "공격대 프레임"
 L["Reforge Frame"] = "재연마 프레임"
 L["Skins"] = "스킨"
-L["SKINS_DESC"] = "애드온이나 프레임의 스킨을 설정합니다."
 L["Socket Frame"] = "보석홈 프레임"
 L["Spellbook"] = "주문책 프레임"
 L["Stable"] = "안전"
@@ -434,7 +459,6 @@ L["Tabard Frame"] = "휘장 프레임"
 L["Talent Frame"] = "특성 프레임"
 L["Taxi Frame"] = "이동경로 프레임"
 L["Time Manager"] = "시간 도우미"
-L["TOGGLESKIN_DESC"] = "스킨 사용/중지"
 L["Trade Frame"] = "거래 프레임"
 L["TradeSkill Frame"] = "전문기술 프레임"
 L["Trainer Frame"] = "상급자 프레임"
@@ -444,6 +468,7 @@ L["World Map"] = "세계지도"
 
 --Static Popups
 L["Are you sure you want to reset all the settings on this profile?"] = true
+L["Enabling/Disabling Bar #6 will toggle a paging option from your main actionbar to prevent duplicating bars, are you sure you want to do this?"] = true;
 
 --Tooltip
 L["Always Hide"] = true
@@ -469,7 +494,6 @@ L["Set the type of anchor mode the tooltip should use."] = "툴팁의 앵커 형
 L["Smart"] = "스마트"
 L["Spell/Item IDs"] = true
 L["Talent Spec"] = true
-L["TOOLTIP_DESC"] = "툴팁을 설정합니다."
 L["UF Hide"] = "유닛프레임 숨김"
 L["When in a raid group display if anyone in your raid is targeting the current tooltip unit."] = "공격대 내에서 현재 툴팁 대상을 누가 대상으로 잡았는지 보여줍니다."
 L["Who's targeting who?"] = "대상을 선택한 사람은 누구?"
@@ -491,6 +515,7 @@ L["Ascending"] = true
 L["Assist Frames"] = "지원 프레임"
 L["Assist Target"] = true
 L["At what point should the text be displayed. Set to -1 to disable."] = true
+L['Attach Text to Power'] = true;
 L["Attach To"] = "붙여넣기: "
 L["Aura Bars"] = true
 L["Auto-Hide"] = true
@@ -780,24 +805,3 @@ L["yOffset"] = "Y 축 기준 좌표"
 L["You can't remove a pre-existing filter."] = "기존 필터를 제거할 수 없습니다."
 L["You cannot copy settings from the same unit."] = "같은 유닛은 복사할 수 없습니다."
 L["You may not remove a spell from a default filter that is not customly added. Setting spell to false instead."] = "기본 필터에 설정된 기본 주문들은 삭제할 수 없습니다. 대신 비활성화는 가능합니다."
-L['TEXT_FORMAT_DESC'] = [=[Provide a string to change the text format.
-
-Examples:
-[namecolor][name] [difficultycolor][smartlevel] [shortclassification]
-[healthcolor][health:current-max]
-[powercolor][power:current]
-
-Health / Power Formats:
-'current' - current amount
-'percent' - percentage amount
-'current-max' - current amount followed by maximum amount, will display only max is current is equal to max
-'current-percent' - current amount followed by percentage amount, will display only max is current is equal to max
-'current-max-percent' - current amount, max amount, followed by percentage amount, will display only max if current is equal to max
-'deficit' - display the deficit value, will display nothing if there is no deficit
-
-Name Formats:
-'name-short' - Name restricted to 10 characters
-'name-medium' - Name restricted to 15 characters
-'name-long' - Name restricted to 20 characters
-
-To disable leave the field blank, if you need more information visit http://www.tukui.org]=];

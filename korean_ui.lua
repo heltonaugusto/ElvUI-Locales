@@ -6,6 +6,12 @@ if not L then return end
 --TEMP
 L["A taint has occured that is preventing you from using the queue system. Please reload your user interface and try again."] = true;
 
+--*_ADDON locales
+L["INCOMPATIBLE_ADDON"] = "The addon %s is not compatible with ElvUI's %s module. Please select either the addon or the ElvUI module to disable."
+
+--*_MSG locales
+L["LOGIN_MSG"] = "Welcome to %sElvUI|r version %s%s|r, type /ec to access the in-game configuration menu. If you are in need of technical support you can visit us at http://www.tukui.org"
+
 --ActionBars
 L["Binding"] = "단축키 지정"
 L["Key"] = "단축키"
@@ -203,7 +209,6 @@ L["This resolution doesn't require that you change settings for the UI to fit on
 L["This resolution requires that you change some settings to get everything to fit on your screen."] = "이 해상도는 UI를 당신의 화면에 맞추기 위해 몇가지 설정을 변경해야 할 필요가 있습니다."
 L["This will change the layout of your unitframes, raidframes, and datatexts."] = "유닛프레임 및 정보문자의 레이아웃이 변경됩니다."
 L["Trade"] = true
-L["Using the healer layout it is highly recommended you download the addon Clique to work side by side with ElvUI."] = "힐러 레이아웃을 사용중시군요. 그렇다면 Clique 애드온을 다운받아서 ElvUI와 함께 사용하는걸 매우 권장합니다."
 L["Using this option will cause your borders around frames to be 1 pixel wide instead of 3 pixel. You may have to finish the installation to notice a differance. By default this is enabled."] = true
 L["Welcome to ElvUI version %s!"] = "ElvUI 버전 %s에 오신 것을 환영합니다!"
 L["You are now finished with the installation process. If you are in need of technical support please visit us at http://www.tukui.org."] = true
@@ -302,7 +307,6 @@ L["Your items have been repaired for: "] = "수리 비용:"
 L["Your items have been repaired using guild bank funds for: "] = "길드금고에서 사용된 수리 비용:"
 L["Your version of ElvUI is out of date. You can download the latest version from http://www.tukui.org"] = "당신의 ElvUI 버전이 구버전입니다. 당신은 http://www.tukui.org에서 최신 버전을 다운로드하실 수 있습니다."
 L["|cFFE30000Lua error recieved. You can view the error message when you exit combat."] = true
-L["LOGIN_MSG"] = "Welcome to %sElvUI|r version %s%s|r, type /ec to access the in-game configuration menu. If you are in need of technical support you can visit us at http://www.tukui.org"
 
 --Static Popups
 L["A setting you have changed will change an option for this character only. This setting that you have changed will be uneffected by changing user profiles. Changing this setting requires that you reload your User Interface."] = true
@@ -320,10 +324,10 @@ L["Oh lord, you have got ElvUI and Tukui both enabled at the same time. Select a
 L["One or more of the changes you have made require a ReloadUI."] = "변경된 사항이 적용되기 위해서는 UI 재시작이 필요합니다."
 L["One or more of the changes you have made will effect all characters using this addon. You will have to reload the user interface to see the changes you have made."] = "몇가지 변경설정들은 이 애드온을 사용하는 모든 캐릭터에 적용될 것입니다. 이 변경설정들을 보려면 UI를 재시작해야 합니다."
 L["Save"] = "저장"
+L["Using the healer layout it is highly recommended you download the addon Clique if you wish to have the click-to-heal function."] = true;
 L["You have changed the pixel perfect option. You will have to complete the installation process to remove any graphical bugs."] = true
 L["You have changed your UIScale, however you still have the AutoScale option enabled in ElvUI. Press accept if you would like to disable the Auto Scale option."] = "UI 배율이 변경되었지만 ElvUI의 자동크기 설정이 켜져있습니다. 자동크기 설정을 끄고 싶다면 '수락'을 누르세요."
 L["You must purchase a bank slot first!"] = "우선 은행가방 칸을 구입해야됩니다!"
-L["INCOMPATIBLE_ADDON"] = "The addon %s is not compatible with ElvUI's %s module. Please select either the addon or the ElvUI module to disable."
 
 --Tooltip
 L["Count"] = "갯수"

@@ -6,6 +6,12 @@ if not L then return end
 --TEMP
 L["A taint has occured that is preventing you from using the queue system. Please reload your user interface and try again."] = "发生一个错误导致你无法使用队列系统,请重新加载你的用户界面,然后再试一次."
 
+--*_ADDON locales
+L["INCOMPATIBLE_ADDON"] = "插件 %s 不相容于 ElvUI 的 %s 模组。请停用不相容的插件，或停用模组。"
+
+--*_MSG locales
+L["LOGIN_MSG"] = "欢迎使用 %sElvUI|r %s%s|r 版，请输入 /ec 进入设定介面。如需技术支援，请至 http://www.tukui.org"
+
 --ActionBars
 L["Binding"] = "绑定"
 L["Key"] = "键"
@@ -203,7 +209,6 @@ L["This resolution doesn't require that you change settings for the UI to fit on
 L["This resolution requires that you change some settings to get everything to fit on your screen."] = "这个分辨率需要你改变一些设置才能适应你的屏幕。"
 L["This will change the layout of your unitframes, raidframes, and datatexts."] = "此材质适用于对话框架、下拉式选单等物件上。"
 L['Trade'] = "拾取/交易"
-L['Using the healer layout it is highly recommended you download the addon Clique to work side by side with ElvUI.'] = "使用治疗界面的基友们，强烈推荐你们下载 Clique 插件搭配 ElvUI 使用。"
 L['Using this option will cause your borders around frames to be 1 pixel wide instead of 3 pixel. You may have to finish the installation to notice a differance. By default this is enabled.'] = "此安装步骤将会使你的周围边框帧是1像素宽而不是3像素, 你可能在安装时已经注意到这一差异, 这是一个默认的启用."
 L["Welcome to ElvUI version %s!"] = "欢迎使用 ElvUI 版本 %s!"
 L["You are now finished with the installation process. If you are in need of technical support please visit us at http://www.tukui.org."] = true;
@@ -302,7 +307,6 @@ L["Your items have been repaired for: "] = "装备已修复: "
 L["Your items have been repaired using guild bank funds for: "] = "物品已使用公会银行资金修复: "
 L["Your version of ElvUI is out of date. You can download the latest version from http://www.tukui.org"] = "ElvUI 版本已过期，请至 http://www.tukui.org 下载最新版"
 L['|cFFE30000Lua error recieved. You can view the error message when you exit combat.'] = "|cFFE30000LUA错误已接收, 你可以在脱离战斗后检查.|r"
-L["LOGIN_MSG"] = "欢迎使用 %sElvUI|r %s%s|r 版，请输入 /ec 进入设定介面。如需技术支援，请至 http://www.tukui.org"
 
 --Static Popups
 L["A setting you have changed will change an option for this character only. This setting that you have changed will be uneffected by changing user profiles. Changing this setting requires that you reload your User Interface."] = "你所做的改动只会影响到使用这个插件的本角色, 你需要重新加载界面才能使改动生效."
@@ -320,10 +324,10 @@ L['Oh lord, you have got ElvUI and Tukui both enabled at the same time. Select a
 L["One or more of the changes you have made require a ReloadUI."] = "已变更一或多个设定，需重载介面."
 L["One or more of the changes you have made will effect all characters using this addon. You will have to reload the user interface to see the changes you have made."] = "你所做的改动可能会影响到使用这个插件的所有角色，你需要重新加载界面才能使改动生效。"
 L["Save"] = "储存"
+L["Using the healer layout it is highly recommended you download the addon Clique if you wish to have the click-to-heal function."] = true;
 L["You have changed the pixel perfect option. You will have to complete the installation process to remove any graphical bugs."] = "你已改变了像素完美中的选项, 你必须完成安装过程以消除任何图形错误."
 L["You have changed your UIScale, however you still have the AutoScale option enabled in ElvUI. Press accept if you would like to disable the Auto Scale option."] = "你改变了界面缩放比例，然而ElvUI的自动缩放选项是开启的。点击接受以关闭ElvUI的自动缩放。"
 L["You must purchase a bank slot first!"] = "你必需购买一个银行背包栏位"
-L["INCOMPATIBLE_ADDON"] = "插件 %s 不相容于 ElvUI 的 %s 模组。请停用不相容的插件，或停用模组。"
 
 --Tooltip
 L["Count"] = "计数"

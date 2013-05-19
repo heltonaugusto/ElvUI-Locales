@@ -3,6 +3,39 @@ local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local L = AceLocale:NewLocale("ElvUI", "itIT");
 if not L then return; end
 
+-- *_DESC locales
+L['AURAS_DESC'] = 'Configure the aura icons that appear near the minimap.';
+L["BAGS_DESC"] = "Adjust bag settings for ElvUI."
+L["CHAT_DESC"] = "Adjust chat settings for ElvUI."
+L["DATATEXT_DESC"] = "Setup the on-screen display of info-texts."
+L["ELVUI_DESC"] = "ElvUI is a complete User Interface replacement addon for World of Warcraft."
+L["NAMEPLATE_DESC"] = "Modify the nameplate settings."
+L['PANEL_DESC'] = "Adjust the size of your left and right panels, this will effect your chat and bags."
+L["SKINS_DESC"] = "Adjust Skin settings."
+L["TOGGLESKIN_DESC"] = "Enable/Disable this skin."
+L["TOOLTIP_DESC"] = "Setup options for the Tooltip."
+L['TEXT_FORMAT_DESC'] = [=[Provide a string to change the text format.
+
+Examples:
+[namecolor][name] [difficultycolor][smartlevel] [shortclassification]
+[healthcolor][health:current-max]
+[powercolor][power:current]
+
+Health / Power Formats:
+'current' - current amount
+'percent' - percentage amount
+'current-max' - current amount followed by maximum amount, will display only max if current is equal to max
+'current-percent' - current amount followed by percentage amount, will display only max if current is equal to max
+'current-max-percent' - current amount, max amount, followed by percentage amount, will display only max if current is equal to max
+'deficit' - display the deficit value, will display nothing if there is no deficit
+
+Name Formats:
+'name-short' - Name restricted to 10 characters
+'name-medium' - Name restricted to 15 characters
+'name-long' - Name restricted to 20 characters
+
+To disable leave the field blank, if you need more information visit http://www.tukui.org]=];
+
 --ActionBars
 L["Action Paging"] = true;
 L["ActionBars"] = true;
@@ -64,7 +97,6 @@ L['Align the width of the bag frame to fit inside the chat box.'] = true;
 L['Align To Chat'] = true;
 L["Ascending"] = true;
 L["Bag-Bar"] = true;
-L["BAGS_DESC"] = "Adjust bag settings for ElvUI."
 L["Bar Direction"] = true;
 L["Bottom to Top"] = true;
 L['Button Size (Bag)'] = true;
@@ -96,7 +128,6 @@ L["Y Offset"] = true;
 L['You must be at a bank.'] = true;
 
 --Buffs and Debuffs
-L['AURAS_DESC'] = 'Configure the aura icons that appear near the minimap.';
 L['Begin a new row or column after this many auras.'] = true;
 L['Consolidated Buffs'] = true;
 L['Defines how the group is sorted.'] = true;
@@ -127,7 +158,6 @@ L['Attempt to lock the left and right chat frame positions. Disabling this optio
 L['Below Chat'] = true;
 L['Chat EditBox Position'] = true;
 L['Chat History'] = true;
-L["CHAT_DESC"] = "Adjust chat settings for ElvUI."
 L["Copy Text"] = true;
 L["Display the hyperlink tooltip while hovering over a hyperlink."] = true;
 L['Fade Chat'] = true;
@@ -148,7 +178,6 @@ L["Panel Height"] = true;
 L["Panel Texture (Left)"] = true;
 L["Panel Texture (Right)"] = true;
 L['Panel Width'] = true;
-L['PANEL_DESC'] = "Adjust the size of your left and right panels, this will effect your chat and bags."
 L['Position of the Chat EditBox, if datatexts are disabled this will be forced to be above chat.'] = true;
 L["Prevent the same messages from displaying in chat more than once within this set amount of seconds, set to zero to disable."] = true;
 L['Right Only'] = true;
@@ -195,7 +224,6 @@ L['Change settings for the display of the location text that is on the minimap.'
 L['Datatext Panel (Left)'] = true;
 L['Datatext Panel (Right)'] = true;
 L["DataTexts"] = true;
-L["DATATEXT_DESC"] = "Setup the on-screen display of info-texts."
 L['Display data panels below the chat, used for datatexts.'] = true;
 L['Display minimap panels below the minimap, used for datatexts.'] = true;
 L["If not set to true then the server time will be displayed instead."] = true;
@@ -239,13 +267,12 @@ L["Automatically scale the User Interface based on your screen resolution"] = tr
 L['Automatically select greed or disenchant (when available) on green quality items. This will only work if you are the max level.'] = true;
 L["Automatically vendor gray items when visiting a vendor."] = true;
 L['Bottom Panel'] = true;
-L["Chat Bubbles"] = true;
+L['Chat Bubbles Style'] = true;
 L["Controls what the transparency of the worldmap will be set to when you are moving."] = true;
 L['Display a panel across the bottom of the screen. This is for cosmetic only.'] = true;
 L['Display a panel across the top of the screen. This is for cosmetic only.'] = true;
 L['Display emotion icons in chat.'] = true;
 L["Don't scale the large world map to block out sides of the screen."] = true;
-L["ELVUI_DESC"] = "ElvUI is a complete User Interface replacement addon for World of Warcraft."
 L['Emotion Icons'] = true;
 L["Enable/Disable the loot frame."] = true;
 L["Enable/Disable the loot roll frame."] = true;
@@ -260,7 +287,7 @@ L["Loot Roll"] = true;
 L["Loot"] = true;
 L["Map Alpha While Moving"] = true;
 L["Name Font"] = true;
-L['Remove Backdrop'] = true; 
+L['Remove Backdrop'] = true;
 L["Reset all frames to their original positions."] = true;
 L["Reset Anchors"] = true;
 L['Right'] = true;
@@ -353,7 +380,6 @@ L['Name Alignment'] = true;
 L["Name X-Offset"] = true;
 L["Name Y-Offset"] = true;
 L["NamePlates"] = true;
-L["NAMEPLATE_DESC"] = "Modify the nameplate settings."
 L["Personal Auras"] = true;
 L['Players'] = true;
 L["Prevent any nameplate with this unit name from showing."] = true;
@@ -415,7 +441,6 @@ L["Quest Frames"] = true;
 L["Raid Frame"] = true;
 L["Reforge Frame"] = true;
 L["Skins"] = true;
-L["SKINS_DESC"] = "Adjust Skin settings."
 L["Socket Frame"] = true;
 L["Spellbook"] = true;
 L["Stable"] = true;
@@ -423,7 +448,6 @@ L["Tabard Frame"] = true;
 L["Talent Frame"] = true;
 L["Taxi Frame"] = true;
 L["Time Manager"] = true;
-L["TOGGLESKIN_DESC"] = "Enable/Disable this skin."
 L["Trade Frame"] = true;
 L["TradeSkill Frame"] = true;
 L["Trainer Frame"] = true;
@@ -433,6 +457,7 @@ L["World Map"] = true;
 
 --Static Popups
 L["Are you sure you want to reset all the settings on this profile?"] = true;
+L["Enabling/Disabling Bar #6 will toggle a paging option from your main actionbar to prevent duplicating bars, are you sure you want to do this?"] = true;
 
 --Tooltip
 L['Always Hide'] = true;
@@ -458,7 +483,6 @@ L["Set the type of anchor mode the tooltip should use."] = true;
 L["Smart"] = true;
 L['Spell/Item IDs'] = true;
 L['Talent Spec'] = true;
-L["TOOLTIP_DESC"] = "Setup options for the Tooltip."
 L["UF Hide"] = true;
 L["When in a raid group display if anyone in your raid is targeting the current tooltip unit."] = true;
 L["Who's targeting who?"] = true;
@@ -480,6 +504,7 @@ L['Ascending'] = true;
 L["Assist Frames"] = true;
 L['Assist Target'] = true;
 L['At what point should the text be displayed. Set to -1 to disable.'] = true;
+L['Attach Text to Power'] = true;
 L["Attach To"] = true;
 L['Aura Bars'] = true;
 L['Auto-Hide'] = true;
@@ -560,7 +585,7 @@ L["Display Player"] = true;
 L['Display Target'] = true;
 L['Display Text'] = true;
 L["Display the rested icon on the unitframe."] = true;
-L['Display the target of your current cast. Useful for mouseover casts.'] = true; 
+L['Display the target of your current cast. Useful for mouseover casts.'] = true;
 L["Display tick marks on the castbar for channelled spells. This will adjust automatically for spells like Drain Soul and add additional ticks based on haste."] = true;
 L["Don't display any auras found on the 'Blacklist' filter."] = true;
 L["Don't display auras that are not yours."] = true;
@@ -631,7 +656,7 @@ L['Make textures transparent.'] = true;
 L["Match Frame Width"] = true;
 L['Middle Click - Set Focus'] = true;
 L['Middle clicking the unit frame will cause your focus to match the unit.'] = true;
-L['Model Rotation'] = true; 
+L['Model Rotation'] = true;
 L['Mouseover'] = true;
 L['Name (Entire Group)'] = true;
 L["Name"] = true; --Also used in Buffs and Debuffs
@@ -769,24 +794,3 @@ L["yOffset"] = true;
 L["You can't remove a pre-existing filter."] = true;
 L["You cannot copy settings from the same unit."] = true;
 L["You may not remove a spell from a default filter that is not customly added. Setting spell to false instead."] = true;
-L['TEXT_FORMAT_DESC'] = [=[Provide a string to change the text format.
-
-Examples:
-[namecolor][name] [difficultycolor][smartlevel] [shortclassification]
-[healthcolor][health:current-max]
-[powercolor][power:current]
-
-Health / Power Formats:
-'current' - current amount
-'percent' - percentage amount
-'current-max' - current amount followed by maximum amount, will display only max if current is equal to max
-'current-percent' - current amount followed by percentage amount, will display only max if current is equal to max
-'current-max-percent' - current amount, max amount, followed by percentage amount, will display only max if current is equal to max
-'deficit' - display the deficit value, will display nothing if there is no deficit
-
-Name Formats:
-'name-short' - Name restricted to 10 characters
-'name-medium' - Name restricted to 15 characters
-'name-long' - Name restricted to 20 characters
-
-To disable leave the field blank, if you need more information visit http://www.tukui.org]=];

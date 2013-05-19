@@ -3,6 +3,39 @@ local AceLocale = LibStub:GetLibrary("AceLocale-3.0")
 local L = AceLocale:NewLocale("ElvUI", "deDE")
 if not L then return end
 
+-- *_DESC locales
+L['AURAS_DESC'] = 'Konfiguriere die Symbole für die Stärkungs- und Schwächungszauber nahe der Minimap.'
+L["BAGS_DESC"] = "Konfiguriere die Einstellungen für die Taschen."
+L["CHAT_DESC"] = "Anpassen der Chateinstellungen für ElvUI."
+L["DATATEXT_DESC"] = "Bearbeite die Anzeige der Infotexte."
+L["ELVUI_DESC"] = "ElvUI ist ein komplettes Benutzerinterface für World of Warcraft."
+L["NAMEPLATE_DESC"] = "Konfiguriere die Einstellungen für die Namensplaketten."
+L["PANEL_DESC"] = "Stellt die Größe der linken und rechten Leisten ein, dies hat auch Einfluss auf den Chat und die Taschen."
+L["SKINS_DESC"] = "Passe die Einstellungen für externe Addon Skins/Optionen an."
+L["TOGGLESKIN_DESC"] = "Aktiviere/Deaktiviere diesen Skin."
+L["TOOLTIP_DESC"] = "Konfiguriere die Einstellungen für Tooltips."
+L['TEXT_FORMAT_DESC'] = [=[Wähle eine Zeichenfolge um das Textformat zu ändern.
+
+Beispiele:
+[namecolor][name] [difficultycolor][smartlevel] [shortclassification]
+[healthcolor][health:current-max]
+[powercolor][power:current]
+
+Leben / Kraft Formate:
+'current' - Aktueller Wert
+'percent' - Prozentualer Wert
+'current-max' - Aktueller Wert gefolgt von dem maximalen Wert. Es wird nur der Maximale Wert anzeigt, wenn der aktuelle Wert auch das Maximum ist
+'current-percent' - Aktueller Wert gefolgt von dem prozentualen Wert. Es wird nur der maximale Wert angezeigt, wenn der aktuelle Wert auch das Maximum ist
+'current-max-percent' - Aktueller Wert, Maximaler Wert, gefolgt von dem prozentualen Wert. Es wird nur der maximale Wert angezeigt, wenn der aktuelle Wert auch das Maximum ist
+'deficit' - Zeigt das Defizit. Es wird nichts angezeigt, wenn kein Defizit vorhanden ist
+
+Namensformate:
+'name-short' - Name auf 10 Zeichen beschränkt
+'name-medium' - Name auf 15 Zeichen beschränkt
+'name-long' - Name auf 20 Zeichen beschränkt
+
+Zum Deaktvieren lasse das Feld leer. Brauchst du mehr Informationen besuche http://www.tukui.org]=];
+
 --ActionBars
 L["Action Paging"] = "Seitenwechsel der Aktionsleisten"
 L["ActionBars"] = "Aktionsleisten"
@@ -64,7 +97,6 @@ L['Align the width of the bag frame to fit inside the chat box.'] = 'Passt die B
 L['Align To Chat'] = 'Zum Chat ausrichten'
 L["Ascending"] = "Aufsteigend"
 L["Bag-Bar"] = "Taschenleiste"
-L["BAGS_DESC"] = "Konfiguriere die Einstellungen für die Taschen."
 L["Bar Direction"] = "Ausrichtung Leiste"
 L["Bottom to Top"] = "Von unten nach oben"
 L['Button Size (Bag)'] = 'Buttongröße (Tasche)'
@@ -96,7 +128,6 @@ L["Y Offset"] = "Y-Versatz"
 L['You must be at a bank.'] = 'Du musst bei einer Bank sein.'
 
 --Buffs and Debuffs
-L['AURAS_DESC'] = 'Konfiguriere die Symbole für die Stärkungs- und Schwächungszauber nahe der Minimap.'
 L['Begin a new row or column after this many auras.'] = 'Beginne nach so vielen Stärkungszaubern eine neue Reihe oder Spalte.'
 L['Consolidated Buffs'] = 'Zusammengesetzte Stärkungszauber'
 L['Defines how the group is sorted.'] = 'Lege fest, wie die Gruppe sortiert wird.'
@@ -127,7 +158,6 @@ L['Attempt to lock the left and right chat frame positions. Disabling this optio
 L['Below Chat'] = 'Unter dem Chat'
 L['Chat EditBox Position'] = 'Position der Texteingabeleiste'
 L['Chat History'] = 'Chatverlauf'
-L["CHAT_DESC"] = "Anpassen der Chateinstellungen für ElvUI."
 L["Copy Text"] = "Text kopieren"
 L["Display the hyperlink tooltip while hovering over a hyperlink."] = "Zeigt den Hyperlink Tooltip beim Überfahren eines Hyperlinks."
 L['Fade Chat'] = 'Chat Verblassen'
@@ -148,7 +178,6 @@ L["Panel Height"] = "Leistenhöhe"
 L["Panel Texture (Left)"] = "Leistentextur (Links)"
 L["Panel Texture (Right)"] = "Leistentextur (Rechts)"
 L["Panel Width"] = "Leistenbreite"
-L["PANEL_DESC"] = "Stellt die Größe der linken und rechten Leisten ein, dies hat auch Einfluss auf den Chat und die Taschen."
 L['Position of the Chat EditBox, if datatexts are disabled this will be forced to be above chat.'] = 'Position der Texteingabeleiste. Sind die Infotexte deaktiviert, dann wird diese über dem Chat angebracht.'
 L["Prevent the same messages from displaying in chat more than once within this set amount of seconds, set to zero to disable."] = "Verhindert, dass die gleiche Nachricht im Chat mehr als einmal, innerhalb dieser festgelegten Anzahl von Sekunden, angezeigt wird. Auf Null setzen um diese Option zu deaktivieren."
 L["Right Only"] = "Nur Rechts"
@@ -204,7 +233,6 @@ L['Change settings for the display of the location text that is on the minimap.'
 L['Datatext Panel (Left)'] = 'Infotextleiste (Links)'
 L['Datatext Panel (Right)'] = 'Infotextleiste (Rechts)'
 L["DataTexts"] = "Infotexte"
-L["DATATEXT_DESC"] = "Bearbeite die Anzeige der Infotexte."
 L['Display data panels below the chat, used for datatexts.'] = 'Zeige die Infoleisten unter dem Chat, benutzt für Infotexte.'
 L['Display minimap panels below the minimap, used for datatexts.'] = 'Zeige Minimap Leisten unter der Minimap, benutzt für Infotexte.'
 L["If not set to true then the server time will be displayed instead."] = "Wenn nicht ausgewählt, wird stattdessen die Serverzeit angezeigt."
@@ -248,13 +276,12 @@ L["Automatically scale the User Interface based on your screen resolution"] = "A
 L['Automatically select greed or disenchant (when available) on green quality items. This will only work if you are the max level.'] = 'Automatisch Gier oder Entzauberung auf Gegenstände von grüner Qualität wählen (sofern verfügbar). Das funktioniert nur, wenn du die maximale Stufe erreicht hast.'
 L["Automatically vendor gray items when visiting a vendor."] = "Automatischer Verkauf von grauen Gegenständen bei einem Händlerbesuch."
 L['Bottom Panel'] = 'Untere Leiste'
-L["Chat Bubbles"] = "Chat Sprechblasen"
+L['Chat Bubbles Style'] = true;
 L["Controls what the transparency of the worldmap will be set to when you are moving."] = "Legt fest, welche Transparenz die Weltkarte haben soll, wenn du dich bewegst."
 L['Display a panel across the bottom of the screen. This is for cosmetic only.'] = 'Zeige eine Leiste am unterem Bildschirmrand. Das ist rein kosmetisch.'
 L['Display a panel across the top of the screen. This is for cosmetic only.'] = 'Zeige eine Leiste am oberen Bildschirmrand. Das ist rein kosmetisch.'
 L['Display emotion icons in chat.'] = 'Zeige Emoticons im Chat.'
 L["Don't scale the large world map to block out sides of the screen."] = "Skaliere nicht die große Weltkarte, damit sie nicht außerhalb des Bildschirmrandes steht."
-L["ELVUI_DESC"] = "ElvUI ist ein komplettes Benutzerinterface für World of Warcraft."
 L['Emotion Icons'] = 'Emoticons'
 L["Enable/Disable the loot frame."] = "Aktiviere/Deaktiviere das Beutefenster."
 L["Enable/Disable the loot roll frame."] = "Aktiviere/Deaktiviere das Beutewürfelfenster."
@@ -362,7 +389,6 @@ L['Name Alignment'] = true;
 L["Name X-Offset"] = true;
 L["Name Y-Offset"] = true;
 L["NamePlates"] = "Namensplaketten"
-L["NAMEPLATE_DESC"] = "Konfiguriere die Einstellungen für die Namensplaketten."
 L["Personal Auras"] = "Persönliche Auren"
 L['Players'] = 'Spieler'
 L["Prevent any nameplate with this unit name from showing."] = "Verstecke alle Namensplaketten mit diesem Namen."
@@ -424,7 +450,6 @@ L["Quest Frames"] = "Quest Fenster"
 L["Raid Frame"] = "Schlachtzugsfenster"
 L["Reforge Frame"] = "Umschmiedefenster"
 L["Skins"] = "Skins"
-L["SKINS_DESC"] = "Passe die Einstellungen für externe Addon Skins/Optionen an."
 L["Socket Frame"] = "Sockel Fenster"
 L["Spellbook"] = "Zauberbuch"
 L["Stable"] = "Stall"
@@ -432,7 +457,6 @@ L["Tabard Frame"] = "Wappenrockfenster"
 L["Talent Frame"] = "Talentfenster"
 L["Taxi Frame"] = "Flugroutenfenster"
 L["Time Manager"] = "Zeitmanager"
-L["TOGGLESKIN_DESC"] = "Aktiviere/Deaktiviere diesen Skin."
 L["Trade Frame"] = "Handelsfenster"
 L["TradeSkill Frame"] = "Berufefenster"
 L["Trainer Frame"] = "Lehrerfenster"
@@ -442,6 +466,7 @@ L["World Map"] = "Weltkarte"
 
 --Static Popups
 L["Are you sure you want to reset all the settings on this profile?"] = true;
+L["Enabling/Disabling Bar #6 will toggle a paging option from your main actionbar to prevent duplicating bars, are you sure you want to do this?"] = true;
 
 --Tooltip
 L['Always Hide'] = 'Immer verstecken'
@@ -467,7 +492,6 @@ L["Set the type of anchor mode the tooltip should use."] = "Setze die Art des An
 L["Smart"] = "Intelligent"
 L['Spell/Item IDs'] = 'Zauber/Gegenstand IDs'
 L['Talent Spec'] = 'Talentspezialisierung'
-L["TOOLTIP_DESC"] = "Konfiguriere die Einstellungen für Tooltips."
 L["UF Hide"] = "UF verstecken"
 L["When in a raid group display if anyone in your raid is targeting the current tooltip unit."] = "Zeige ob jemand aus deiner Gruppe/Schlachtzug die Tooltip-Einheit ins Ziel genommen hat."
 L["Who's targeting who?"] = "Wer hat was im Ziel?"
@@ -489,6 +513,7 @@ L['Ascending'] = "Aufsteigend"
 L["Assist Frames"] = "Assistent Fenster"
 L['Assist Target'] = "Assistent Ziel"
 L['At what point should the text be displayed. Set to -1 to disable.'] = 'An welchen Punkt sollte der text angezeigt werden. Auf -1 setzen um es zu deaktivieren.'
+L['Attach Text to Power'] = true;
 L["Attach To"] = "Anpassen an"
 L['Aura Bars'] = 'Auren Leisten'
 L['Auto-Hide'] = true;
@@ -569,7 +594,7 @@ L["Display Player"] = "Zeige Spieler"
 L['Display Target'] = true;
 L['Display Text'] = 'Zeige Text'
 L["Display the rested icon on the unitframe."] = "Zeige das Ausgeruht-Symbol auf den Einheitenfenstern."
-L['Display the target of your current cast. Useful for mouseover casts.'] = true; 
+L['Display the target of your current cast. Useful for mouseover casts.'] = true;
 L["Display tick marks on the castbar for channelled spells. This will adjust automatically for spells like Drain Soul and add additional ticks based on haste."] = "Anzeige der Zauberbalkenticks für kanalisierte Zauber. Dies ändert sich automatisch für Zauber wie Seelendieb, wenn zusätzliche Ticks durch einen hohen Tempowert entstehen."
 L["Don't display any auras found on the 'Blacklist' filter."] = "Zeige keinerlei Auren die sich im 'Schwarzenlisten' filter befinden."
 L["Don't display auras that are not yours."] = "Zeige keine Auren die nicht von dir sind."
@@ -640,7 +665,7 @@ L['Make textures transparent.'] = 'Mache Texturen transparent.'
 L["Match Frame Width"] = "Passende Fensterbreite"
 L['Middle Click - Set Focus'] = 'Mittelklick - Setze Fokus'
 L['Middle clicking the unit frame will cause your focus to match the unit.'] = 'Mittelklicken des Einheitenfensters passt deinen Fokus an die Einheit an.'
-L['Model Rotation'] = true; 
+L['Model Rotation'] = true;
 L['Mouseover'] = 'Mouseover'
 L['Name (Entire Group)'] = true;
 L["Name"] = "Name" --Also used in Buffs and Debuffs
@@ -778,24 +803,3 @@ L["yOffset"] = "Y-Versatz" --Another variation in bags section Y Offset
 L["You can't remove a pre-existing filter."] = "Du kannst einen vorgefertigten Filter nicht löschen."
 L["You cannot copy settings from the same unit."] = "Du kannst keine Einstellungen von der gleichen Einheit kopieren."
 L["You may not remove a spell from a default filter that is not customly added. Setting spell to false instead."] = "Du kannst keinen Filter entfernen, der nicht von dir selbst hinzugefügt wurde. Setzte den Zauber einfach auf deaktiviert."
-L['TEXT_FORMAT_DESC'] = [=[Wähle eine Zeichenfolge um das Textformat zu ändern.
-
-Beispiele:
-[namecolor][name] [difficultycolor][smartlevel] [shortclassification]
-[healthcolor][health:current-max]
-[powercolor][power:current]
-
-Leben / Kraft Formate:
-'current' - Aktueller Wert
-'percent' - Prozentualer Wert
-'current-max' - Aktueller Wert gefolgt von dem maximalen Wert. Es wird nur der Maximale Wert anzeigt, wenn der aktuelle Wert auch das Maximum ist
-'current-percent' - Aktueller Wert gefolgt von dem prozentualen Wert. Es wird nur der maximale Wert angezeigt, wenn der aktuelle Wert auch das Maximum ist
-'current-max-percent' - Aktueller Wert, Maximaler Wert, gefolgt von dem prozentualen Wert. Es wird nur der maximale Wert angezeigt, wenn der aktuelle Wert auch das Maximum ist
-'deficit' - Zeigt das Defizit. Es wird nichts angezeigt, wenn kein Defizit vorhanden ist
-
-Namensformate:
-'name-short' - Name auf 10 Zeichen beschränkt
-'name-medium' - Name auf 15 Zeichen beschränkt
-'name-long' - Name auf 20 Zeichen beschränkt
-
-Zum Deaktvieren lasse das Feld leer. Brauchst du mehr Informationen besuche http://www.tukui.org]=];

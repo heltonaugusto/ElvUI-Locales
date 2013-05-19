@@ -3,6 +3,39 @@ local AceLocale = LibStub:GetLibrary("AceLocale-3.0")
 local L = AceLocale:NewLocale("ElvUI", "zhTW")
 if not L then return end
 
+-- *_DESC locales
+L['AURAS_DESC'] = "小地圖旁的光環圖示設定."
+L["BAGS_DESC"] = "調整 ElvUI 背包設定."
+L["CHAT_DESC"] = "對話框架設定."
+L["DATATEXT_DESC"] = "屏幕資訊文字顯示設定."
+L["ELVUI_DESC"] = "ElvUI 為一套功能完整, 可用來替換 WOW 原始介面的 UI 套件"
+L["NAMEPLATE_DESC"] = "修改血條設定."
+L['PANEL_DESC'] = "調整左、右對話框的尺寸, 此設定將會影響對話與背包框架的尺寸."
+L["SKINS_DESC"] = "調整外觀設定."
+L["TOGGLESKIN_DESC"] = "啟用/停用此外觀."
+L["TOOLTIP_DESC"] = "浮動提示資訊設定選項."
+L['TEXT_FORMAT_DESC'] = [=[請填入代碼以變更文字格式。
+
+範例：
+[namecolor][name] [difficultycolor][smartlevel] [shortclassification]
+[healthcolor][health:current-max]
+[powercolor][power:current]
+
+生命/能量值格式：
+'current' - 目前數值
+'percent' - 百分比
+'current-max' - 目前數值 - 最大值，當兩者相同時，僅會顯示最大值
+'current-percent' - 目前數值 - 百分比
+'current-max-percent' - 目前數值 - 最大值 - 百分比，當目前數值等同於最大值時，僅會顯示最大值
+'deficit' - 顯示損失數值，若未損失生命/能量值，將不予顯示
+
+名稱格式：
+'name-short' - 名稱上限為 10 個字元
+'name-medium' - 名稱上限為 15 個字元
+'name-long' - 名稱上限為 20 個字元
+
+若要停用此功能，此欄位請留空。如需更多資訊，請至 http://www.tukui.org]=];
+
 --ActionBars
 L["Action Paging"] = "快捷列翻頁"
 L["ActionBars"] = "快捷列"
@@ -66,7 +99,6 @@ L['Align the width of the bag frame to fit inside the chat box.'] = '調整背�
 L['Align To Chat'] = '對齊對話框架'
 L["Ascending"] = "升序"
 L["Bag-Bar"] = "背包條"
-L["BAGS_DESC"] = "調整 ElvUI 背包設定."
 L["Bar Direction"] = "背包條排序方向"
 L["Bottom to Top"] = "底部至頂部"
 L['Button Size (Bag)'] = '單個格子尺寸 (背包)'
@@ -98,7 +130,6 @@ L["Y Offset"] = "Y 軸偏移"
 L['You must be at a bank.'] = '請與銀行行員對話.'
 
 --Buffs and Debuffs
-L['AURAS_DESC'] = "小地圖旁的光環圖示設定."
 L['Begin a new row or column after this many auras.'] = "在這些光環旁開始新的行或列."
 L['Consolidated Buffs'] = "整合增益"
 L['Defines how the group is sorted.'] = "請定義群組分類方式."
@@ -129,7 +160,6 @@ L['Attempt to lock the left and right chat frame positions. Disabling this optio
 L['Below Chat'] = '對話框下方'
 L['Chat EditBox Position'] = '對話輸入框位置'
 L['Chat History'] = "對話記錄"
-L["CHAT_DESC"] = "對話框架設定."
 L["Copy Text"] = "複製文字"
 L["Display the hyperlink tooltip while hovering over a hyperlink."] = "滑鼠懸停在超鏈接上時顯示鏈接提示框."
 L['Fade Chat'] = "對話內容漸隱"
@@ -150,7 +180,6 @@ L["Panel Height"] = "對話框高度"
 L["Panel Texture (Left)"] = "對話框材質(左)"
 L["Panel Texture (Right)"] = "對話框材質(右)"
 L['Panel Width'] = "對話框寛度"
-L['PANEL_DESC'] = "調整左、右對話框的尺寸, 此設定將會影響對話與背包框架的尺寸."
 L['Position of the Chat EditBox, if datatexts are disabled this will be forced to be above chat.'] = '對話編輯框位置,如果底部的信息文字被禁用的話,將會強制顯示在對話框頂部.'
 L["Prevent the same messages from displaying in chat more than once within this set amount of seconds, set to zero to disable."] = "單位時間(秒) 內屏蔽重複對話信息, 設定為0 禁用此功能."
 L['Right Only'] = "僅顯示右框背景"
@@ -206,7 +235,6 @@ L['Change settings for the display of the location text that is on the minimap.'
 L['Datatext Panel (Left)'] = "左側資訊框"
 L['Datatext Panel (Right)'] = "右側資訊框"
 L["DataTexts"] = "資訊文字"
-L["DATATEXT_DESC"] = "屏幕資訊文字顯示設定."
 L['Display data panels below the chat, used for datatexts.'] = "在對話框下顯示用於資訊的框架."
 L['Display minimap panels below the minimap, used for datatexts.'] = "顯示小地圖下方的資訊框."
 L["If not set to true then the server time will be displayed instead."] = "若關閉此選項將顯示伺服器時間."
@@ -250,13 +278,12 @@ L["Automatically scale the User Interface based on your screen resolution"] = "�
 L['Automatically select greed or disenchant (when available) on green quality items. This will only work if you are the max level.'] = "當你的等級達到滿級時, 自動選擇貪婪或分解綠色物品."
 L["Automatically vendor gray items when visiting a vendor."] = "當訪問商人時自動出售灰色物品."
 L['Bottom Panel'] = '底部面板'
-L["Chat Bubbles"] = "對話泡泡"
+L['Chat Bubbles Style'] = true;
 L["Controls what the transparency of the worldmap will be set to when you are moving."] = "進行移動時, 世界地圖的透明度顯示."
 L['Display a panel across the bottom of the screen. This is for cosmetic only.'] = '顯示跨越屏幕底部的面板,僅僅是用于裝飾.'
 L['Display a panel across the top of the screen. This is for cosmetic only.'] = '顯示跨越屏幕頂部的面板,僅僅是用于裝飾.'
 L['Display emotion icons in chat.'] = "在對話中顯示表情圖示."
 L["Don't scale the large world map to block out sides of the screen."] = "世界地圖將不會以全螢幕顯示，玩家仍可檢視四側動靜."
-L["ELVUI_DESC"] = "ElvUI 為一套功能完整, 可用來替換 WOW 原始介面的 UI 套件"
 L['Emotion Icons'] = "表情圖示"
 L["Enable/Disable the loot frame."] = "啟用/停用拾取框架."
 L["Enable/Disable the loot roll frame."] = "啟用/停用擲骰框架."
@@ -364,7 +391,6 @@ L['Name Alignment'] = '姓名對齊'
 L["Name X-Offset"] = "姓名 X 軸偏移"
 L["Name Y-Offset"] = "姓名 Y 軸偏移"
 L["NamePlates"] = "姓名面板(血條)"
-L["NAMEPLATE_DESC"] = "修改血條設定."
 L["Personal Auras"] = "個人光環"
 L['Players'] = "玩家"
 L["Prevent any nameplate with this unit name from showing."] = "不顯示特定目標的血條."
@@ -426,7 +452,6 @@ L["Quest Frames"] = "任務"
 L["Raid Frame"] = "團隊框架"
 L["Reforge Frame"] = "重鑄"
 L["Skins"] = "美化外觀"
-L["SKINS_DESC"] = "調整外觀設定."
 L["Socket Frame"] = "珠寶插槽"
 L["Spellbook"] = "技能書"
 L["Stable"] = "獸欄"
@@ -434,7 +459,6 @@ L["Tabard Frame"] = "外袍"
 L["Talent Frame"] = "天賦"
 L["Taxi Frame"] = "載具"
 L["Time Manager"] = "時間管理"
-L["TOGGLESKIN_DESC"] = "啟用/停用此外觀."
 L["Trade Frame"] = "交易"
 L["TradeSkill Frame"] = "專業技能"
 L["Trainer Frame"] = "訓練師"
@@ -444,6 +468,7 @@ L["World Map"] = "世界地圖"
 
 --Static Popups
 L["Are you sure you want to reset all the settings on this profile?"] = "確定需要重置這個配置文件中的所有設置?"
+L["Enabling/Disabling Bar #6 will toggle a paging option from your main actionbar to prevent duplicating bars, are you sure you want to do this?"] = true;
 
 --Tooltip
 L['Always Hide'] = "總是隱藏"
@@ -469,7 +494,6 @@ L["Set the type of anchor mode the tooltip should use."] = "設定浮動提示�
 L["Smart"] = "智能模式"
 L['Spell/Item IDs'] = '技能/物品ID'
 L['Talent Spec'] ="天賦顯示"
-L["TOOLTIP_DESC"] = "浮動提示資訊設定選項."
 L["UF Hide"] = "單位框架提示隱藏"
 L["When in a raid group display if anyone in your raid is targeting the current tooltip unit."] = "顯示團隊中目標與你目前浮動提示目標相同的隊友."
 L["Who's targeting who?"] = "目標關注"
@@ -491,6 +515,7 @@ L['Ascending'] = "升序"
 L["Assist Frames"] = "助理框架"
 L['Assist Target'] = "助理目標"
 L['At what point should the text be displayed. Set to -1 to disable.'] = "在何時顯示文本. 設定為-1 禁用此功能."
+L['Attach Text to Power'] = true;
 L["Attach To"] = "附加到"
 L['Aura Bars'] = "光環條"
 L['Auto-Hide'] = true;
@@ -780,24 +805,3 @@ L["yOffset"] = "Y軸偏移"
 L["You can't remove a pre-existing filter."] = "你不能刪除一個內建的過濾器"
 L["You cannot copy settings from the same unit."] = "你不能從相同的單位複制設定"
 L["You may not remove a spell from a default filter that is not customly added. Setting spell to false instead."] = "你不能移除一個內建技能, 僅能停用此技能."
-L['TEXT_FORMAT_DESC'] = [=[請填入代碼以變更文字格式。
-
-範例：
-[namecolor][name] [difficultycolor][smartlevel] [shortclassification]
-[healthcolor][health:current-max]
-[powercolor][power:current]
-
-生命/能量值格式：
-'current' - 目前數值
-'percent' - 百分比
-'current-max' - 目前數值 - 最大值，當兩者相同時，僅會顯示最大值
-'current-percent' - 目前數值 - 百分比
-'current-max-percent' - 目前數值 - 最大值 - 百分比，當目前數值等同於最大值時，僅會顯示最大值
-'deficit' - 顯示損失數值，若未損失生命/能量值，將不予顯示
-
-名稱格式：
-'name-short' - 名稱上限為 10 個字元
-'name-medium' - 名稱上限為 15 個字元
-'name-long' - 名稱上限為 20 個字元
-
-若要停用此功能，此欄位請留空。如需更多資訊，請至 http://www.tukui.org]=];
