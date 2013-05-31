@@ -118,6 +118,7 @@ L['Sha of Anger'] = "愤怒之煞"
 L['Shoulder'] = "肩"
 L["silverabbrev"] = "|cffc7c7cf银|r"
 L['SP'] = "法能强度"
+L['Spec'] = true;
 L["Spent:"] = "花费:"
 L['Stats For:'] = "统计:"
 L['Total CPU:'] = "CPU占用"
@@ -131,6 +132,8 @@ L['Victory Points'] = "胜利点数"
 L['Waist'] = "腰"
 L["World Boss(s)"] = "世界首领"
 L['Wrist'] = "护腕"
+L['|cffFFFFFFLeft Click:|r Change Talent Specialization'] = true;
+L['|cffFFFFFFRight Click:|r Change Loot Specialization'] = true;
 
 --DebugTools
 L["%s: %s tried to call the protected function '%s'."] = "%s: %s 尝试调用保护函数 '%s'."

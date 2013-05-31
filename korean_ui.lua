@@ -118,6 +118,7 @@ L["Sha of Anger"] = true
 L["Shoulder"] = "어깨"
 L["silverabbrev"] = "|cffc7c7cfs|r"
 L["SP"] = "주문력"
+L['Spec'] = true;
 L["Spent:"] = "지출:"
 L["Stats For:"] = true
 L["Total CPU:"] = "전체 CPU 사용량:"
@@ -131,6 +132,8 @@ L["Victory Points"] = true
 L["Waist"] = "허리"
 L["World Boss(s)"] = true
 L["Wrist"] = "손목"
+L['|cffFFFFFFLeft Click:|r Change Talent Specialization'] = true;
+L['|cffFFFFFFRight Click:|r Change Loot Specialization'] = true;
 
 --DebugTools
 L["%s: %s tried to call the protected function '%s'."] = true;

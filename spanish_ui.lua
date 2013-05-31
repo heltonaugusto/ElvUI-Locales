@@ -118,6 +118,7 @@ L["Sha of Anger"] = "Sha de la Ira"
 L["Shoulder"] = "Hombros"
 L["silverabbrev"] = "|cffc7c7cfs|r"
 L["SP"] = "PH"
+L['Spec'] = true;
 L["Spent:"] = "Gastada:"
 L["Stats For:"] = "Estadísticas para:"
 L["Total CPU:"] = "CPU Total:"
@@ -131,6 +132,8 @@ L["Victory Points"] = "Puntos de Victoria"
 L["Waist"] = "Cintura"
 L["World Boss(s)"] = "Jefe(s) Mundial(es)"
 L["Wrist"] = "Muñeca"
+L['|cffFFFFFFLeft Click:|r Change Talent Specialization'] = true;
+L['|cffFFFFFFRight Click:|r Change Loot Specialization'] = true;
 
 --DebugTools
 L["%s: %s tried to call the protected function '%s'."] = "%s: %s intentó llamar a la función protegida '%s'."

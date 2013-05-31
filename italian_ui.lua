@@ -118,6 +118,7 @@ L['Sha of Anger'] = true;
 L['Shoulder'] = true;
 L["silverabbrev"] = "|cffc7c7cfs|r" --Also used in Bags
 L['SP'] = true;
+L['Spec'] = true;
 L["Spent:"] = true;
 L['Stats For:'] = true;
 L['Total CPU:'] = true;
@@ -131,6 +132,8 @@ L['Victory Points'] = true;
 L['Waist'] = true;
 L["World Boss(s)"] = true;
 L['Wrist'] = true;
+L['|cffFFFFFFLeft Click:|r Change Talent Specialization'] = true;
+L['|cffFFFFFFRight Click:|r Change Loot Specialization'] = true;
 
 --DebugTools
 L["%s: %s tried to call the protected function '%s'."] = true;

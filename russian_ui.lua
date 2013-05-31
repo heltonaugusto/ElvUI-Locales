@@ -118,6 +118,7 @@ L['Sha of Anger'] = "Ша Злости"
 L['Shoulder'] = "Плечо"
 L["silverabbrev"] = "|cffc7c7cfс|r" --Also used in Bags
 L['SP'] = "+ Закл."
+L['Spec'] = true;
 L["Spent:"] = "Потрачено:"
 L['Stats For:'] = "Статистика для:"
 L['Total CPU:'] = "Использование процессора:"
@@ -131,6 +132,8 @@ L['Victory Points'] = "Очки победы"
 L['Waist'] = "Пояс"
 L["World Boss(s)"] = "Мировые боссы"
 L['Wrist'] = "Запястья"
+L['|cffFFFFFFLeft Click:|r Change Talent Specialization'] = true;
+L['|cffFFFFFFRight Click:|r Change Loot Specialization'] = true;
 
 --DebugTools
 L["%s: %s tried to call the protected function '%s'."] = "%s: %s tried to call the protected function '%s'."

@@ -118,6 +118,7 @@ L['Sha of Anger'] = "Sha de la colère"
 L['Shoulder'] = "Épaule"
 L["silverabbrev"] = "|cffc7c7cfs|r" --Also used in Bags
 L['SP'] = "PdS"
+L['Spec'] = true;
 L["Spent:"] = "Dépensé: "
 L['Stats For:'] = "Stats pour:"
 L['Total CPU:'] = "Charge du CPU:"
@@ -131,6 +132,8 @@ L['Victory Points'] = "Points de Victoire"
 L['Waist'] = "Ceinture"
 L["World Boss(s)"] = "Boss Mondiaux"
 L['Wrist'] = "Poignets"
+L['|cffFFFFFFLeft Click:|r Change Talent Specialization'] = true;
+L['|cffFFFFFFRight Click:|r Change Loot Specialization'] = true;
 
 --DebugTools
 L["%s: %s tried to call the protected function '%s'."] = "%s: %s a essayé d'appeler la fonction protégée '%s'."

@@ -118,6 +118,7 @@ L['Sha of Anger'] = "憤怒之煞"
 L['Shoulder'] = "肩部"
 L["silverabbrev"] = "|cffc7c7cf銀|r" --Also used in Bags
 L['SP'] = "法術能量"
+L['Spec'] = true;
 L["Spent:"] = "花費:"
 L['Stats For:'] = "統計:"
 L['Total CPU:'] = "CPU佔用"
@@ -131,6 +132,8 @@ L['Victory Points'] = "勝利點數"
 L['Waist'] = "腰部"
 L["World Boss(s)"] = "世界首領"
 L['Wrist'] = "護腕"
+L['|cffFFFFFFLeft Click:|r Change Talent Specialization'] = true;
+L['|cffFFFFFFRight Click:|r Change Loot Specialization'] = true;
 
 --DebugTools
 L["%s: %s tried to call the protected function '%s'."] = "%s: %s 嘗試調用保護函數'%s'."
